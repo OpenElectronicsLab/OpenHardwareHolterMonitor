@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:esp32
 LIBS:ads1299
+LIBS:ads1298
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
@@ -55,17 +56,6 @@ F 2 "" H 2550 2550 60  0001 C CNN
 F 3 "" H 2550 2550 60  0001 C CNN
 	1    2550 2550
 	1    0    0    -1  
-$EndComp
-$Comp
-L ADS1299 U?
-U 1 1 5A2BF1D7
-P 7350 2600
-F 0 "U?" H 7350 2400 60  0000 C CNN
-F 1 "ADS1299" H 7350 2800 60  0000 C CNN
-F 2 "" H 7350 2600 60  0001 C CNN
-F 3 "" H 7350 2600 60  0001 C CNN
-	1    7350 2600
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4700 2450 5850 2450
@@ -192,17 +182,6 @@ Wire Wire Line
 	2500 4600 1500 4600
 Wire Wire Line
 	1500 4600 1500 4400
-$Comp
-L VDD #PWR?
-U 1 1 5A2BFBBB
-P 1500 4400
-F 0 "#PWR?" H 1500 4250 50  0001 C CNN
-F 1 "VDD" H 1500 4550 50  0000 C CNN
-F 2 "" H 1500 4400 50  0000 C CNN
-F 3 "" H 1500 4400 50  0000 C CNN
-	1    1500 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 1900 900  1900
 Wire Wire Line
@@ -500,17 +479,6 @@ Wire Wire Line
 	7700 1400 7700 1100
 Connection ~ 7700 1100
 Connection ~ 7600 1100
-$Comp
-L +5V #PWR?
-U 1 1 5A2C4590
-P 7600 900
-F 0 "#PWR?" H 7600 750 50  0001 C CNN
-F 1 "+5V" H 7600 1040 50  0000 C CNN
-F 2 "" H 7600 900 50  0000 C CNN
-F 3 "" H 7600 900 50  0000 C CNN
-	1    7600 900 
-	1    0    0    -1  
-$EndComp
 Text Label 7900 1100 2    30   ~ 0
 AVDD
 Wire Wire Line
@@ -524,4 +492,76 @@ Wire Wire Line
 Connection ~ 7300 3950
 Text Label 7600 3950 2    30   ~ 0
 AVDD
+$Comp
+L ADS1298 U?
+U 1 1 5A2C16A8
+P 7350 2600
+F 0 "U?" H 7350 2400 60  0000 C CNN
+F 1 "ADS1298" H 7350 2800 60  0000 C CNN
+F 2 "" H 7350 2600 60  0001 C CNN
+F 3 "" H 7350 2600 60  0001 C CNN
+	1    7350 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L VSSA #PWR?
+U 1 1 5A2C18F8
+P 7600 900
+F 0 "#PWR?" H 7600 750 50  0001 C CNN
+F 1 "VSSA" H 7600 1050 50  0000 C CNN
+F 2 "" H 7600 900 50  0000 C CNN
+F 3 "" H 7600 900 50  0000 C CNN
+	1    7600 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3800 7400 4550
+Wire Wire Line
+	7400 3850 7500 3850
+Wire Wire Line
+	7500 3850 7500 3800
+Connection ~ 7400 3850
+$Comp
+L GNDA #PWR?
+U 1 1 5A2C1C45
+P 7400 4550
+F 0 "#PWR?" H 7400 4300 50  0001 C CNN
+F 1 "GNDA" H 7400 4400 50  0000 C CNN
+F 2 "" H 7400 4550 50  0000 C CNN
+F 3 "" H 7400 4550 50  0000 C CNN
+	1    7400 4550
+	1    0    0    -1  
+$EndComp
+Text Label 7400 4500 1    60   ~ 0
+AVSS
+Wire Wire Line
+	7000 3800 7000 4550
+Wire Wire Line
+	7000 4550 7400 4550
+Text Label 7000 4550 0    60   ~ 0
+AVSS1
+Text Notes 6950 4750 0    60   ~ 0
+Star\nGround
+Wire Wire Line
+	7800 1400 7800 1250
+Wire Wire Line
+	7800 1250 6600 1250
+Wire Wire Line
+	6600 1250 6600 1400
+Wire Wire Line
+	7500 1400 7500 1250
+Connection ~ 7500 1250
+Text Label 6600 1250 0    60   ~ 0
+AVSS
+$Comp
+L +3V3 #PWR?
+U 1 1 5A2C271C
+P 1500 4400
+F 0 "#PWR?" H 1500 4250 50  0001 C CNN
+F 1 "+3V3" H 1500 4540 50  0000 C CNN
+F 2 "" H 1500 4400 50  0000 C CNN
+F 3 "" H 1500 4400 50  0000 C CNN
+	1    1500 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
