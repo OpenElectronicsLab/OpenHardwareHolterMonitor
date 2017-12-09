@@ -1,4 +1,4 @@
-update=Sat Dec  9 17:55:42 2017
+update=Sat Dec  9 18:07:55 2017
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,4 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=esp32
 LibName31=ads1299
-LibName32=/home/eric/src/OpenHardwareHolterMonitor/ads1298
+LibName32=ads1298
