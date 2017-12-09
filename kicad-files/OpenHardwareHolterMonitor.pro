@@ -1,4 +1,4 @@
-update=Sat Dec  2 15:30:25 2017
+update=Sat Dec  9 15:18:37 2017
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=esp32
+LibName31=ads1299
