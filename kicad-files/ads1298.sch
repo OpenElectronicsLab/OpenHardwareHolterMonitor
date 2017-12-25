@@ -60,21 +60,21 @@ F 3 "" H 5350 3750 60  0001 C CNN
 	1    5350 3750
 	-1   0    0    1   
 $EndComp
-Text HLabel 3100 3100 0    60   Input ~ 0
+Text HLabel 1350 3100 0    60   Input ~ 0
 ADS_MOSI
-Text HLabel 3100 3200 0    60   Input ~ 0
+Text HLabel 1350 3200 0    60   Input ~ 0
 ADS_~PWDN~
-Text HLabel 3100 3300 0    60   Input ~ 0
+Text HLabel 1350 3300 0    60   Input ~ 0
 ADS_~RESET~
-Text HLabel 3100 3500 0    60   Input ~ 0
+Text HLabel 1350 3500 0    60   Input ~ 0
 ADS_START
-Text HLabel 3100 3600 0    60   Input ~ 0
+Text HLabel 1350 3600 0    60   Input ~ 0
 ADS_~CS~
-Text HLabel 3100 3700 0    60   Input ~ 0
+Text HLabel 1350 3700 0    60   Input ~ 0
 ADS_SCLK
-Text HLabel 3100 4000 0    60   Input ~ 0
+Text HLabel 1350 4000 0    60   Input ~ 0
 ADS_MISO
-Text HLabel 3100 4400 0    60   Input ~ 0
+Text HLabel 1350 4400 0    60   Input ~ 0
 ADS_~DRDY~
 Text HLabel 1350 5400 0    60   Input ~ 0
 ADS_DGND
@@ -262,26 +262,135 @@ F 3 "" H 6250 5550 50  0000 C CNN
 $EndComp
 Text Notes 2150 6150 0    60   ~ 0
 AVDD1\nStar Power
+$Comp
+L C C?
+U 1 1 5A41899A
+P 4450 5200
+F 0 "C?" H 4475 5300 50  0000 L CNN
+F 1 "100nF" H 4475 5100 50  0000 L CNN
+F 2 "" H 4488 5050 50  0000 C CNN
+F 3 "" H 4450 5200 50  0000 C CNN
+	1    4450 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A418A13
+P 4450 5500
+F 0 "C?" H 4475 5600 50  0000 L CNN
+F 1 "1uF" H 4475 5400 50  0000 L CNN
+F 2 "" H 4488 5350 50  0000 C CNN
+F 3 "" H 4450 5500 50  0000 C CNN
+	1    4450 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A418DB5
+P 4950 5700
+F 0 "C?" H 4975 5800 50  0000 L CNN
+F 1 "1uF" H 4975 5600 50  0000 L CNN
+F 2 "" H 4988 5550 50  0000 C CNN
+F 3 "" H 4950 5700 50  0000 C CNN
+	1    4950 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A418ECA
+P 5650 5600
+F 0 "C?" H 5675 5700 50  0000 L CNN
+F 1 "1uF" H 5675 5500 50  0000 L CNN
+F 2 "" H 5688 5450 50  0000 C CNN
+F 3 "" H 5650 5600 50  0000 C CNN
+	1    5650 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A418FF7
+P 3700 4650
+F 0 "C?" H 3725 4750 50  0000 L CNN
+F 1 "100nF" H 3725 4550 50  0000 L CNN
+F 2 "" H 3738 4500 50  0000 C CNN
+F 3 "" H 3700 4650 50  0000 C CNN
+	1    3700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A419C18
+P 3500 4650
+F 0 "C?" H 3525 4750 50  0000 L CNN
+F 1 "1uF" H 3525 4550 50  0000 L CNN
+F 2 "" H 3538 4500 50  0000 C CNN
+F 3 "" H 3500 4650 50  0000 C CNN
+	1    3500 4650
+	1    0    0    -1  
+$EndComp
+Text Label 1350 5400 0    60   ~ 0
+DGND
+Text Label 1350 5650 0    60   ~ 0
+DVDD
+Text Label 1350 5900 0    60   ~ 0
+AGND
+Text Label 1350 6150 0    60   ~ 0
+AVDD
+Text Label 7000 2400 2    60   ~ 0
+AVDD
+Text Label 7000 2100 2    60   ~ 0
+AGND
+Text Label 4450 2450 0    60   ~ 0
+DGND
+Text Label 4150 2500 0    60   ~ 0
+AGND
+Text Label 5800 1200 2    60   ~ 0
+AGND
+NoConn ~ 5700 4950
+Text Label 7000 5050 2    60   ~ 0
+AGND
+Text Label 7000 5400 2    60   ~ 0
+RLDOUT
+$Comp
+L R R?
+U 1 1 5A438827
+P 3050 4400
+F 0 "R?" V 3130 4400 50  0000 C CNN
+F 1 "47" V 3050 4400 50  0000 C CNN
+F 2 "" V 2980 4400 50  0000 C CNN
+F 3 "" H 3050 4400 50  0000 C CNN
+	1    3050 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A438B0D
+P 3050 4000
+F 0 "R?" V 3130 4000 50  0000 C CNN
+F 1 "47" V 3050 4000 50  0000 C CNN
+F 2 "" V 2980 4000 50  0000 C CNN
+F 3 "" H 3050 4000 50  0000 C CNN
+	1    3050 4000
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	3100 3600 3850 3600
+	1350 3600 3200 3600
 Wire Wire Line
-	3100 3700 3850 3700
+	3200 3600 3850 3600
 Wire Wire Line
-	3100 4000 3850 4000
+	1350 3700 3850 3700
 Wire Wire Line
-	3100 3100 3850 3100
+	1350 3100 3850 3100
 Wire Wire Line
-	3100 3500 3850 3500
+	1350 3500 3850 3500
 Wire Wire Line
-	3850 3200 3100 3200
+	3850 3200 1350 3200
 Wire Wire Line
-	3100 3300 3850 3300
+	1350 3300 3850 3300
 Wire Wire Line
-	3850 3800 2000 3800
+	3850 3800 3600 3800
 Wire Wire Line
 	4600 5000 4600 4950
-Wire Wire Line
-	2000 5000 4300 5000
 Wire Wire Line
 	4300 5000 4600 5000
 Wire Wire Line
@@ -306,39 +415,20 @@ Wire Wire Line
 Wire Wire Line
 	5500 5000 5500 4950
 Wire Wire Line
-	3100 4400 3850 4400
+	3600 4100 3850 4100
 Wire Wire Line
-	2000 3900 3850 3900
+	3600 4200 3850 4200
 Wire Wire Line
-	2000 4100 3850 4100
+	3600 4300 3850 4300
 Wire Wire Line
-	2000 4200 3850 4200
+	3600 3800 3600 3900
 Wire Wire Line
-	2000 4300 3850 4300
+	3600 4100 3600 4200
 Wire Wire Line
-	2000 3000 2000 3800
+	3600 4200 3600 4300
+Connection ~ 3600 4200
 Wire Wire Line
-	2000 3800 2000 3900
-Wire Wire Line
-	2000 3900 2000 4100
-Wire Wire Line
-	2000 4100 2000 4200
-Wire Wire Line
-	2000 4200 2000 4300
-Wire Wire Line
-	2000 4300 2000 4800
-Wire Wire Line
-	2000 4800 2000 5000
-Wire Wire Line
-	2000 5000 2000 5400
-Connection ~ 2000 3800
-Connection ~ 2000 3900
-Connection ~ 2000 4100
-Connection ~ 2000 4200
-Wire Wire Line
-	4700 5650 3300 5650
-Wire Wire Line
-	3300 5650 1350 5650
+	4700 5650 1350 5650
 Wire Wire Line
 	4700 4950 4700 5100
 Wire Wire Line
@@ -347,7 +437,6 @@ Wire Wire Line
 	4700 5200 4700 5500
 Wire Wire Line
 	4700 5500 4700 5650
-Connection ~ 2000 4300
 Wire Wire Line
 	5200 4950 5200 5400
 Wire Wire Line
@@ -547,29 +636,6 @@ Wire Wire Line
 	5100 5700 5100 6050
 Connection ~ 5100 5400
 Connection ~ 4800 5400
-Connection ~ 3300 4500
-$Comp
-L C C?
-U 1 1 5A41899A
-P 4450 5200
-F 0 "C?" H 4475 5300 50  0000 L CNN
-F 1 "100nF" H 4475 5100 50  0000 L CNN
-F 2 "" H 4488 5050 50  0000 C CNN
-F 3 "" H 4450 5200 50  0000 C CNN
-	1    4450 5200
-	0    1    1    0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5A418A13
-P 4450 5500
-F 0 "C?" H 4475 5600 50  0000 L CNN
-F 1 "1uF" H 4475 5400 50  0000 L CNN
-F 2 "" H 4488 5350 50  0000 C CNN
-F 3 "" H 4450 5500 50  0000 C CNN
-	1    4450 5500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4600 5200 4700 5200
 Connection ~ 4700 5200
@@ -578,123 +644,91 @@ Wire Wire Line
 Wire Wire Line
 	4300 5000 4300 5200
 Wire Wire Line
-	4300 5200 4300 5500
-Connection ~ 4300 5000
+	4300 5200 4300 5400
+Wire Wire Line
+	4300 5400 4300 5500
 Connection ~ 4300 5200
 Connection ~ 5500 5300
 Connection ~ 5800 5300
-$Comp
-L C C?
-U 1 1 5A418DB5
-P 4950 5700
-F 0 "C?" H 4975 5800 50  0000 L CNN
-F 1 "1uF" H 4975 5600 50  0000 L CNN
-F 2 "" H 4988 5550 50  0000 C CNN
-F 3 "" H 4950 5700 50  0000 C CNN
-	1    4950 5700
-	0    1    1    0   
-$EndComp
 Connection ~ 5100 5700
 Connection ~ 4800 5700
-$Comp
-L C C?
-U 1 1 5A418ECA
-P 5650 5600
-F 0 "C?" H 5675 5700 50  0000 L CNN
-F 1 "1uF" H 5675 5500 50  0000 L CNN
-F 2 "" H 5688 5450 50  0000 C CNN
-F 3 "" H 5650 5600 50  0000 C CNN
-	1    5650 5600
-	0    1    1    0   
-$EndComp
 Connection ~ 5500 5600
 Connection ~ 5800 5600
 Connection ~ 6250 5400
 Connection ~ 6450 5400
 Connection ~ 6250 5700
-$Comp
-L C C?
-U 1 1 5A418FF7
-P 3700 4650
-F 0 "C?" H 3725 4750 50  0000 L CNN
-F 1 "100nF" H 3725 4550 50  0000 L CNN
-F 2 "" H 3738 4500 50  0000 C CNN
-F 3 "" H 3700 4650 50  0000 C CNN
-	1    3700 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3300 4500 3500 4500
+	3250 4500 3500 4500
 Wire Wire Line
 	3500 4500 3700 4500
 Wire Wire Line
 	3700 4500 3850 4500
-$Comp
-L C C?
-U 1 1 5A419C18
-P 3500 4650
-F 0 "C?" H 3525 4750 50  0000 L CNN
-F 1 "1uF" H 3525 4550 50  0000 L CNN
-F 2 "" H 3538 4500 50  0000 C CNN
-F 3 "" H 3500 4650 50  0000 C CNN
-	1    3500 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3300 4500 3300 5650
-Wire Wire Line
-	2000 4800 3500 4800
+	3250 4800 3500 4800
 Wire Wire Line
 	3500 4800 3700 4800
-Connection ~ 2000 4800
 Connection ~ 3700 4500
 Connection ~ 3500 4500
 Connection ~ 3500 4800
 Wire Wire Line
-	2000 5400 1350 5400
-Connection ~ 2000 5000
+	4300 5400 1350 5400
 Wire Wire Line
-	2000 3000 3850 3000
-Connection ~ 3300 5650
+	3600 3000 3850 3000
 Wire Wire Line
 	2100 6150 2100 6050
 Wire Wire Line
 	2100 6050 5100 6050
-Text Label 1350 5400 0    60   ~ 0
-DGND
-Text Label 1350 5650 0    60   ~ 0
-DVDD
-Text Label 1350 5900 0    60   ~ 0
-AGND
-Text Label 1350 6150 0    60   ~ 0
-AVDD
-Text Label 7000 2400 2    60   ~ 0
-AVDD
 Connection ~ 6700 2100
-Text Label 7000 2100 2    60   ~ 0
-AGND
 Connection ~ 5650 2400
 Connection ~ 5900 2400
 Wire Wire Line
 	5800 1500 5800 1800
 Wire Wire Line
 	5800 1800 5800 2000
-Text Label 4450 2450 0    60   ~ 0
-DGND
-Text Label 4150 2500 0    60   ~ 0
-AGND
-Text Label 5800 1200 2    60   ~ 0
-AGND
 Connection ~ 4700 5500
-NoConn ~ 5700 4950
 Wire Wire Line
 	6550 5050 7000 5050
-Text Label 7000 5050 2    60   ~ 0
-AGND
-Text Label 7000 5400 2    60   ~ 0
-RLDOUT
 Wire Wire Line
 	5900 5700 6250 5700
 Wire Wire Line
 	6250 5700 6450 5700
+Wire Wire Line
+	1350 4400 2900 4400
+Wire Wire Line
+	3200 4400 3850 4400
+Wire Wire Line
+	3850 4000 3200 4000
+Wire Wire Line
+	2900 4000 1350 4000
+Text Label 3250 4500 0    60   ~ 0
+DVDD
+Text Label 3600 3000 0    60   ~ 0
+DGND
+Text Label 3600 3800 0    60   ~ 0
+DGND
+Text Label 3600 4100 0    60   ~ 0
+DGND
+Text Label 3250 4800 0    60   ~ 0
+DGND
+Connection ~ 4300 5400
+$Comp
+L R R?
+U 1 1 5A43AECD
+P 3050 3800
+F 0 "R?" V 3130 3800 50  0000 C CNN
+F 1 "100k" V 3050 3800 50  0000 C CNN
+F 2 "" V 2980 3800 50  0000 C CNN
+F 3 "" H 3050 3800 50  0000 C CNN
+	1    3050 3800
+	0    1    1    0   
+$EndComp
+Connection ~ 3200 3600
+Wire Wire Line
+	3600 3900 3850 3900
+Wire Wire Line
+	3200 3600 3200 3800
+Wire Wire Line
+	2900 3800 2700 3800
+Text Label 2700 3800 0    60   ~ 0
+DVDD
 $EndSCHEMATC
