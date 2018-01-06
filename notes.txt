@@ -1,0 +1,23 @@
+esp32	20mA
+ +WiFi	90-260mA
+ads1298	5mA
+ADP7158	4mA -- just one of many low noise linear regulator
+sdCard	<1mA
+ write	100mA
+
+not tx	~100-200mA
+w/ tx	~500mA ... thus efficient power isolation to run off of USB
+
+2 main batteries, but can operate from one, and can swap each out one at a time
+ ... simple power-level indicator? push-button and light up to 0-to-3 LEDs?
+ ... also indicate on web-page?
+1 (regargeable?) coin battery for the real-time-clock
+  TODO: look up coin charger schematic on Adafruit?
+
+Look up: LP5912-3.0DRVR LDO Voltage Regulator
+
+18650 batteries are widely available and cost is reasonable
+
+https://www.amazon.de/Nitecore-Intellicharge-Ladeger%C3%A4t-Li-Ion-Batterien/dp/B06XFH6Z5D/ref=sr_1_1?ie=UTF8&qid=1509900684&sr=8-1&keywords=18650+charger+nitecore
+
+https://smile.amazon.com/Battery-Li-Ion-Rechargeable-Button-LR2032/dp/B0058E94O6/ref=sr_1_sc_2?ie=UTF8&qid=1509899680&sr=8-2-spell&keywords=2032+rechagable
