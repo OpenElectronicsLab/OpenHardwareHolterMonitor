@@ -62,17 +62,11 @@ Wire Wire Line
 Wire Wire Line
 	4800 2500 6150 2500
 Wire Wire Line
-	3700 2800 4700 2800
-Wire Wire Line
-	3700 2700 4800 2700
-Wire Wire Line
 	3700 2600 6150 2600
 Text Label 4100 2700 2    60   ~ 0
 CLK
 Text Label 4100 2800 2    60   ~ 0
 CS
-Wire Wire Line
-	3700 2000 6150 2000
 Text Label 4100 2000 2    60   ~ 0
 MOSI
 Text Label 4100 2600 2    60   ~ 0
@@ -141,9 +135,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 4650 1500 6550
 Wire Wire Line
-	1500 6550 1650 6550
-Wire Wire Line
-	1650 6550 1900 6550
+	1500 6550 1900 6550
 Wire Wire Line
 	1900 6550 1900 6400
 Wire Wire Line
@@ -245,13 +237,9 @@ Wire Wire Line
 Wire Wire Line
 	4900 5600 5000 5600
 Wire Wire Line
-	4300 4850 4450 4850
+	4300 4850 4600 4850
 Wire Wire Line
-	4450 4850 4600 4850
-Wire Wire Line
-	4300 5600 4550 5600
-Wire Wire Line
-	4550 5600 4600 5600
+	4300 5600 4600 5600
 Wire Wire Line
 	4550 5600 4550 5150
 Wire Wire Line
@@ -432,15 +420,11 @@ Wire Wire Line
 Wire Wire Line
 	4900 2700 6150 2700
 Wire Wire Line
-	4600 2900 3700 2900
-Wire Wire Line
 	4900 3000 3700 3000
 Wire Wire Line
 	5350 3100 6150 3100
 Wire Wire Line
-	5350 3200 5900 3200
-Wire Wire Line
-	5900 3200 6150 3200
+	5350 3200 6150 3200
 Wire Wire Line
 	5350 3200 5350 3250
 $Comp
@@ -455,9 +439,7 @@ F 3 "" H 5350 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 2900 5350 2950
-Wire Wire Line
-	5350 2950 5350 3100
+	5350 2900 5350 3100
 Wire Wire Line
 	5350 2950 5600 2950
 Wire Wire Line
@@ -476,4 +458,64 @@ Wire Wire Line
 	3800 1500 3950 1500
 Wire Wire Line
 	3950 1500 3950 1600
+$Comp
+L R R?
+U 1 1 5A50E09F
+P 4350 2000
+F 0 "R?" V 4430 2000 50  0000 C CNN
+F 1 "47" V 4350 2000 50  0000 C CNN
+F 2 "" V 4280 2000 50  0000 C CNN
+F 3 "" H 4350 2000 50  0000 C CNN
+	1    4350 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A50E4C0
+P 4350 2700
+F 0 "R?" V 4430 2700 50  0000 C CNN
+F 1 "47" V 4350 2700 50  0000 C CNN
+F 2 "" V 4280 2700 50  0000 C CNN
+F 3 "" H 4350 2700 50  0000 C CNN
+	1    4350 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A50E54F
+P 4350 2800
+F 0 "R?" V 4430 2800 50  0000 C CNN
+F 1 "47" V 4350 2800 50  0000 C CNN
+F 2 "" V 4280 2800 50  0000 C CNN
+F 3 "" H 4350 2800 50  0000 C CNN
+	1    4350 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 2800 4200 2800
+Wire Wire Line
+	4200 2700 3700 2700
+Wire Wire Line
+	4800 2700 4500 2700
+Wire Wire Line
+	4700 2800 4500 2800
+Wire Wire Line
+	3700 2000 4200 2000
+Wire Wire Line
+	4500 2000 6150 2000
+$Comp
+L R R?
+U 1 1 5A50EA46
+P 4350 2900
+F 0 "R?" V 4430 2900 50  0000 C CNN
+F 1 "47" V 4350 2900 50  0000 C CNN
+F 2 "" V 4280 2900 50  0000 C CNN
+F 3 "" H 4350 2900 50  0000 C CNN
+	1    4350 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 2900 4200 2900
+Wire Wire Line
+	4500 2900 4600 2900
 $EndSCHEMATC

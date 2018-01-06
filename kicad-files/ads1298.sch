@@ -373,6 +373,443 @@ F 3 "" H 3050 4000 50  0000 C CNN
 	1    3050 4000
 	0    1    1    0   
 $EndComp
+Text Label 3250 4500 0    60   ~ 0
+DVDD
+Text Label 3600 3000 0    60   ~ 0
+DGND
+Text Label 3600 3800 0    60   ~ 0
+DGND
+Text Label 3600 4100 0    60   ~ 0
+DGND
+Text Label 3250 4800 0    60   ~ 0
+DGND
+$Comp
+L R R?
+U 1 1 5A43AECD
+P 3050 3800
+F 0 "R?" V 3130 3800 50  0000 C CNN
+F 1 "100k" V 3050 3800 50  0000 C CNN
+F 2 "" V 2980 3800 50  0000 C CNN
+F 3 "" H 3050 3800 50  0000 C CNN
+	1    3050 3800
+	0    1    1    0   
+$EndComp
+Text Label 2700 3800 0    60   ~ 0
+DVDD
+$Comp
+L R R?
+U 1 1 5A5124CC
+P 10050 1050
+F 0 "R?" V 10130 1050 50  0000 C CNN
+F 1 "22.1k" V 10050 1050 50  0000 C CNN
+F 2 "" V 9980 1050 50  0000 C CNN
+F 3 "" H 10050 1050 50  0000 C CNN
+	1    10050 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A5124D2
+P 9550 1050
+F 0 "R?" V 9630 1050 50  0000 C CNN
+F 1 "10k" V 9550 1050 50  0000 C CNN
+F 2 "" V 9480 1050 50  0000 C CNN
+F 3 "" H 9550 1050 50  0000 C CNN
+	1    9550 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A5124D8
+P 9800 1200
+F 0 "C?" H 9825 1300 50  0000 L CNN
+F 1 "47pF" H 9825 1100 50  0000 L CNN
+F 2 "" H 9838 1050 50  0000 C CNN
+F 3 "" H 9800 1200 50  0000 C CNN
+	1    9800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A5124DE
+P 9300 1200
+F 0 "C?" H 9325 1300 50  0000 L CNN
+F 1 "47pF" H 9325 1100 50  0000 L CNN
+F 2 "" H 9338 1050 50  0000 C CNN
+F 3 "" H 9300 1200 50  0000 C CNN
+	1    9300 1200
+	1    0    0    -1  
+$EndComp
+Text Label 9800 1400 2    60   ~ 0
+AGND
+$Comp
+L R R?
+U 1 1 5A5127B3
+P 10050 2000
+F 0 "R?" V 10130 2000 50  0000 C CNN
+F 1 "22.1k" V 10050 2000 50  0000 C CNN
+F 2 "" V 9980 2000 50  0000 C CNN
+F 3 "" H 10050 2000 50  0000 C CNN
+	1    10050 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A5127B9
+P 9550 2000
+F 0 "R?" V 9630 2000 50  0000 C CNN
+F 1 "10k" V 9550 2000 50  0000 C CNN
+F 2 "" V 9480 2000 50  0000 C CNN
+F 3 "" H 9550 2000 50  0000 C CNN
+	1    9550 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A5127BF
+P 9800 2150
+F 0 "C?" H 9825 2250 50  0000 L CNN
+F 1 "47pF" H 9825 2050 50  0000 L CNN
+F 2 "" H 9838 2000 50  0000 C CNN
+F 3 "" H 9800 2150 50  0000 C CNN
+	1    9800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A5127C5
+P 9300 2150
+F 0 "C?" H 9325 2250 50  0000 L CNN
+F 1 "47pF" H 9325 2050 50  0000 L CNN
+F 2 "" H 9338 2000 50  0000 C CNN
+F 3 "" H 9300 2150 50  0000 C CNN
+	1    9300 2150
+	1    0    0    -1  
+$EndComp
+Text Label 9800 2350 2    60   ~ 0
+AGND
+$Comp
+L R R?
+U 1 1 5A5127D6
+P 10050 2600
+F 0 "R?" V 10130 2600 50  0000 C CNN
+F 1 "22.1k" V 10050 2600 50  0000 C CNN
+F 2 "" V 9980 2600 50  0000 C CNN
+F 3 "" H 10050 2600 50  0000 C CNN
+	1    10050 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A5127DC
+P 9550 2600
+F 0 "R?" V 9630 2600 50  0000 C CNN
+F 1 "10k" V 9550 2600 50  0000 C CNN
+F 2 "" V 9480 2600 50  0000 C CNN
+F 3 "" H 9550 2600 50  0000 C CNN
+	1    9550 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A5127E2
+P 9800 2750
+F 0 "C?" H 9825 2850 50  0000 L CNN
+F 1 "47pF" H 9825 2650 50  0000 L CNN
+F 2 "" H 9838 2600 50  0000 C CNN
+F 3 "" H 9800 2750 50  0000 C CNN
+	1    9800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A5127E8
+P 9300 2750
+F 0 "C?" H 9325 2850 50  0000 L CNN
+F 1 "47pF" H 9325 2650 50  0000 L CNN
+F 2 "" H 9338 2600 50  0000 C CNN
+F 3 "" H 9300 2750 50  0000 C CNN
+	1    9300 2750
+	1    0    0    -1  
+$EndComp
+Text Label 9800 2950 2    60   ~ 0
+AGND
+$Comp
+L R R?
+U 1 1 5A512A61
+P 10050 3000
+F 0 "R?" V 10130 3000 50  0000 C CNN
+F 1 "22.1k" V 10050 3000 50  0000 C CNN
+F 2 "" V 9980 3000 50  0000 C CNN
+F 3 "" H 10050 3000 50  0000 C CNN
+	1    10050 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A512A67
+P 9550 3000
+F 0 "R?" V 9630 3000 50  0000 C CNN
+F 1 "10k" V 9550 3000 50  0000 C CNN
+F 2 "" V 9480 3000 50  0000 C CNN
+F 3 "" H 9550 3000 50  0000 C CNN
+	1    9550 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A512A6D
+P 9800 3150
+F 0 "C?" H 9825 3250 50  0000 L CNN
+F 1 "47pF" H 9825 3050 50  0000 L CNN
+F 2 "" H 9838 3000 50  0000 C CNN
+F 3 "" H 9800 3150 50  0000 C CNN
+	1    9800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A512A73
+P 9300 3150
+F 0 "C?" H 9325 3250 50  0000 L CNN
+F 1 "47pF" H 9325 3050 50  0000 L CNN
+F 2 "" H 9338 3000 50  0000 C CNN
+F 3 "" H 9300 3150 50  0000 C CNN
+	1    9300 3150
+	1    0    0    -1  
+$EndComp
+Text Label 9800 3350 2    60   ~ 0
+AGND
+$Comp
+L R R?
+U 1 1 5A512A84
+P 10050 3400
+F 0 "R?" V 10130 3400 50  0000 C CNN
+F 1 "22.1k" V 10050 3400 50  0000 C CNN
+F 2 "" V 9980 3400 50  0000 C CNN
+F 3 "" H 10050 3400 50  0000 C CNN
+	1    10050 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A512A8A
+P 9550 3400
+F 0 "R?" V 9630 3400 50  0000 C CNN
+F 1 "10k" V 9550 3400 50  0000 C CNN
+F 2 "" V 9480 3400 50  0000 C CNN
+F 3 "" H 9550 3400 50  0000 C CNN
+	1    9550 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A512A90
+P 9800 3550
+F 0 "C?" H 9825 3650 50  0000 L CNN
+F 1 "47pF" H 9825 3450 50  0000 L CNN
+F 2 "" H 9838 3400 50  0000 C CNN
+F 3 "" H 9800 3550 50  0000 C CNN
+	1    9800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A512A96
+P 9300 3550
+F 0 "C?" H 9325 3650 50  0000 L CNN
+F 1 "47pF" H 9325 3450 50  0000 L CNN
+F 2 "" H 9338 3400 50  0000 C CNN
+F 3 "" H 9300 3550 50  0000 C CNN
+	1    9300 3550
+	1    0    0    -1  
+$EndComp
+Text Label 9800 3750 2    60   ~ 0
+AGND
+$Comp
+L R R?
+U 1 1 5A512AA7
+P 10050 3800
+F 0 "R?" V 10130 3800 50  0000 C CNN
+F 1 "22.1k" V 10050 3800 50  0000 C CNN
+F 2 "" V 9980 3800 50  0000 C CNN
+F 3 "" H 10050 3800 50  0000 C CNN
+	1    10050 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A512AAD
+P 9550 3800
+F 0 "R?" V 9630 3800 50  0000 C CNN
+F 1 "10k" V 9550 3800 50  0000 C CNN
+F 2 "" V 9480 3800 50  0000 C CNN
+F 3 "" H 9550 3800 50  0000 C CNN
+	1    9550 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A512AB3
+P 9800 3950
+F 0 "C?" H 9825 4050 50  0000 L CNN
+F 1 "47pF" H 9825 3850 50  0000 L CNN
+F 2 "" H 9838 3800 50  0000 C CNN
+F 3 "" H 9800 3950 50  0000 C CNN
+	1    9800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A512AB9
+P 9300 3950
+F 0 "C?" H 9325 4050 50  0000 L CNN
+F 1 "47pF" H 9325 3850 50  0000 L CNN
+F 2 "" H 9338 3800 50  0000 C CNN
+F 3 "" H 9300 3950 50  0000 C CNN
+	1    9300 3950
+	1    0    0    -1  
+$EndComp
+Text Label 9800 4150 2    60   ~ 0
+AGND
+$Comp
+L R R?
+U 1 1 5A512ACA
+P 10050 4200
+F 0 "R?" V 10130 4200 50  0000 C CNN
+F 1 "22.1k" V 10050 4200 50  0000 C CNN
+F 2 "" V 9980 4200 50  0000 C CNN
+F 3 "" H 10050 4200 50  0000 C CNN
+	1    10050 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A512AD0
+P 9550 4200
+F 0 "R?" V 9630 4200 50  0000 C CNN
+F 1 "10k" V 9550 4200 50  0000 C CNN
+F 2 "" V 9480 4200 50  0000 C CNN
+F 3 "" H 9550 4200 50  0000 C CNN
+	1    9550 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A512AD6
+P 9800 4350
+F 0 "C?" H 9825 4450 50  0000 L CNN
+F 1 "47pF" H 9825 4250 50  0000 L CNN
+F 2 "" H 9838 4200 50  0000 C CNN
+F 3 "" H 9800 4350 50  0000 C CNN
+	1    9800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A512ADC
+P 9300 4350
+F 0 "C?" H 9325 4450 50  0000 L CNN
+F 1 "47pF" H 9325 4250 50  0000 L CNN
+F 2 "" H 9338 4200 50  0000 C CNN
+F 3 "" H 9300 4350 50  0000 C CNN
+	1    9300 4350
+	1    0    0    -1  
+$EndComp
+Text Label 9800 4550 2    60   ~ 0
+AGND
+$Comp
+L R R?
+U 1 1 5A513785
+P 10050 4600
+F 0 "R?" V 10130 4600 50  0000 C CNN
+F 1 "22.1k" V 10050 4600 50  0000 C CNN
+F 2 "" V 9980 4600 50  0000 C CNN
+F 3 "" H 10050 4600 50  0000 C CNN
+	1    10050 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A51378B
+P 9550 4600
+F 0 "R?" V 9630 4600 50  0000 C CNN
+F 1 "10k" V 9550 4600 50  0000 C CNN
+F 2 "" V 9480 4600 50  0000 C CNN
+F 3 "" H 9550 4600 50  0000 C CNN
+	1    9550 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A513791
+P 9800 4750
+F 0 "C?" H 9825 4850 50  0000 L CNN
+F 1 "47pF" H 9825 4650 50  0000 L CNN
+F 2 "" H 9838 4600 50  0000 C CNN
+F 3 "" H 9800 4750 50  0000 C CNN
+	1    9800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A513797
+P 9300 4750
+F 0 "C?" H 9325 4850 50  0000 L CNN
+F 1 "47pF" H 9325 4650 50  0000 L CNN
+F 2 "" H 9338 4600 50  0000 C CNN
+F 3 "" H 9300 4750 50  0000 C CNN
+	1    9300 4750
+	1    0    0    -1  
+$EndComp
+Text Label 9800 4950 2    60   ~ 0
+AGND
+$Comp
+L R R?
+U 1 1 5A5137A8
+P 10050 1550
+F 0 "R?" V 10130 1550 50  0000 C CNN
+F 1 "22.1k" V 10050 1550 50  0000 C CNN
+F 2 "" V 9980 1550 50  0000 C CNN
+F 3 "" H 10050 1550 50  0000 C CNN
+	1    10050 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A5137AE
+P 9550 1550
+F 0 "R?" V 9630 1550 50  0000 C CNN
+F 1 "10k" V 9550 1550 50  0000 C CNN
+F 2 "" V 9480 1550 50  0000 C CNN
+F 3 "" H 9550 1550 50  0000 C CNN
+	1    9550 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A5137B4
+P 9800 1700
+F 0 "C?" H 9825 1800 50  0000 L CNN
+F 1 "47pF" H 9825 1600 50  0000 L CNN
+F 2 "" H 9838 1550 50  0000 C CNN
+F 3 "" H 9800 1700 50  0000 C CNN
+	1    9800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A5137BA
+P 9300 1700
+F 0 "C?" H 9325 1800 50  0000 L CNN
+F 1 "47pF" H 9325 1600 50  0000 L CNN
+F 2 "" H 9338 1550 50  0000 C CNN
+F 3 "" H 9300 1700 50  0000 C CNN
+	1    9300 1700
+	1    0    0    -1  
+$EndComp
+Text Label 9800 1900 2    60   ~ 0
+AGND
 Wire Wire Line
 	1350 3600 3200 3600
 Wire Wire Line
@@ -462,13 +899,13 @@ Wire Wire Line
 Wire Wire Line
 	5300 2550 5300 2000
 Wire Wire Line
-	5300 2000 5100 2000
+	5100 2000 5300 2000
 Wire Wire Line
-	5100 2000 5100 1700
+	5100 1200 5100 1450
 Wire Wire Line
-	5100 1700 5100 1450
+	5100 1450 5100 1700
 Wire Wire Line
-	5100 1450 5100 1200
+	5100 1700 5100 2000
 Connection ~ 5100 1450
 Wire Wire Line
 	5400 4950 5400 5000
@@ -592,12 +1029,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 5000 6000 5400
 Wire Wire Line
-	6000 5400 6250 5400
-Wire Wire Line
-	6250 5400 6450 5400
-Wire Wire Line
-	6450 5400 7000 5400
-Wire Wire Line
 	5900 4950 5900 5000
 Wire Wire Line
 	5900 5000 6000 5000
@@ -700,28 +1131,7 @@ Wire Wire Line
 	3850 4000 3200 4000
 Wire Wire Line
 	2900 4000 1350 4000
-Text Label 3250 4500 0    60   ~ 0
-DVDD
-Text Label 3600 3000 0    60   ~ 0
-DGND
-Text Label 3600 3800 0    60   ~ 0
-DGND
-Text Label 3600 4100 0    60   ~ 0
-DGND
-Text Label 3250 4800 0    60   ~ 0
-DGND
 Connection ~ 4300 5400
-$Comp
-L R R?
-U 1 1 5A43AECD
-P 3050 3800
-F 0 "R?" V 3130 3800 50  0000 C CNN
-F 1 "100k" V 3050 3800 50  0000 C CNN
-F 2 "" V 2980 3800 50  0000 C CNN
-F 3 "" H 3050 3800 50  0000 C CNN
-	1    3050 3800
-	0    1    1    0   
-$EndComp
 Connection ~ 3200 3600
 Wire Wire Line
 	3600 3900 3850 3900
@@ -729,6 +1139,353 @@ Wire Wire Line
 	3200 3600 3200 3800
 Wire Wire Line
 	2900 3800 2700 3800
-Text Label 2700 3800 0    60   ~ 0
-DVDD
+Wire Wire Line
+	10200 1050 10500 1050
+Wire Wire Line
+	9700 1050 9800 1050
+Wire Wire Line
+	9800 1050 9900 1050
+Connection ~ 9800 1050
+Wire Wire Line
+	7300 1050 9300 1050
+Wire Wire Line
+	9300 1050 9400 1050
+Connection ~ 9300 1050
+Wire Wire Line
+	9300 1350 9300 1400
+Wire Wire Line
+	9300 1400 9800 1400
+Wire Wire Line
+	9800 1400 9800 1350
+Wire Wire Line
+	10200 2000 10500 2000
+Wire Wire Line
+	9700 2000 9800 2000
+Wire Wire Line
+	9800 2000 9900 2000
+Connection ~ 9800 2000
+Wire Wire Line
+	7900 2000 9300 2000
+Wire Wire Line
+	9300 2000 9400 2000
+Connection ~ 9300 2000
+Wire Wire Line
+	9300 2300 9300 2350
+Wire Wire Line
+	9300 2350 9800 2350
+Wire Wire Line
+	9800 2350 9800 2300
+Wire Wire Line
+	10200 2600 10500 2600
+Wire Wire Line
+	9700 2600 9800 2600
+Wire Wire Line
+	9800 2600 9900 2600
+Connection ~ 9800 2600
+Wire Wire Line
+	8100 2600 9300 2600
+Wire Wire Line
+	9300 2600 9400 2600
+Connection ~ 9300 2600
+Wire Wire Line
+	9300 2900 9300 2950
+Wire Wire Line
+	9300 2950 9800 2950
+Wire Wire Line
+	9800 2950 9800 2900
+Wire Wire Line
+	10200 3000 10500 3000
+Wire Wire Line
+	9700 3000 9800 3000
+Wire Wire Line
+	9800 3000 9900 3000
+Connection ~ 9800 3000
+Wire Wire Line
+	8300 3000 9300 3000
+Wire Wire Line
+	9300 3000 9400 3000
+Connection ~ 9300 3000
+Wire Wire Line
+	9300 3300 9300 3350
+Wire Wire Line
+	9300 3350 9800 3350
+Wire Wire Line
+	9800 3350 9800 3300
+Wire Wire Line
+	10200 3400 10500 3400
+Wire Wire Line
+	9700 3400 9800 3400
+Wire Wire Line
+	9800 3400 9900 3400
+Connection ~ 9800 3400
+Wire Wire Line
+	8500 3400 9300 3400
+Wire Wire Line
+	9300 3400 9400 3400
+Connection ~ 9300 3400
+Wire Wire Line
+	9300 3700 9300 3750
+Wire Wire Line
+	9300 3750 9800 3750
+Wire Wire Line
+	9800 3750 9800 3700
+Wire Wire Line
+	10200 3800 10500 3800
+Wire Wire Line
+	9700 3800 9800 3800
+Wire Wire Line
+	9800 3800 9900 3800
+Connection ~ 9800 3800
+Wire Wire Line
+	8700 3800 9300 3800
+Wire Wire Line
+	9300 3800 9400 3800
+Connection ~ 9300 3800
+Wire Wire Line
+	9300 4100 9300 4150
+Wire Wire Line
+	9300 4150 9800 4150
+Wire Wire Line
+	9800 4150 9800 4100
+Wire Wire Line
+	10200 4200 10500 4200
+Wire Wire Line
+	9700 4200 9800 4200
+Wire Wire Line
+	9800 4200 9900 4200
+Connection ~ 9800 4200
+Wire Wire Line
+	6800 4200 9300 4200
+Wire Wire Line
+	9300 4200 9400 4200
+Connection ~ 9300 4200
+Wire Wire Line
+	9300 4500 9300 4550
+Wire Wire Line
+	9300 4550 9800 4550
+Wire Wire Line
+	9800 4550 9800 4500
+Wire Wire Line
+	10200 4600 10500 4600
+Wire Wire Line
+	9700 4600 9800 4600
+Wire Wire Line
+	9800 4600 9900 4600
+Connection ~ 9800 4600
+Wire Wire Line
+	8700 4600 9300 4600
+Wire Wire Line
+	9300 4600 9400 4600
+Connection ~ 9300 4600
+Wire Wire Line
+	9300 4900 9300 4950
+Wire Wire Line
+	9300 4950 9800 4950
+Wire Wire Line
+	9800 4950 9800 4900
+Wire Wire Line
+	10200 1550 10500 1550
+Wire Wire Line
+	9700 1550 9800 1550
+Wire Wire Line
+	9800 1550 9900 1550
+Connection ~ 9800 1550
+Connection ~ 9300 1550
+Wire Wire Line
+	9300 1850 9300 1900
+Wire Wire Line
+	9300 1900 9800 1900
+Wire Wire Line
+	9800 1900 9800 1850
+Wire Wire Line
+	7500 3100 6800 3100
+Wire Wire Line
+	7500 3300 6800 3300
+Wire Wire Line
+	7500 3500 6800 3500
+Connection ~ 7500 3300
+Wire Wire Line
+	7500 3700 6800 3700
+Connection ~ 7500 3500
+Wire Wire Line
+	7500 3900 6800 3900
+Connection ~ 7500 3700
+Wire Wire Line
+	7500 4100 6800 4100
+Connection ~ 7500 3900
+Wire Wire Line
+	7500 4300 6800 4300
+Connection ~ 7500 4100
+Wire Wire Line
+	7500 4500 6800 4500
+Connection ~ 7500 4300
+Wire Wire Line
+	6800 4400 8700 4400
+Wire Wire Line
+	8700 4400 8700 4600
+Wire Wire Line
+	7300 3000 6800 3000
+Wire Wire Line
+	7900 2000 7900 3200
+Wire Wire Line
+	7900 3200 6800 3200
+Wire Wire Line
+	8100 2600 8100 3400
+Wire Wire Line
+	8100 3400 6800 3400
+Wire Wire Line
+	8300 3000 8300 3600
+Wire Wire Line
+	8300 3600 6800 3600
+Wire Wire Line
+	8500 3400 8500 3800
+Wire Wire Line
+	8500 3800 6800 3800
+Wire Wire Line
+	6800 4000 8700 4000
+Wire Wire Line
+	8700 4000 8700 3800
+Wire Wire Line
+	7500 1550 7500 3000
+Wire Wire Line
+	7500 3000 7500 3100
+Wire Wire Line
+	7500 3100 7500 3300
+Wire Wire Line
+	7500 3300 7500 3500
+Wire Wire Line
+	7500 3500 7500 3700
+Wire Wire Line
+	7500 3700 7500 3900
+Wire Wire Line
+	7500 3900 7500 4100
+Wire Wire Line
+	7500 4100 7500 4300
+Wire Wire Line
+	7500 4300 7500 4500
+Text Label 9800 950  2    60   ~ 0
+AGND
+Wire Wire Line
+	9800 950  9800 900 
+Wire Wire Line
+	9300 950  9800 950 
+Wire Wire Line
+	9300 900  9300 950 
+Connection ~ 9300 600 
+Wire Wire Line
+	7150 600  9300 600 
+Wire Wire Line
+	9300 600  9400 600 
+Connection ~ 9800 600 
+Wire Wire Line
+	9700 600  9800 600 
+Wire Wire Line
+	9800 600  9900 600 
+Wire Wire Line
+	10200 600  10500 600 
+$Comp
+L C C?
+U 1 1 5A510A5F
+P 9300 750
+F 0 "C?" H 9325 850 50  0000 L CNN
+F 1 "47pF" H 9325 650 50  0000 L CNN
+F 2 "" H 9338 600 50  0000 C CNN
+F 3 "" H 9300 750 50  0000 C CNN
+	1    9300 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A510849
+P 9800 750
+F 0 "C?" H 9825 850 50  0000 L CNN
+F 1 "47pF" H 9825 650 50  0000 L CNN
+F 2 "" H 9838 600 50  0000 C CNN
+F 3 "" H 9800 750 50  0000 C CNN
+	1    9800 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A5107C6
+P 9550 600
+F 0 "R?" V 9630 600 50  0000 C CNN
+F 1 "10k" V 9550 600 50  0000 C CNN
+F 2 "" V 9480 600 50  0000 C CNN
+F 3 "" H 9550 600 50  0000 C CNN
+	1    9550 600 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A5106D7
+P 10050 600
+F 0 "R?" V 10130 600 50  0000 C CNN
+F 1 "22.1k" V 10050 600 50  0000 C CNN
+F 2 "" V 9980 600 50  0000 C CNN
+F 3 "" H 10050 600 50  0000 C CNN
+	1    10050 600 
+	0    1    1    0   
+$EndComp
+Text Label 10500 1050 2    60   ~ 0
+INP1
+Wire Wire Line
+	7500 1550 9300 1550
+Wire Wire Line
+	9300 1550 9400 1550
+Text Label 10500 1550 2    60   ~ 0
+IN1_8N
+Text Label 10500 600  2    60   ~ 0
+RLDOUT
+Text Label 10500 2000 2    60   ~ 0
+IN2P
+Text Label 10500 2500 2    60   ~ 0
+IN3P
+Text Label 10500 3000 2    60   ~ 0
+IN4P
+Text Label 10500 3400 2    60   ~ 0
+IN5P
+Text Label 10500 3800 2    60   ~ 0
+IN6P
+Text Label 10500 4200 2    60   ~ 0
+IN7P
+Text Label 10500 4600 2    60   ~ 0
+IN8P
+Wire Wire Line
+	7300 3000 7300 1050
+Wire Wire Line
+	7150 5400 7150 600 
+Wire Wire Line
+	6000 5400 6250 5400
+Wire Wire Line
+	6250 5400 6450 5400
+Wire Wire Line
+	6450 5400 7150 5400
+Text Notes 10500 1100 0    30   ~ 0
+EU: R (red)\nUS: RA (white)
+Text Notes 10500 650  0    30   ~ 0
+EU: N (black)\nUS: RL (green)
+Text Notes 10500 1600 0    30   ~ 0
+EU: F (green)\nUS: LL (red)
+Text Notes 10500 2050 0    30   ~ 0
+EU: L (yellow)\nUS: LA (black)
+Text Notes 10500 2650 0    30   ~ 0
+EU: C1 (red)\nUS: V1 (brown)
+Text Notes 10500 3050 0    30   ~ 0
+EU: C2 (yellow)\nUS: V2 (yellow)
+Text Notes 10500 3450 0    30   ~ 0
+EU: C3 (green)\nUS: v3 (green)
+Text Notes 10500 3850 0    30   ~ 0
+EU: C4 (brown)\nUS: V4 (blue)
+Text Notes 10500 4250 0    30   ~ 0
+EU: C5 (black)\nUS: V5 (orange)
+Text Notes 10500 4650 0    30   ~ 0
+EU: C6 (purple)\nUS: V6 (purple)
+Text Notes 11050 900  1    61   ~ 0
+right
+Text Notes 11050 1850 1    61   ~ 0
+left
+Text Notes 11050 3550 1    61   ~ 0
+chest
+Connection ~ 7500 3100
 $EndSCHEMATC
