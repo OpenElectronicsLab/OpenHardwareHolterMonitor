@@ -14,7 +14,14 @@ w/ tx	~500mA ... thus efficient power isolation to run off of USB
 1 (regargeable?) coin battery for the real-time-clock
   TODO: look up coin charger schematic on Adafruit?
 
-Look up: LP5912-3.0DRVR LDO Voltage Regulator
+LP5912-3.0DRVR LDO Voltage Regulator
+reference layout suggests big wide ground connecting Pin2 (NC) to thermal pad
+with vias to pin 5 (GND)
+and use X7R caps anywhere from 1-to-10uF
+and a pullup resistor of 10k-100k for PG
+
+charging: conisder the PCP73833 which has cell temperature monitoring
+http://www.microchip.com/wwwproducts/en/en027785
 
 18650 batteries are widely available and cost is reasonable
 
