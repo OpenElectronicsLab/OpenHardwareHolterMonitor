@@ -31,12 +31,14 @@ LIBS:valves
 LIBS:esp32
 LIBS:ads1299
 LIBS:ads1298
+LIBS:mcp73833
+LIBS:lp5912
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -518,4 +520,10 @@ Wire Wire Line
 	3700 2900 4200 2900
 Wire Wire Line
 	4500 2900 4600 2900
+$Sheet
+S 6200 3700 750  1300
+U 5A6D4EDD
+F0 "power" 60
+F1 "power.sch" 60
+$EndSheet
 $EndSCHEMATC

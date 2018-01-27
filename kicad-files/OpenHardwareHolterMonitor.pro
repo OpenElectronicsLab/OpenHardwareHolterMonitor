@@ -1,4 +1,4 @@
-update=Sat Dec  9 18:07:55 2017
+update=Sat Jan 27 17:49:23 2018
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,5 @@ LibName29=valves
 LibName30=esp32
 LibName31=ads1299
 LibName32=ads1298
+LibName33=mcp73833
+LibName34=lp5912

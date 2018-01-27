@@ -31,12 +31,14 @@ LIBS:valves
 LIBS:esp32
 LIBS:ads1299
 LIBS:ads1298
+LIBS:mcp73833
+LIBS:lp5912
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
