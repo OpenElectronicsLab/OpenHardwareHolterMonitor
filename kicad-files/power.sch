@@ -33,6 +33,7 @@ LIBS:ads1299
 LIBS:ads1298
 LIBS:mcp73833
 LIBS:lp5912
+LIBS:rem_3-xxxxs
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
@@ -59,13 +60,13 @@ F 3 "" H 3000 3400 60  0001 C CNN
 	1    3000 3400
 	1    0    0    -1  
 $EndComp
-Text HLabel 1050 700  0    60   Input ~ 0
+Text HLabel 1050 650  0    60   Input ~ 0
 Vout_3v3
-Text HLabel 1050 850  0    60   Input ~ 0
+Text HLabel 1050 800  0    60   Input ~ 0
 Vgnd
-Text HLabel 1050 1000 0    60   Input ~ 0
+Text HLabel 2850 650  0    60   Input ~ 0
 Vbat1
-Text HLabel 1050 1150 0    60   Input ~ 0
+Text HLabel 2850 800  0    60   Input ~ 0
 Vbat2
 Text Label 1150 3200 0    60   ~ 0
 V_ISO
@@ -84,11 +85,11 @@ Text Label 1150 3600 0    60   ~ 0
 GND_ISO
 Text Label 4350 3200 2    60   ~ 0
 VBAT1
-Text HLabel 2000 1000 0    60   Input ~ 0
+Text HLabel 4350 650  0    60   Input ~ 0
 ~Bat1charging~
-Text HLabel 2000 1150 0    60   Input ~ 0
+Text HLabel 4350 800  0    60   Input ~ 0
 ~Bat2Charging~
-Text Label 2650 1000 2    60   ~ 0
+Text Label 5000 650  2    60   ~ 0
 Bat1_Stat1
 Text Label 1150 3400 0    60   ~ 0
 Bat1_Stat1
@@ -102,6 +103,430 @@ F 2 "" V 1830 3450 50  0000 C CNN
 F 3 "" H 1900 3450 50  0000 C CNN
 	1    1900 3450
 	0    1    1    0   
+$EndComp
+Text Label 850  3450 0    60   ~ 0
+3v3
+Text Label 1550 650  2    60   ~ 0
+3v3
+$Comp
+L Battery_Cell BT?
+U 1 1 5A6D74AC
+P 4650 3450
+F 0 "BT?" H 4750 3550 50  0000 L CNN
+F 1 "Battery_Cell" H 4750 3450 50  0000 L CNN
+F 2 "" V 4650 3510 50  0000 C CNN
+F 3 "" V 4650 3510 50  0000 C CNN
+	1    4650 3450
+	1    0    0    -1  
+$EndComp
+Text Label 4650 3700 0    60   ~ 0
+GND_ISO
+$Comp
+L D_Schottky D?
+U 1 1 5A6D7930
+P 5350 3200
+F 0 "D?" H 5350 3300 50  0000 C CNN
+F 1 "D_Schottky" H 5350 3100 50  0000 C CNN
+F 2 "" H 5350 3200 50  0000 C CNN
+F 3 "" H 5350 3200 50  0000 C CNN
+	1    5350 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L LP5912 U?
+U 1 1 5A6D7EB1
+P 8850 3300
+F 0 "U?" H 8850 3450 60  0000 C CNN
+F 1 "LP5912" H 8850 3350 60  0000 C CNN
+F 2 "" H 8850 3300 60  0001 C CNN
+F 3 "" H 8850 3300 60  0001 C CNN
+	1    8850 3300
+	-1   0    0    -1  
+$EndComp
+Text Label 7450 3200 0    60   ~ 0
+REGULATOR_IN
+Text Label 6450 3200 2    60   ~ 0
+REGULATOR_IN
+Text Label 7450 3300 0    60   ~ 0
+GND_ISO
+Text Label 10700 3200 2    60   ~ 0
+3v3
+$Comp
+L R R?
+U 1 1 5A6D8A6E
+P 9750 3400
+F 0 "R?" V 9830 3400 50  0000 C CNN
+F 1 "10" V 9750 3400 50  0000 C CNN
+F 2 "" V 9680 3400 50  0000 C CNN
+F 3 "" H 9750 3400 50  0000 C CNN
+	1    9750 3400
+	0    -1   1    0   
+$EndComp
+Text Label 9850 3300 2    60   ~ 0
+GND_ISO
+Text Label 8850 3850 2    60   ~ 0
+GND_ISO
+$Comp
+L TEST TP?
+U 1 1 5A7EF644
+P 950 3950
+F 0 "TP?" H 950 4250 50  0000 C BNN
+F 1 "TEST" H 950 4200 50  0000 C CNN
+F 2 "" H 950 3950 50  0000 C CNN
+F 3 "" H 950 3950 50  0000 C CNN
+	1    950  3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5A7EF8B4
+P 4300 3950
+F 0 "TP?" H 4300 4250 50  0000 C BNN
+F 1 "TEST" H 4300 4200 50  0000 C CNN
+F 2 "" H 4300 3950 50  0000 C CNN
+F 3 "" H 4300 3950 50  0000 C CNN
+	1    4300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A7EFD84
+P 4000 3850
+F 0 "R?" V 4080 3850 50  0000 C CNN
+F 1 "5.1k" V 4000 3850 50  0000 C CNN
+F 2 "" V 3930 3850 50  0000 C CNN
+F 3 "" H 4000 3850 50  0000 C CNN
+	1    4000 3850
+	1    0    0    -1  
+$EndComp
+Text Label 4400 4400 0    60   ~ 0
+GND_ISO
+$Comp
+L R R?
+U 1 1 5A7F2979
+P 4150 3400
+F 0 "R?" V 4230 3400 50  0000 C CNN
+F 1 "0" V 4150 3400 50  0000 C CNN
+F 2 "" V 4080 3400 50  0000 C CNN
+F 3 "" H 4150 3400 50  0000 C CNN
+	1    4150 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A7F2B06
+P 4400 3900
+F 0 "R?" V 4480 3900 50  0000 C CNN
+F 1 "NI" V 4400 3900 50  0000 C CNN
+F 2 "" V 4330 3900 50  0000 C CNN
+F 3 "" H 4400 3900 50  0000 C CNN
+	1    4400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Thermistor_NTC TH?
+U 1 1 5A7F2C97
+P 4850 4000
+F 0 "TH?" V 4675 4000 50  0000 C CNN
+F 1 "Thermistor_NTC" V 4975 4000 50  0000 C CNN
+F 2 "" H 4850 4050 50  0001 C CNN
+F 3 "" H 4850 4050 50  0001 C CNN
+	1    4850 4000
+	0    -1   -1   0   
+$EndComp
+Text Notes 4000 4600 0    30   ~ 0
+MCP Datasheet typical: approx 5C-40C\nWith series resistor of 276 Ohm and parallel resistor of 149751 Ohm\n would give range of approx: 0C-45C
+$Comp
+L C C?
+U 1 1 5AAD2225
+P 8150 3650
+F 0 "C?" H 8175 3750 50  0000 L CNN
+F 1 "10uF" H 8175 3550 50  0000 L CNN
+F 2 "" H 8188 3500 50  0000 C CNN
+F 3 "" H 8150 3650 50  0000 C CNN
+	1    8150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AAD236E
+P 10400 3650
+F 0 "C?" H 10425 3750 50  0000 L CNN
+F 1 "10uF" H 10425 3550 50  0000 L CNN
+F 2 "" H 10438 3500 50  0000 C CNN
+F 3 "" H 10400 3650 50  0000 C CNN
+	1    10400 3650
+	1    0    0    -1  
+$EndComp
+Text Notes 9100 3800 0    30   ~ 0
+1uF to 10uF should be fine; bigger is typically better,\n but we may get oscillation, need to test
+$Comp
+L MCP73833 U?
+U 1 1 5AAD2F9D
+P 2950 5500
+F 0 "U?" H 2950 5550 60  0000 C CNN
+F 1 "MCP73833" H 2950 5450 60  0000 C CNN
+F 2 "" H 2950 5500 60  0001 C CNN
+F 3 "" H 2950 5500 60  0001 C CNN
+	1    2950 5500
+	1    0    0    -1  
+$EndComp
+Text Label 1100 5300 0    60   ~ 0
+V_ISO
+$Comp
+L D_Schottky D?
+U 1 1 5AAD2FA4
+P 1550 5300
+F 0 "D?" H 1550 5400 50  0000 C CNN
+F 1 "D_Schottky" H 1550 5200 50  0000 C CNN
+F 2 "" H 1550 5300 50  0000 C CNN
+F 3 "" H 1550 5300 50  0000 C CNN
+	1    1550 5300
+	-1   0    0    1   
+$EndComp
+Text Label 1100 5700 0    60   ~ 0
+GND_ISO
+Text Label 4300 5300 2    60   ~ 0
+VBAT2
+Text Label 1100 5500 0    60   ~ 0
+Bat2_Stat1
+$Comp
+L R R?
+U 1 1 5AAD2FAD
+P 1850 5550
+F 0 "R?" V 1930 5550 50  0000 C CNN
+F 1 "R" V 1850 5550 50  0000 C CNN
+F 2 "" V 1780 5550 50  0000 C CNN
+F 3 "" H 1850 5550 50  0000 C CNN
+	1    1850 5550
+	0    1    1    0   
+$EndComp
+Text Label 800  5550 0    60   ~ 0
+3v3
+$Comp
+L Battery_Cell BT?
+U 1 1 5AAD2FC2
+P 4600 5550
+F 0 "BT?" H 4700 5650 50  0000 L CNN
+F 1 "Battery_Cell" H 4700 5550 50  0000 L CNN
+F 2 "" V 4600 5610 50  0000 C CNN
+F 3 "" V 4600 5610 50  0000 C CNN
+	1    4600 5550
+	1    0    0    -1  
+$EndComp
+Text Label 4600 5800 0    60   ~ 0
+GND_ISO
+$Comp
+L D_Schottky D?
+U 1 1 5AAD2FCB
+P 5300 5300
+F 0 "D?" H 5300 5400 50  0000 C CNN
+F 1 "D_Schottky" H 5300 5200 50  0000 C CNN
+F 2 "" H 5300 5300 50  0000 C CNN
+F 3 "" H 5300 5300 50  0000 C CNN
+	1    5300 5300
+	-1   0    0    1   
+$EndComp
+Text Label 6400 5300 2    60   ~ 0
+REGULATOR_IN
+$Comp
+L TEST TP?
+U 1 1 5AAD2FD6
+P 900 6050
+F 0 "TP?" H 900 6350 50  0000 C BNN
+F 1 "TEST" H 900 6300 50  0000 C CNN
+F 2 "" H 900 6050 50  0000 C CNN
+F 3 "" H 900 6050 50  0000 C CNN
+	1    900  6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5AAD2FE2
+P 4250 6050
+F 0 "TP?" H 4250 6350 50  0000 C BNN
+F 1 "TEST" H 4250 6300 50  0000 C CNN
+F 2 "" H 4250 6050 50  0000 C CNN
+F 3 "" H 4250 6050 50  0000 C CNN
+	1    4250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AAD2FEA
+P 3950 5950
+F 0 "R?" V 4030 5950 50  0000 C CNN
+F 1 "5.1k" V 3950 5950 50  0000 C CNN
+F 2 "" V 3880 5950 50  0000 C CNN
+F 3 "" H 3950 5950 50  0000 C CNN
+	1    3950 5950
+	1    0    0    -1  
+$EndComp
+Text Label 4350 6500 0    60   ~ 0
+GND_ISO
+$Comp
+L R R?
+U 1 1 5AAD2FF3
+P 4100 5500
+F 0 "R?" V 4180 5500 50  0000 C CNN
+F 1 "0" V 4100 5500 50  0000 C CNN
+F 2 "" V 4030 5500 50  0000 C CNN
+F 3 "" H 4100 5500 50  0000 C CNN
+	1    4100 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AAD2FFD
+P 4350 6000
+F 0 "R?" V 4430 6000 50  0000 C CNN
+F 1 "NI" V 4350 6000 50  0000 C CNN
+F 2 "" V 4280 6000 50  0000 C CNN
+F 3 "" H 4350 6000 50  0000 C CNN
+	1    4350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Thermistor_NTC TH?
+U 1 1 5AAD3004
+P 4800 6100
+F 0 "TH?" V 4625 6100 50  0000 C CNN
+F 1 "Thermistor_NTC" V 4925 6100 50  0000 C CNN
+F 2 "" H 4800 6150 50  0001 C CNN
+F 3 "" H 4800 6150 50  0001 C CNN
+	1    4800 6100
+	0    -1   -1   0   
+$EndComp
+Text Notes 3950 6700 0    30   ~ 0
+MCP Datasheet typical: approx 5C-40C\nWith series resistor of 276 Ohm and parallel resistor of 149751 Ohm\n would give range of approx: 0C-45C
+Text Label 5000 800  2    60   ~ 0
+Bat2_Stat1
+Text Label 1550 800  2    60   ~ 0
+GND_ISO
+Text Label 3350 650  2    60   ~ 0
+VBAT1
+Text Label 3350 800  2    60   ~ 0
+VBAT2
+$Comp
+L USB_OTG P?
+U 1 1 5AAD4608
+P 1800 1500
+F 0 "P?" H 2125 1375 50  0000 C CNN
+F 1 "USB_OTG" H 1800 1700 50  0000 C CNN
+F 2 "" V 1750 1400 50  0000 C CNN
+F 3 "" V 1750 1400 50  0000 C CNN
+	1    1800 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5AAD4720
+P 900 2050
+F 0 "#PWR?" H 900 1850 50  0001 C CNN
+F 1 "GNDPWR" H 900 1920 50  0000 C CNN
+F 2 "" H 900 2000 50  0000 C CNN
+F 3 "" H 900 2000 50  0000 C CNN
+	1    900  2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AAD4876
+P 1250 1250
+F 0 "#PWR?" H 1250 1100 50  0001 C CNN
+F 1 "+5V" H 1250 1390 50  0000 C CNN
+F 2 "" H 1250 1250 50  0000 C CNN
+F 3 "" H 1250 1250 50  0000 C CNN
+	1    1250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5AAD494A
+P 900 1300
+F 0 "#FLG?" H 900 1395 50  0001 C CNN
+F 1 "PWR_FLAG" H 900 1480 50  0000 C CNN
+F 2 "" H 900 1300 50  0000 C CNN
+F 3 "" H 900 1300 50  0000 C CNN
+	1    900  1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5AAD4A7F
+P 900 1900
+F 0 "#FLG?" H 900 1995 50  0001 C CNN
+F 1 "PWR_FLAG" H 900 2080 50  0000 C CNN
+F 2 "" H 900 1900 50  0000 C CNN
+F 3 "" H 900 1900 50  0000 C CNN
+	1    900  1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_AAK D?
+U 1 1 5AAD6351
+P 3600 1550
+F 0 "D?" H 3600 1650 50  0000 C CNN
+F 1 "D_Schottky_AAK" H 3600 1450 50  0000 C CNN
+F 2 "" H 3600 1550 50  0000 C CNN
+F 3 "" H 3600 1550 50  0000 C CNN
+	1    3600 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C?
+U 1 1 5AAD6593
+P 4000 1600
+F 0 "C?" H 4025 1700 50  0000 L CNN
+F 1 "1mF" H 4025 1500 50  0000 L CNN
+F 2 "" H 4038 1450 50  0000 C CNN
+F 3 "" H 4000 1600 50  0000 C CNN
+	1    4000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AAD6EFA
+P 4400 1600
+F 0 "C?" H 4425 1700 50  0000 L CNN
+F 1 "22uF" H 4425 1500 50  0000 L CNN
+F 2 "" H 4438 1450 50  0000 C CNN
+F 3 "" H 4400 1600 50  0000 C CNN
+	1    4400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AAD824B
+P 5300 1600
+F 0 "C?" H 5325 1700 50  0000 L CNN
+F 1 "22uF" H 5325 1500 50  0000 L CNN
+F 2 "" H 5338 1450 50  0000 C CNN
+F 3 "" H 5300 1600 50  0000 C CNN
+	1    5300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L EMI_Filter_LL FL?
+U 1 1 5AAD82B3
+P 4900 1600
+F 0 "FL?" H 4900 1775 50  0000 C CNN
+F 1 "131uH" H 4900 1425 50  0000 C CNN
+F 2 "" V 4900 1640 50  0000 C CNN
+F 3 "" V 4900 1640 50  0000 C CNN
+	1    4900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L REM_3-xxxxS U?
+U 1 1 5AAD5E16
+P 6500 1600
+F 0 "U?" H 6500 1600 60  0000 C CNN
+F 1 "REM_3-xxxxS" H 6500 1450 60  0000 C CNN
+F 2 "" H 6500 1600 60  0001 C CNN
+F 3 "" H 6500 1600 60  0001 C CNN
+	1    6500 1600
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1750 3200 2200 3200
@@ -122,7 +547,7 @@ Wire Wire Line
 	4000 3300 4000 3200
 Connection ~ 4000 3200
 Wire Wire Line
-	2000 1000 2650 1000
+	4350 650  5000 650 
 Wire Wire Line
 	1150 3400 2200 3400
 Wire Wire Line
@@ -130,109 +555,36 @@ Wire Wire Line
 Connection ~ 2050 3400
 Wire Wire Line
 	1750 3450 850  3450
-Text Label 850  3450 0    60   ~ 0
-3v3
 Wire Wire Line
-	1050 700  1300 700 
-Text Label 1300 700  2    60   ~ 0
-3v3
-$Comp
-L Battery_Cell BT?
-U 1 1 5A6D74AC
-P 4650 3450
-F 0 "BT?" H 4750 3550 50  0000 L CNN
-F 1 "Battery_Cell" H 4750 3450 50  0000 L CNN
-F 2 "" V 4650 3510 50  0000 C CNN
-F 3 "" V 4650 3510 50  0000 C CNN
-	1    4650 3450
-	1    0    0    -1  
-$EndComp
-Text Label 4650 3700 0    60   ~ 0
-GND_ISO
+	1050 650  1550 650 
 Wire Wire Line
 	4650 3200 4650 3250
 Wire Wire Line
 	4650 3550 4650 3700
-$Comp
-L D_Schottky D?
-U 1 1 5A6D7930
-P 5350 3200
-F 0 "D?" H 5350 3300 50  0000 C CNN
-F 1 "D_Schottky" H 5350 3100 50  0000 C CNN
-F 2 "" H 5350 3200 50  0000 C CNN
-F 3 "" H 5350 3200 50  0000 C CNN
-	1    5350 3200
-	-1   0    0    1   
-$EndComp
 Connection ~ 4650 3200
-$Comp
-L LP5912 U?
-U 1 1 5A6D7EB1
-P 8600 1100
-F 0 "U?" H 8600 1250 60  0000 C CNN
-F 1 "LP5912" H 8600 1150 60  0000 C CNN
-F 2 "" H 8600 1100 60  0001 C CNN
-F 3 "" H 8600 1100 60  0001 C CNN
-	1    8600 1100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	8000 1000 7200 1000
-Text Label 7200 1000 0    60   ~ 0
-REGULATOR_IN
+	7450 3200 8250 3200
 Wire Wire Line
 	5500 3200 6450 3200
-Text Label 6450 3200 2    60   ~ 0
-REGULATOR_IN
 Wire Wire Line
-	8000 1100 7200 1100
-Text Label 7200 1100 0    60   ~ 0
-GND_ISO
+	8250 3300 7450 3300
 Wire Wire Line
-	10450 1000 9200 1000
-Text Label 10450 1000 2    60   ~ 0
-3v3
-$Comp
-L R R?
-U 1 1 5A6D8A6E
-P 9500 1200
-F 0 "R?" V 9580 1200 50  0000 C CNN
-F 1 "10" V 9500 1200 50  0000 C CNN
-F 2 "" V 9430 1200 50  0000 C CNN
-F 3 "" H 9500 1200 50  0000 C CNN
-	1    9500 1200
-	0    -1   1    0   
-$EndComp
+	9450 3200 10700 3200
 Wire Wire Line
-	9200 1200 9350 1200
+	9450 3400 9600 3400
 Wire Wire Line
-	9850 1000 9850 1200
+	10100 3200 10100 3400
 Wire Wire Line
-	9850 1200 9650 1200
+	10100 3400 9900 3400
 Wire Wire Line
-	9200 1100 9600 1100
-Text Label 9600 1100 2    60   ~ 0
-GND_ISO
+	9450 3300 9850 3300
 Wire Wire Line
-	8600 1500 8600 1650
-Text Label 8600 1650 2    60   ~ 0
-GND_ISO
-Connection ~ 9850 1000
+	8850 3700 8850 3850
+Connection ~ 10100 3200
 Wire Wire Line
 	2200 3500 2100 3500
 Wire Wire Line
 	2100 3500 2100 4000
-$Comp
-L TEST TP?
-U 1 1 5A7EF644
-P 950 3950
-F 0 "TP?" H 950 4250 50  0000 C BNN
-F 1 "TEST" H 950 4200 50  0000 C CNN
-F 2 "" H 950 3950 50  0000 C CNN
-F 3 "" H 950 3950 50  0000 C CNN
-	1    950  3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2100 4000 950  4000
 Wire Wire Line
@@ -245,49 +597,14 @@ Wire Wire Line
 	4200 4000 4300 4000
 Wire Wire Line
 	4300 4000 4300 3950
-$Comp
-L TEST TP?
-U 1 1 5A7EF8B4
-P 4300 3950
-F 0 "TP?" H 4300 4250 50  0000 C BNN
-F 1 "TEST" H 4300 4200 50  0000 C CNN
-F 2 "" H 4300 3950 50  0000 C CNN
-F 3 "" H 4300 3950 50  0000 C CNN
-	1    4300 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 3600 4000 3600
 Wire Wire Line
 	4000 3600 4000 3700
-$Comp
-L R R?
-U 1 1 5A7EFD84
-P 4000 3850
-F 0 "R?" V 4080 3850 50  0000 C CNN
-F 1 "5.1k" V 4000 3850 50  0000 C CNN
-F 2 "" V 3930 3850 50  0000 C CNN
-F 3 "" H 4000 3850 50  0000 C CNN
-	1    4000 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 4000 4000 4250
-Text Label 4400 4400 0    60   ~ 0
-GND_ISO
 Wire Wire Line
 	3800 3400 4000 3400
-$Comp
-L R R?
-U 1 1 5A7F2979
-P 4150 3400
-F 0 "R?" V 4230 3400 50  0000 C CNN
-F 1 "0" V 4150 3400 50  0000 C CNN
-F 2 "" V 4080 3400 50  0000 C CNN
-F 3 "" H 4150 3400 50  0000 C CNN
-	1    4150 3400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4300 3400 4550 3400
 Wire Wire Line
@@ -295,30 +612,8 @@ Wire Wire Line
 Wire Wire Line
 	4400 3400 4400 3750
 Connection ~ 4400 3400
-$Comp
-L R R?
-U 1 1 5A7F2B06
-P 4400 3900
-F 0 "R?" V 4480 3900 50  0000 C CNN
-F 1 "NI" V 4400 3900 50  0000 C CNN
-F 2 "" V 4330 3900 50  0000 C CNN
-F 3 "" H 4400 3900 50  0000 C CNN
-	1    4400 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 4050 4400 4400
-$Comp
-L Thermistor_NTC TH?
-U 1 1 5A7F2C97
-P 4850 4000
-F 0 "TH?" V 4675 4000 50  0000 C CNN
-F 1 "Thermistor_NTC" V 4975 4000 50  0000 C CNN
-F 2 "" H 4850 4050 50  0001 C CNN
-F 3 "" H 4850 4050 50  0001 C CNN
-	1    4850 4000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4550 4000 4700 4000
 Wire Wire Line
@@ -328,6 +623,251 @@ Wire Wire Line
 Wire Wire Line
 	5100 4250 4000 4250
 Connection ~ 4400 4250
-Text Notes 4000 4600 0    30   ~ 0
-MCP Datasheet typical: approx 5C-40C\nWith series resistor of 276 Ohm and parallel resistor of 149751 Ohm\n would give range of approx: 0C-45C
+Wire Wire Line
+	8150 3500 8150 3200
+Connection ~ 8150 3200
+Wire Wire Line
+	8150 3800 8150 3850
+Wire Wire Line
+	8150 3850 10400 3850
+Wire Wire Line
+	10400 3500 10400 3200
+Connection ~ 10400 3200
+Wire Wire Line
+	10400 3850 10400 3800
+Connection ~ 8850 3850
+Wire Wire Line
+	1700 5300 2150 5300
+Wire Wire Line
+	1400 5300 1100 5300
+Wire Wire Line
+	2000 5300 2000 5400
+Wire Wire Line
+	2000 5400 2150 5400
+Connection ~ 2000 5300
+Wire Wire Line
+	2150 5700 1100 5700
+Wire Wire Line
+	3750 5300 5150 5300
+Wire Wire Line
+	3750 5400 3950 5400
+Wire Wire Line
+	3950 5400 3950 5300
+Connection ~ 3950 5300
+Wire Wire Line
+	1100 5500 2150 5500
+Wire Wire Line
+	2000 5550 2000 5500
+Connection ~ 2000 5500
+Wire Wire Line
+	1700 5550 800  5550
+Wire Wire Line
+	4600 5300 4600 5350
+Wire Wire Line
+	4600 5650 4600 5800
+Connection ~ 4600 5300
+Wire Wire Line
+	5450 5300 6400 5300
+Wire Wire Line
+	2150 5600 2050 5600
+Wire Wire Line
+	2050 5600 2050 6100
+Wire Wire Line
+	2050 6100 900  6100
+Wire Wire Line
+	900  6100 900  6050
+Wire Wire Line
+	3750 5600 4150 5600
+Wire Wire Line
+	4150 5600 4150 6100
+Wire Wire Line
+	4150 6100 4250 6100
+Wire Wire Line
+	4250 6100 4250 6050
+Wire Wire Line
+	3750 5700 3950 5700
+Wire Wire Line
+	3950 5700 3950 5800
+Wire Wire Line
+	3950 6100 3950 6350
+Wire Wire Line
+	3750 5500 3950 5500
+Wire Wire Line
+	4250 5500 4500 5500
+Wire Wire Line
+	4500 5500 4500 6100
+Wire Wire Line
+	4350 5500 4350 5850
+Connection ~ 4350 5500
+Wire Wire Line
+	4350 6150 4350 6500
+Wire Wire Line
+	4500 6100 4650 6100
+Wire Wire Line
+	4950 6100 5050 6100
+Wire Wire Line
+	5050 6100 5050 6350
+Wire Wire Line
+	5050 6350 3950 6350
+Connection ~ 4350 6350
+Wire Wire Line
+	4350 800  5000 800 
+Wire Wire Line
+	1050 800  1550 800 
+Wire Wire Line
+	2850 650  3350 650 
+Wire Wire Line
+	2850 800  3350 800 
+Wire Wire Line
+	900  1900 900  2050
+Wire Wire Line
+	900  1950 4650 1950
+Wire Wire Line
+	1450 1950 1450 1700
+Wire Wire Line
+	1450 1700 1500 1700
+Wire Wire Line
+	900  1300 1500 1300
+Wire Wire Line
+	1250 1300 1250 1250
+Connection ~ 1250 1300
+Connection ~ 1450 1950
+Wire Wire Line
+	1900 1950 1900 1900
+Connection ~ 900  1950
+Wire Wire Line
+	1400 1300 1400 1200
+Wire Wire Line
+	2600 1200 4650 1200
+Connection ~ 1400 1300
+Connection ~ 1900 1950
+Wire Wire Line
+	4000 1200 4000 1450
+Wire Wire Line
+	3600 1200 3600 1400
+Connection ~ 3600 1200
+Wire Wire Line
+	4000 1950 4000 1750
+Wire Wire Line
+	3600 1950 3600 1750
+Connection ~ 3600 1950
+Wire Wire Line
+	3700 1950 3700 1750
+Connection ~ 3700 1950
+Wire Wire Line
+	4400 1200 4400 1450
+Connection ~ 4000 1200
+Wire Wire Line
+	4400 1950 4400 1750
+Connection ~ 4000 1950
+Wire Wire Line
+	4700 1500 4650 1500
+Wire Wire Line
+	4650 1500 4650 1200
+Connection ~ 4400 1200
+Wire Wire Line
+	4700 1700 4650 1700
+Wire Wire Line
+	4650 1700 4650 1950
+Connection ~ 4400 1950
+Wire Wire Line
+	5100 1500 5200 1500
+Wire Wire Line
+	5200 1500 5200 1200
+Wire Wire Line
+	5200 1200 5550 1200
+Wire Wire Line
+	5550 1200 5550 1500
+Wire Wire Line
+	5550 1500 5650 1500
+Wire Wire Line
+	5100 1700 5200 1700
+Wire Wire Line
+	5200 1700 5200 1950
+Wire Wire Line
+	5200 1950 5550 1950
+Wire Wire Line
+	5550 1950 5550 1700
+Wire Wire Line
+	5550 1700 5650 1700
+Wire Wire Line
+	5300 1450 5300 1200
+Connection ~ 5300 1200
+Wire Wire Line
+	5300 1750 5300 1950
+Connection ~ 5300 1950
+Text Notes 4750 1900 0    30   ~ 0
+CMS1-12-R
+Text Notes 3450 1800 1    30   ~ 0
+V10P45S-M3/86A
+Text Notes 6300 1400 0    30   ~ 0
+REM3-0505S/A
+Text Notes 4200 1250 3    30   ~ 0
+Nippon Chemi-con KY series
+$Comp
+L Polyfuse F?
+U 1 1 5AADC715
+P 2450 1200
+F 0 "F?" V 2350 1200 50  0000 C CNN
+F 1 "Polyfuse" V 2550 1200 50  0000 C CNN
+F 2 "" H 2500 1000 50  0001 L CNN
+F 3 "" H 2450 1200 50  0001 C CNN
+	1    2450 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5AADCE5E
+P 3000 1550
+F 0 "D?" H 3000 1650 50  0000 C CNN
+F 1 "D_Zener" H 3000 1450 50  0000 C CNN
+F 2 "" H 3000 1550 50  0000 C CNN
+F 3 "" H 3000 1550 50  0000 C CNN
+	1    3000 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 1200 3000 1400
+Connection ~ 3000 1200
+Wire Wire Line
+	3000 1700 3000 1950
+Connection ~ 3000 1950
+Wire Wire Line
+	1400 1200 2300 1200
+Text Notes 2300 1400 0    30   ~ 0
+2920L050DR 
+Wire Wire Line
+	7350 1500 7950 1500
+Wire Wire Line
+	7350 1700 8250 1700
+Text Label 7850 1500 2    60   ~ 0
+V_ISO
+Text Label 7850 1700 2    60   ~ 0
+GND_ISO
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5AADE661
+P 7950 1400
+F 0 "#FLG?" H 7950 1495 50  0001 C CNN
+F 1 "PWR_FLAG" H 7950 1580 50  0000 C CNN
+F 2 "" H 7950 1400 50  0000 C CNN
+F 3 "" H 7950 1400 50  0000 C CNN
+	1    7950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5AADE6BB
+P 8250 1650
+F 0 "#FLG?" H 8250 1745 50  0001 C CNN
+F 1 "PWR_FLAG" H 8250 1830 50  0000 C CNN
+F 2 "" H 8250 1650 50  0000 C CNN
+F 3 "" H 8250 1650 50  0000 C CNN
+	1    8250 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1500 7950 1400
+Wire Wire Line
+	8250 1700 8250 1650
 $EndSCHEMATC

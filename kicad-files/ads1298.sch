@@ -33,6 +33,7 @@ LIBS:ads1299
 LIBS:ads1298
 LIBS:mcp73833
 LIBS:lp5912
+LIBS:rem_3-xxxxs
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
