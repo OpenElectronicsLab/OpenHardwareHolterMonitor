@@ -34,6 +34,7 @@ LIBS:ads1298
 LIBS:mcp73833
 LIBS:lp5912
 LIBS:rem_3-xxxxs
+LIBS:switches
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
@@ -276,18 +277,18 @@ EN
 Text Notes 4000 4600 0    30   ~ 0
 copied from esp32_core_board_v2 schematic
 $Comp
-L CONN_01X06 P?
+L CONN_01X07 P?
 U 1 1 5A2C102E
-P 5300 6600
-F 0 "P?" H 5300 6950 50  0000 C CNN
-F 1 "FTDI" V 5400 6600 50  0000 C CNN
-F 2 "" H 5300 6600 50  0000 C CNN
-F 3 "" H 5300 6600 50  0000 C CNN
-	1    5300 6600
+P 5300 6650
+F 0 "P?" H 5300 7050 50  0000 C CNN
+F 1 "Custom_FTDI" V 5400 6650 50  0000 C CNN
+F 2 "" H 5300 6650 50  0000 C CNN
+F 3 "" H 5300 6650 50  0000 C CNN
+	1    5300 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 6350 4800 6350
+	5100 6950 4800 6950
 Wire Wire Line
 	5100 6450 4800 6450
 Wire Wire Line
@@ -298,16 +299,16 @@ Wire Wire Line
 	5100 6750 4800 6750
 Wire Wire Line
 	5100 6850 4800 6850
-Text Label 4800 6350 0    60   ~ 0
+Text Label 4800 6950 0    60   ~ 0
 RTS
 Text Label 4800 6450 0    60   ~ 0
 RXD0
 Text Label 4800 6550 0    60   ~ 0
 TXD0
-Text Label 4800 6650 2    60   ~ 0
-PWR?
-Text Label 4800 6750 2    60   ~ 0
-DTR?_CTS?
+Text Label 4800 6650 0    60   ~ 0
+FTDI_V
+Text Label 4800 6750 0    60   ~ 0
+CTS
 Text Label 4800 6850 0    60   ~ 0
 GND
 Wire Wire Line
@@ -318,8 +319,6 @@ Text Label 4000 2200 2    60   ~ 0
 TXD0
 Text Label 4000 2300 2    60   ~ 0
 RXD0
-Text Notes 4500 7000 0    30   ~ 0
-do we want to support power-from-usb while\nprogramming for our porotype?
 Text Notes 4200 6550 0    60   ~ 0
 Figure out\nflow control
 Wire Wire Line
@@ -532,6 +531,7 @@ F4 "Vbat1" I L 6200 4100 60
 F5 "Vbat2" I L 6200 4250 60 
 F6 "~Bat1charging~" I L 6200 4400 60 
 F7 "~Bat2Charging~" I L 6200 4550 60 
+F8 "FTDI_V_ISO" I L 6200 4700 60 
 $EndSheet
 Wire Wire Line
 	5700 3800 6200 3800
@@ -579,4 +579,393 @@ Wire Wire Line
 	6200 4400 5500 4400
 Text Label 5500 4400 0    60   ~ 0
 Bat1charging
+Text Label 7350 3750 0    60   ~ 0
+Vbat1
+Text Label 7350 4800 0    60   ~ 0
+Enable_vbat_read
+$Comp
+L R R?
+U 1 1 5AB66BDB
+P 8450 3950
+F 0 "R?" V 8530 3950 50  0000 C CNN
+F 1 "3.9k" V 8450 3950 50  0000 C CNN
+F 2 "" V 8380 3950 50  0000 C CNN
+F 3 "" H 8450 3950 50  0000 C CNN
+	1    8450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AB66C92
+P 8450 4400
+F 0 "R?" V 8530 4400 50  0000 C CNN
+F 1 "1k" V 8450 4400 50  0000 C CNN
+F 2 "" V 8380 4400 50  0000 C CNN
+F 3 "" H 8450 4400 50  0000 C CNN
+	1    8450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AB66E2D
+P 8450 5200
+F 0 "#PWR?" H 8450 4950 50  0001 C CNN
+F 1 "GND" H 8450 5050 50  0000 C CNN
+F 2 "" H 8450 5200 50  0000 C CNN
+F 3 "" H 8450 5200 50  0000 C CNN
+	1    8450 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4550 8450 4600
+Wire Wire Line
+	8450 4100 8450 4250
+Wire Wire Line
+	8450 4200 7350 4200
+Connection ~ 8450 4200
+Text Label 7350 4200 0    60   ~ 0
+read_bat_1
+Wire Wire Line
+	7350 4800 8150 4800
+Wire Wire Line
+	7350 3750 8450 3750
+Wire Wire Line
+	8450 3750 8450 3800
+$Comp
+L Q_NMOS_DGS Q?
+U 1 1 5AB6876E
+P 8350 4800
+F 0 "Q?" H 8550 4850 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 8550 4750 50  0000 L CNN
+F 2 "" H 8550 4900 50  0000 C CNN
+F 3 "" H 8350 4800 50  0000 C CNN
+	1    8350 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5000 8450 5200
+Text Label 9100 3750 0    60   ~ 0
+Vbat2
+Text Label 9100 4800 0    60   ~ 0
+Enable_vbat_read
+$Comp
+L R R?
+U 1 1 5AB6D16E
+P 10200 3950
+F 0 "R?" V 10280 3950 50  0000 C CNN
+F 1 "3.9k" V 10200 3950 50  0000 C CNN
+F 2 "" V 10130 3950 50  0000 C CNN
+F 3 "" H 10200 3950 50  0000 C CNN
+	1    10200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AB6D174
+P 10200 4400
+F 0 "R?" V 10280 4400 50  0000 C CNN
+F 1 "1k" V 10200 4400 50  0000 C CNN
+F 2 "" V 10130 4400 50  0000 C CNN
+F 3 "" H 10200 4400 50  0000 C CNN
+	1    10200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AB6D17A
+P 10200 5200
+F 0 "#PWR?" H 10200 4950 50  0001 C CNN
+F 1 "GND" H 10200 5050 50  0000 C CNN
+F 2 "" H 10200 5200 50  0000 C CNN
+F 3 "" H 10200 5200 50  0000 C CNN
+	1    10200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4550 10200 4600
+Wire Wire Line
+	10200 4100 10200 4250
+Wire Wire Line
+	10200 4200 9100 4200
+Connection ~ 10200 4200
+Text Label 9100 4200 0    60   ~ 0
+read_bat_2
+Wire Wire Line
+	9100 4800 9900 4800
+Wire Wire Line
+	9100 3750 10200 3750
+Wire Wire Line
+	10200 3750 10200 3800
+$Comp
+L Q_NMOS_DGS Q?
+U 1 1 5AB6D189
+P 10100 4800
+F 0 "Q?" H 10300 4850 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 10300 4750 50  0000 L CNN
+F 2 "" H 10300 4900 50  0000 C CNN
+F 3 "" H 10100 4800 50  0000 C CNN
+	1    10100 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 5000 10200 5200
+$Comp
+L R R?
+U 1 1 5AB6D672
+P 9650 5000
+F 0 "R?" V 9730 5000 50  0000 C CNN
+F 1 "100k" V 9650 5000 50  0000 C CNN
+F 2 "" V 9580 5000 50  0000 C CNN
+F 3 "" H 9650 5000 50  0000 C CNN
+	1    9650 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 5150 10200 5150
+Connection ~ 10200 5150
+$Comp
+L R R?
+U 1 1 5AB6DED9
+P 7900 5000
+F 0 "R?" V 7980 5000 50  0000 C CNN
+F 1 "100k" V 7900 5000 50  0000 C CNN
+F 2 "" V 7830 5000 50  0000 C CNN
+F 3 "" H 7900 5000 50  0000 C CNN
+	1    7900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5150 8450 5150
+Connection ~ 8450 5150
+Wire Wire Line
+	7900 4850 7900 4800
+Connection ~ 7900 4800
+Wire Wire Line
+	9650 4850 9650 4800
+Connection ~ 9650 4800
+Wire Wire Line
+	1400 2400 550  2400
+Wire Wire Line
+	1400 2500 550  2500
+Wire Wire Line
+	1400 2800 550  2800
+Text Label 550  2800 0    60   ~ 0
+Enable_vbat_read
+Text Label 550  2400 0    60   ~ 0
+read_bat_1
+Text Label 550  2500 0    60   ~ 0
+read_bat_2
+Wire Wire Line
+	1400 2600 1000 2600
+Wire Wire Line
+	1400 2700 1000 2700
+Text Label 1000 2600 0    60   ~ 0
+RTC_P
+Text Label 1000 2700 0    60   ~ 0
+RTC_N
+$Comp
+L Crystal Y?
+U 1 1 5AB80CB4
+P 8250 2300
+F 0 "Y?" H 8250 2450 50  0000 C CNN
+F 1 "32768Hz" H 8250 2150 50  0000 C CNN
+F 2 "" H 8250 2300 50  0000 C CNN
+F 3 "" H 8250 2300 50  0000 C CNN
+	1    8250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2300 7950 2300
+Wire Wire Line
+	8400 2300 8550 2300
+$Comp
+L C C?
+U 1 1 5AB811F5
+P 7950 2750
+F 0 "C?" H 7975 2850 50  0000 L CNN
+F 1 "12pF" H 7975 2650 50  0000 L CNN
+F 2 "" H 7988 2600 50  0000 C CNN
+F 3 "" H 7950 2750 50  0000 C CNN
+	1    7950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AB81307
+P 8550 2750
+F 0 "C?" H 8575 2850 50  0000 L CNN
+F 1 "12pF" H 8575 2650 50  0000 L CNN
+F 2 "" H 8588 2600 50  0000 C CNN
+F 3 "" H 8550 2750 50  0000 C CNN
+	1    8550 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2000 7950 2600
+Wire Wire Line
+	8550 2000 8550 2600
+Connection ~ 7950 2300
+Connection ~ 8550 2300
+Wire Wire Line
+	7950 2900 7950 3000
+Wire Wire Line
+	8550 2900 8550 3000
+$Comp
+L GND #PWR?
+U 1 1 5AB819C3
+P 7950 3000
+F 0 "#PWR?" H 7950 2750 50  0001 C CNN
+F 1 "GND" H 7950 2850 50  0000 C CNN
+F 2 "" H 7950 3000 50  0000 C CNN
+F 3 "" H 7950 3000 50  0000 C CNN
+	1    7950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AB81ABB
+P 8550 3000
+F 0 "#PWR?" H 8550 2750 50  0001 C CNN
+F 1 "GND" H 8550 2850 50  0000 C CNN
+F 2 "" H 8550 3000 50  0000 C CNN
+F 3 "" H 8550 3000 50  0000 C CNN
+	1    8550 3000
+	1    0    0    -1  
+$EndComp
+Text Label 7950 2000 0    60   ~ 0
+RTC_P
+Text Label 8550 2000 0    60   ~ 0
+RTC_N
+Text Notes 8300 2400 1    30   ~ 0
+FK161
+Wire Wire Line
+	1400 2200 1100 2200
+Text Label 1100 2200 0    60   ~ 0
+IO36
+Wire Wire Line
+	1400 2300 1100 2300
+Text Label 1100 2300 0    60   ~ 0
+IO39
+Text Label 1100 2900 0    60   ~ 0
+IO26
+Text Label 1100 3000 0    60   ~ 0
+IO27
+Text Label 1100 3100 0    60   ~ 0
+IO14
+Text Label 1100 3200 0    60   ~ 0
+IO12
+Wire Wire Line
+	1400 2900 1100 2900
+Wire Wire Line
+	1400 3000 1100 3000
+Wire Wire Line
+	1400 3100 1100 3100
+Wire Wire Line
+	1400 3200 1100 3200
+Text Label 9900 2700 0    60   ~ 0
+IO26
+Text Label 9900 2800 0    60   ~ 0
+IO27
+Text Label 9900 2500 0    60   ~ 0
+IO14
+Text Label 9900 2400 0    60   ~ 0
+IO12
+Wire Wire Line
+	10200 2700 9900 2700
+Wire Wire Line
+	10200 2800 9900 2800
+Wire Wire Line
+	10200 2500 9900 2500
+Wire Wire Line
+	10200 2400 9900 2400
+Wire Wire Line
+	10200 2900 9900 2900
+Text Label 9900 2900 0    60   ~ 0
+IO36
+Wire Wire Line
+	10200 3000 9900 3000
+Text Label 9900 3000 0    60   ~ 0
+IO39
+Text Label 2900 4000 1    60   ~ 0
+IO15
+Wire Wire Line
+	2900 3700 2900 4000
+Text Label 9900 2600 0    60   ~ 0
+IO15
+Wire Wire Line
+	10200 2600 9900 2600
+Text Label 4000 3100 2    60   ~ 0
+IO4
+Wire Wire Line
+	3700 3100 4000 3100
+Text Label 9900 2300 0    60   ~ 0
+IO4
+Wire Wire Line
+	10200 2300 9900 2300
+$Comp
+L CONN_01X10 P?
+U 1 1 5AB8C674
+P 10400 2550
+F 0 "P?" H 10400 3100 50  0000 C CNN
+F 1 "CONN_01X10" V 10500 2550 50  0000 C CNN
+F 2 "" H 10400 2550 50  0000 C CNN
+F 3 "" H 10400 2550 50  0000 C CNN
+	1    10400 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2200 9900 2200
+Wire Wire Line
+	10200 2100 9600 2100
+Wire Wire Line
+	9600 2100 9600 2150
+$Comp
+L GND #PWR?
+U 1 1 5AB8DBEB
+P 9600 2150
+F 0 "#PWR?" H 9600 1900 50  0001 C CNN
+F 1 "GND" H 9600 2000 50  0000 C CNN
+F 2 "" H 9600 2150 50  0000 C CNN
+F 3 "" H 9600 2150 50  0000 C CNN
+	1    9600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2200 9900 2050
+Wire Wire Line
+	9900 2050 9600 2050
+Wire Wire Line
+	9600 2050 9600 1850
+$Comp
+L +3V3 #PWR?
+U 1 1 5AB8E0DB
+P 9600 1850
+F 0 "#PWR?" H 9600 1700 50  0001 C CNN
+F 1 "+3V3" H 9600 1990 50  0000 C CNN
+F 2 "" H 9600 1850 50  0000 C CNN
+F 3 "" H 9600 1850 50  0000 C CNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4700 6150 4700
+Wire Wire Line
+	5850 4700 5500 4700
+Text Label 5500 4700 0    60   ~ 0
+FTDI_V
+$Comp
+L D_Schottky D?
+U 1 1 5AB94F8B
+P 6000 4700
+F 0 "D?" H 6000 4800 50  0000 C CNN
+F 1 "D_Schottky" H 6000 4600 50  0000 C CNN
+F 2 "" H 6000 4700 50  0000 C CNN
+F 3 "" H 6000 4700 50  0000 C CNN
+	1    6000 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 6350 4800 6350
+Text Label 4800 6350 0    60   ~ 0
+DTR
 $EndSCHEMATC

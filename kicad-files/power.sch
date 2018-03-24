@@ -34,6 +34,7 @@ LIBS:ads1298
 LIBS:mcp73833
 LIBS:lp5912
 LIBS:rem_3-xxxxs
+LIBS:switches
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
@@ -83,7 +84,7 @@ F 3 "" H 1600 3200 50  0000 C CNN
 $EndComp
 Text Label 1150 3600 0    60   ~ 0
 GND_ISO
-Text Label 4350 3200 2    60   ~ 0
+Text Label 4900 3200 2    60   ~ 0
 VBAT1
 Text HLabel 4350 650  0    60   Input ~ 0
 ~Bat1charging~
@@ -143,11 +144,11 @@ F 3 "" H 8850 3300 60  0001 C CNN
 	1    8850 3300
 	-1   0    0    -1  
 $EndComp
-Text Label 7450 3200 0    60   ~ 0
+Text Label 6800 3200 0    60   ~ 0
 REGULATOR_IN
 Text Label 6450 3200 2    60   ~ 0
 REGULATOR_IN
-Text Label 7450 3300 0    60   ~ 0
+Text Label 6800 3300 0    60   ~ 0
 GND_ISO
 Text Label 10700 3200 2    60   ~ 0
 3v3
@@ -286,7 +287,7 @@ F 3 "" H 1550 5300 50  0000 C CNN
 $EndComp
 Text Label 1100 5700 0    60   ~ 0
 GND_ISO
-Text Label 4300 5300 2    60   ~ 0
+Text Label 4850 5300 2    60   ~ 0
 VBAT2
 Text Label 1100 5500 0    60   ~ 0
 Bat2_Stat1
@@ -563,11 +564,11 @@ Wire Wire Line
 	4650 3550 4650 3700
 Connection ~ 4650 3200
 Wire Wire Line
-	7450 3200 8250 3200
+	8000 3200 8250 3200
 Wire Wire Line
 	5500 3200 6450 3200
 Wire Wire Line
-	8250 3300 7450 3300
+	8250 3300 6800 3300
 Wire Wire Line
 	9450 3200 10700 3200
 Wire Wire Line
@@ -870,4 +871,25 @@ Wire Wire Line
 	7950 1500 7950 1400
 Wire Wire Line
 	8250 1700 8250 1650
+Wire Wire Line
+	7600 3200 6800 3200
+$Comp
+L SW_Push_Open SW?
+U 1 1 5AB77FDE
+P 7800 3200
+F 0 "SW?" H 7800 3300 50  0000 C CNN
+F 1 "SW_Push_Open" H 7800 3125 50  0000 C CNN
+F 2 "" H 7800 3400 50  0000 C CNN
+F 3 "" H 7800 3400 50  0000 C CNN
+	1    7800 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 5800 650  0    60   Input ~ 0
+FTDI_V_ISO
+Wire Wire Line
+	5800 650  6300 650 
+Text Label 6300 650  2    60   ~ 0
+V_ISO
+Text Notes 1300 2250 0    60   ~ 0
+TODO: Add USB-C also
 $EndSCHEMATC

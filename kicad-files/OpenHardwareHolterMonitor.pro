@@ -1,4 +1,4 @@
-update=Sat Mar 17 14:51:28 2018
+update=Sat Mar 24 16:50:16 2018
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,4 @@ LibName32=ads1298
 LibName33=mcp73833
 LibName34=lp5912
 LibName35=rem_3-xxxxs
+LibName36=switches

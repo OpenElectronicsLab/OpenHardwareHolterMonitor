@@ -34,6 +34,7 @@ LIBS:ads1298
 LIBS:mcp73833
 LIBS:lp5912
 LIBS:rem_3-xxxxs
+LIBS:switches
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
