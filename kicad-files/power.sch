@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:OpenHardwareHolterMonitor-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -409,17 +410,6 @@ VBAT1
 Text Label 3350 800  2    60   ~ 0
 VBAT2
 $Comp
-L USB_OTG P?
-U 1 1 5AAD4608
-P 1800 1500
-F 0 "P?" H 2125 1375 50  0000 C CNN
-F 1 "USB_OTG" H 1800 1700 50  0000 C CNN
-F 2 "" V 1750 1400 50  0000 C CNN
-F 3 "" V 1750 1400 50  0000 C CNN
-	1    1800 1500
-	0    1    1    0   
-$EndComp
-$Comp
 L GNDPWR #PWR?
 U 1 1 5AAD4720
 P 900 2050
@@ -724,15 +714,10 @@ Wire Wire Line
 Wire Wire Line
 	900  1950 4650 1950
 Wire Wire Line
-	1450 1950 1450 1700
-Wire Wire Line
-	1450 1700 1500 1700
-Wire Wire Line
 	900  1300 1500 1300
 Wire Wire Line
 	1250 1300 1250 1250
 Connection ~ 1250 1300
-Connection ~ 1450 1950
 Wire Wire Line
 	1900 1950 1900 1900
 Connection ~ 900  1950
@@ -937,4 +922,18 @@ Text Label 9500 2300 0    60   ~ 0
 3v3
 Text Notes 9500 2100 0    60   ~ 0
 Optional Power Indicator
+$Comp
+L USB_OTG J?
+U 1 1 5AD33DB1
+P 1800 1500
+F 0 "J?" H 1600 1950 50  0000 L CNN
+F 1 "USB_OTG" H 1600 1850 50  0000 L CNN
+F 2 "" H 1950 1450 50  0001 C CNN
+F 3 "" H 1950 1450 50  0001 C CNN
+	1    1800 1500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1900 1800 1950
+Connection ~ 1800 1950
 $EndSCHEMATC
