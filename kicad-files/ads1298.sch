@@ -36,6 +36,7 @@ LIBS:mcp73833
 LIBS:lp5912
 LIBS:rem_3-xxxxs
 LIBS:switches
+LIBS:tps2113a
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
@@ -1049,4 +1050,6 @@ left
 Text Notes 11050 3550 1    61   ~ 0
 chest
 Connection ~ 7500 3100
+Text Notes 4800 6350 0    60   ~ 0
+TODO: Consider external clock
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Sun Apr 15 13:21:32 2018
+update=Sat 26 May 2018 03:28:31 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,4 @@ LibName34=mcp73833
 LibName35=lp5912
 LibName36=rem_3-xxxxs
 LibName37=switches
+LibName38=tps2113a

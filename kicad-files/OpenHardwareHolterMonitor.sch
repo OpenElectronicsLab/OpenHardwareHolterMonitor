@@ -36,6 +36,7 @@ LIBS:mcp73833
 LIBS:lp5912
 LIBS:rem_3-xxxxs
 LIBS:switches
+LIBS:tps2113a
 LIBS:OpenHardwareHolterMonitor-cache
 EELAYER 25 0
 EELAYER END
@@ -863,38 +864,38 @@ Wire Wire Line
 	1400 3100 1100 3100
 Wire Wire Line
 	1400 3200 1100 3200
-Text Label 9900 2700 0    60   ~ 0
-IO26
 Text Label 9900 2800 0    60   ~ 0
+IO26
+Text Label 9900 2900 0    60   ~ 0
 IO27
-Text Label 9900 2500 0    60   ~ 0
+Text Label 9900 2600 0    60   ~ 0
 IO14
 Text Label 9900 2400 0    60   ~ 0
 IO12
 Wire Wire Line
-	10200 2700 9900 2700
-Wire Wire Line
 	10200 2800 9900 2800
 Wire Wire Line
-	10200 2500 9900 2500
+	10200 2900 9900 2900
+Wire Wire Line
+	10200 2600 9900 2600
 Wire Wire Line
 	10200 2400 9900 2400
 Wire Wire Line
-	10200 2900 9900 2900
-Text Label 9900 2900 0    60   ~ 0
-IO36
-Wire Wire Line
 	10200 3000 9900 3000
 Text Label 9900 3000 0    60   ~ 0
+IO36
+Wire Wire Line
+	10200 3100 9900 3100
+Text Label 9900 3100 0    60   ~ 0
 IO39
 Text Label 2900 4000 1    60   ~ 0
 IO15
 Wire Wire Line
 	2900 3700 2900 4000
-Text Label 9900 2600 0    60   ~ 0
+Text Label 9900 2700 0    60   ~ 0
 IO15
 Wire Wire Line
-	10200 2600 9900 2600
+	10200 2700 9900 2700
 Text Label 4000 3100 2    60   ~ 0
 IO4
 Wire Wire Line
@@ -958,23 +959,33 @@ Wire Wire Line
 	5100 6350 4800 6350
 Text Label 4800 6350 0    60   ~ 0
 DTR
+Wire Wire Line
+	10200 3200 9900 3200
+Wire Wire Line
+	10200 3300 9900 3300
+Text Label 9900 3200 0    60   ~ 0
+Vbat1
+Text Label 9900 3300 0    60   ~ 0
+Vbat2
+Wire Wire Line
+	2200 3700 2200 3900
+Wire Wire Line
+	2200 3900 1650 3900
+Text Label 1650 3900 0    60   ~ 0
+IO13
 $Comp
-L CONN_01X12 P?
-U 1 1 5AB69982
-P 10400 2650
-F 0 "P?" H 10400 3300 50  0000 C CNN
-F 1 "CONN_01X12" V 10500 2650 50  0000 C CNN
-F 2 "" H 10400 2650 50  0000 C CNN
-F 3 "" H 10400 2650 50  0000 C CNN
-	1    10400 2650
+L Conn_01x13 J?
+U 1 1 5B0E264F
+P 10400 2700
+F 0 "J?" H 10400 3400 50  0000 C CNN
+F 1 "Conn_01x13" H 10400 2000 50  0000 C CNN
+F 2 "" H 10400 2700 50  0001 C CNN
+F 3 "" H 10400 2700 50  0001 C CNN
+	1    10400 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10200 3100 9900 3100
-Wire Wire Line
-	10200 3200 9900 3200
-Text Label 9900 3100 0    60   ~ 0
-Vbat1
-Text Label 9900 3200 0    60   ~ 0
-Vbat2
+	10200 2500 9900 2500
+Text Label 9900 2500 0    60   ~ 0
+IO13
 $EndSCHEMATC
