@@ -20,7 +20,7 @@ U 1 1 5A6D6DA4
 P 3000 4200
 F 0 "U4" H 3000 4250 60  0000 C CNN
 F 1 "MCP73833" H 3000 4150 60  0000 C CNN
-F 2 "" H 3000 4200 60  0001 C CNN
+F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 3000 4200 60  0001 C CNN
 F 3 "" H 3000 4200 60  0001 C CNN
 	1    3000 4200
 	1    0    0    -1  
@@ -136,7 +136,7 @@ AR Path="/5A7EF644" Ref="TP2"  Part="1"
 AR Path="/5A6D4EDD/5A7EF644" Ref="TP2"  Part="1" 
 F 0 "TP2" H 950 5050 50  0000 C BNN
 F 1 "TEST" H 950 5000 50  0000 C CNN
-F 2 "" H 950 4750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 950 4750 50  0001 C CNN
 F 3 "" H 950 4750 50  0000 C CNN
 	1    950  4750
 	1    0    0    -1  
@@ -149,7 +149,7 @@ AR Path="/5A7EF8B4" Ref="TP4"  Part="1"
 AR Path="/5A6D4EDD/5A7EF8B4" Ref="TP4"  Part="1" 
 F 0 "TP4" H 4300 5050 50  0000 C BNN
 F 1 "TEST" H 4300 5000 50  0000 C CNN
-F 2 "" H 4300 4750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 4300 4750 50  0001 C CNN
 F 3 "" H 4300 4750 50  0000 C CNN
 	1    4300 4750
 	1    0    0    -1  
@@ -203,7 +203,7 @@ AR Path="/5A7F2C97" Ref="TH2"  Part="1"
 AR Path="/5A6D4EDD/5A7F2C97" Ref="TH2"  Part="1" 
 F 0 "TH2" V 4675 4800 50  0000 C CNN
 F 1 "Thermistor_NTC" V 4975 4800 50  0000 C CNN
-F 2 "" H 4850 4850 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D4.0mm_P1.50mm" H 4850 4850 50  0001 C CNN
 F 3 "" H 4850 4850 50  0001 C CNN
 	1    4850 4800
 	0    -1   -1   0   
@@ -244,7 +244,7 @@ U 1 1 5AAD2F9D
 P 2950 6300
 F 0 "U3" H 2950 6350 60  0000 C CNN
 F 1 "MCP73833" H 2950 6250 60  0000 C CNN
-F 2 "" H 2950 6300 60  0001 C CNN
+F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 2950 6300 60  0001 C CNN
 F 3 "" H 2950 6300 60  0001 C CNN
 	1    2950 6300
 	1    0    0    -1  
@@ -323,7 +323,7 @@ AR Path="/5AAD2FD6" Ref="TP1"  Part="1"
 AR Path="/5A6D4EDD/5AAD2FD6" Ref="TP1"  Part="1" 
 F 0 "TP1" H 900 7150 50  0000 C BNN
 F 1 "TEST" H 900 7100 50  0000 C CNN
-F 2 "" H 900 6850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 900 6850 50  0001 C CNN
 F 3 "" H 900 6850 50  0000 C CNN
 	1    900  6850
 	1    0    0    -1  
@@ -336,7 +336,7 @@ AR Path="/5AAD2FE2" Ref="TP3"  Part="1"
 AR Path="/5A6D4EDD/5AAD2FE2" Ref="TP3"  Part="1" 
 F 0 "TP3" H 4250 7150 50  0000 C BNN
 F 1 "TEST" H 4250 7100 50  0000 C CNN
-F 2 "" H 4250 6850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 4250 6850 50  0001 C CNN
 F 3 "" H 4250 6850 50  0000 C CNN
 	1    4250 6850
 	1    0    0    -1  
@@ -390,7 +390,7 @@ AR Path="/5AAD3004" Ref="TH1"  Part="1"
 AR Path="/5A6D4EDD/5AAD3004" Ref="TH1"  Part="1" 
 F 0 "TH1" V 4625 6900 50  0000 C CNN
 F 1 "Thermistor_NTC" V 4925 6900 50  0000 C CNN
-F 2 "" H 4800 6950 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D4.0mm_P1.50mm" H 4800 6950 50  0001 C CNN
 F 3 "" H 4800 6950 50  0001 C CNN
 	1    4800 6900
 	0    -1   -1   0   
@@ -735,7 +735,7 @@ U 1 1 5B098D22
 P 5950 1350
 F 0 "U5" H 5950 1450 60  0000 C CNN
 F 1 "TPS2113A" H 5950 1350 60  0000 C CNN
-F 2 "" H 5950 1350 60  0001 C CNN
+F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 5950 1350 60  0001 C CNN
 F 3 "" H 5950 1350 60  0001 C CNN
 	1    5950 1350
 	1    0    0    -1  
@@ -1540,4 +1540,10 @@ Wire Wire Line
 Wire Wire Line
 	8500 2850 8550 2850
 Connection ~ 8500 2750
+Text Notes 7600 3950 0    30   ~ 0
+ALPS SSSS810701
+Text Notes 4650 6450 0    30   ~ 0
+Keystone  Electronics 1043
+Text Notes 4700 4350 0    30   ~ 0
+Keystone  Electronics 1043
 $EndSCHEMATC
