@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:OpenHardwareHolterMonitor-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:esp32
-LIBS:ads1299
-LIBS:ads1298
-LIBS:mcp73833
-LIBS:lp5912
-LIBS:rem_3-xxxxs
-LIBS:switches
-LIBS:tps2113a
+EESchema Schematic File Version 4
 LIBS:OpenHardwareHolterMonitor-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -53,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ESP-WROOM-32 U1
+L esp32:ESP-WROOM-32 U1
 U 1 1 5A22CCAC
 P 2550 2550
 F 0 "U1" H 2550 2550 60  0000 C CNN
@@ -88,7 +50,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2200 6150 2200
 $Comp
-L Micro_SD_Card CON1
+L OpenHardwareHolterMonitor-rescue:Micro_SD_Card CON1
 U 1 1 5A2BF6C5
 P 2500 5600
 F 0 "CON1" H 1850 6200 50  0000 C CNN
@@ -141,14 +103,14 @@ Wire Wire Line
 Wire Wire Line
 	1500 4650 1500 6550
 Wire Wire Line
-	1500 6550 1900 6550
+	1500 6550 1650 6550
 Wire Wire Line
 	1900 6550 1900 6400
 Wire Wire Line
 	1650 6550 1650 6700
 Connection ~ 1650 6550
 $Comp
-L GND #PWR01
+L OpenHardwareHolterMonitor-rescue:GND #PWR01
 U 1 1 5A2BFB41
 P 1650 6700
 F 0 "#PWR01" H 1650 6450 50  0001 C CNN
@@ -169,7 +131,7 @@ Wire Wire Line
 Wire Wire Line
 	900  1900 900  2000
 $Comp
-L GND #PWR02
+L OpenHardwareHolterMonitor-rescue:GND #PWR02
 U 1 1 5A2C02E3
 P 900 2000
 F 0 "#PWR02" H 900 1750 50  0001 C CNN
@@ -184,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1900 3800 1500
 $Comp
-L GND #PWR03
+L OpenHardwareHolterMonitor-rescue:GND #PWR03
 U 1 1 5A2C0348
 P 3950 1600
 F 0 "#PWR03" H 3950 1350 50  0001 C CNN
@@ -195,7 +157,7 @@ F 3 "" H 3950 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S8050 Q1
+L OpenHardwareHolterMonitor-rescue:S8050 Q1
 U 1 1 5A2C0790
 P 4800 4850
 F 0 "Q1" H 5000 4925 50  0000 L CNN
@@ -206,7 +168,7 @@ F 3 "" H 4800 4850 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S8050 Q2
+L OpenHardwareHolterMonitor-rescue:S8050 Q2
 U 1 1 5A2C0855
 P 4800 5600
 F 0 "Q2" H 5000 5675 50  0000 L CNN
@@ -217,7 +179,7 @@ F 3 "" H 4800 5600 50  0000 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R5
+L OpenHardwareHolterMonitor-rescue:R R5
 U 1 1 5A2C0A57
 P 4350 4850
 F 0 "R5" V 4430 4850 50  0000 C CNN
@@ -228,7 +190,7 @@ F 3 "" H 4350 4850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L OpenHardwareHolterMonitor-rescue:R R6
 U 1 1 5A2C0ACC
 P 4350 5600
 F 0 "R6" V 4430 5600 50  0000 C CNN
@@ -243,9 +205,9 @@ Wire Wire Line
 Wire Wire Line
 	4500 5600 4600 5600
 Wire Wire Line
-	3900 4850 4200 4850
+	3900 4850 4050 4850
 Wire Wire Line
-	3900 5600 4200 5600
+	3900 5600 4150 5600
 Wire Wire Line
 	4150 5600 4150 5150
 Wire Wire Line
@@ -279,7 +241,7 @@ EN
 Text Notes 4000 4600 0    30   ~ 0
 copied from esp32_core_board_v2 schematic
 $Comp
-L CONN_01X07 P1
+L OpenHardwareHolterMonitor-rescue:CONN_01X07 P1
 U 1 1 5A2C102E
 P 5300 6650
 F 0 "P1" H 5300 7050 50  0000 C CNN
@@ -323,10 +285,8 @@ Text Label 4000 2300 2    60   ~ 0
 RXD0
 Text Notes 4200 6550 0    60   ~ 0
 Figure out\nflow control
-Wire Wire Line
-	2100 3700 2100 3700
 $Comp
-L GND #PWR04
+L OpenHardwareHolterMonitor-rescue:GND #PWR04
 U 1 1 5A2C1EF3
 P 2100 3700
 F 0 "#PWR04" H 2100 3450 50  0001 C CNN
@@ -363,7 +323,7 @@ Wire Wire Line
 Wire Wire Line
 	900  1850 900  1600
 $Comp
-L +3V3 #PWR05
+L OpenHardwareHolterMonitor-rescue:+3V3 #PWR05
 U 1 1 5A2C223B
 P 900 1600
 F 0 "#PWR05" H 900 1450 50  0001 C CNN
@@ -374,7 +334,7 @@ F 3 "" H 900 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR06
+L OpenHardwareHolterMonitor-rescue:+3V3 #PWR06
 U 1 1 5A2C2DBB
 P 5350 2900
 F 0 "#PWR06" H 5350 2750 50  0001 C CNN
@@ -391,7 +351,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 2900 4600 2300
 $Comp
-L +3V3 #PWR07
+L OpenHardwareHolterMonitor-rescue:+3V3 #PWR07
 U 1 1 5A2C271C
 P 1500 4400
 F 0 "#PWR07" H 1500 4250 50  0001 C CNN
@@ -428,11 +388,11 @@ Wire Wire Line
 Wire Wire Line
 	5350 3100 6150 3100
 Wire Wire Line
-	5350 3200 6150 3200
+	5350 3200 5900 3200
 Wire Wire Line
 	5350 3200 5350 3250
 $Comp
-L GND #PWR08
+L OpenHardwareHolterMonitor-rescue:GND #PWR08
 U 1 1 5A4136E6
 P 5350 3250
 F 0 "#PWR08" H 5350 3000 50  0001 C CNN
@@ -443,7 +403,7 @@ F 3 "" H 5350 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 2900 5350 3100
+	5350 2900 5350 2950
 Wire Wire Line
 	5350 2950 5600 2950
 Wire Wire Line
@@ -463,7 +423,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1500 3950 1600
 $Comp
-L R R1
+L OpenHardwareHolterMonitor-rescue:R R1
 U 1 1 5A50E09F
 P 4350 2000
 F 0 "R1" V 4430 2000 50  0000 C CNN
@@ -474,7 +434,7 @@ F 3 "" H 4350 2000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L OpenHardwareHolterMonitor-rescue:R R2
 U 1 1 5A50E4C0
 P 4350 2700
 F 0 "R2" V 4430 2700 50  0000 C CNN
@@ -485,7 +445,7 @@ F 3 "" H 4350 2700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L OpenHardwareHolterMonitor-rescue:R R3
 U 1 1 5A50E54F
 P 4350 2800
 F 0 "R3" V 4430 2800 50  0000 C CNN
@@ -508,7 +468,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 2000 6150 2000
 $Comp
-L R R4
+L OpenHardwareHolterMonitor-rescue:R R4
 U 1 1 5A50EA46
 P 4350 2900
 F 0 "R4" V 4430 2900 50  0000 C CNN
@@ -533,14 +493,14 @@ F4 "Vbat1" I L 6200 4100 60
 F5 "Vbat2" I L 6200 4250 60 
 F6 "~Bat1charging~" I L 6200 4400 60 
 F7 "~Bat2Charging~" I L 6200 4550 60 
-F8 "FTDI_V_ISO" I L 6200 4700 60 
+F8 "FTDI_VIN" I L 6200 4700 50 
 $EndSheet
 Wire Wire Line
 	5700 3800 6200 3800
 Wire Wire Line
 	5700 3800 5700 3700
 $Comp
-L +3V3 #PWR09
+L OpenHardwareHolterMonitor-rescue:+3V3 #PWR09
 U 1 1 5AAE0E01
 P 5700 3700
 F 0 "#PWR09" H 5700 3550 50  0001 C CNN
@@ -555,7 +515,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3950 5700 4050
 $Comp
-L GND #PWR010
+L OpenHardwareHolterMonitor-rescue:GND #PWR010
 U 1 1 5AAE0F82
 P 5700 4050
 F 0 "#PWR010" H 5700 3800 50  0001 C CNN
@@ -586,7 +546,7 @@ Vbat1
 Text Label 7350 4800 0    60   ~ 0
 Enable_vbat_read
 $Comp
-L R R8
+L OpenHardwareHolterMonitor-rescue:R R8
 U 1 1 5AB66BDB
 P 8450 3950
 F 0 "R8" V 8530 3950 50  0000 C CNN
@@ -597,7 +557,7 @@ F 3 "" H 8450 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L OpenHardwareHolterMonitor-rescue:R R9
 U 1 1 5AB66C92
 P 8450 4400
 F 0 "R9" V 8530 4400 50  0000 C CNN
@@ -608,7 +568,7 @@ F 3 "" H 8450 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L OpenHardwareHolterMonitor-rescue:GND #PWR011
 U 1 1 5AB66E2D
 P 8450 5200
 F 0 "#PWR011" H 8450 4950 50  0001 C CNN
@@ -621,20 +581,20 @@ $EndComp
 Wire Wire Line
 	8450 4550 8450 4600
 Wire Wire Line
-	8450 4100 8450 4250
+	8450 4100 8450 4200
 Wire Wire Line
 	8450 4200 7350 4200
 Connection ~ 8450 4200
 Text Label 7350 4200 0    60   ~ 0
 read_bat_1
 Wire Wire Line
-	7350 4800 8150 4800
+	7350 4800 7900 4800
 Wire Wire Line
 	7350 3750 8450 3750
 Wire Wire Line
 	8450 3750 8450 3800
 $Comp
-L Q_NMOS_DGS Q3
+L OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS Q3
 U 1 1 5AB6876E
 P 8350 4800
 F 0 "Q3" H 8550 4850 50  0000 L CNN
@@ -645,13 +605,13 @@ F 3 "" H 8350 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 5000 8450 5200
+	8450 5000 8450 5150
 Text Label 9100 3750 0    60   ~ 0
 Vbat2
 Text Label 9100 4800 0    60   ~ 0
 Enable_vbat_read
 $Comp
-L R R11
+L OpenHardwareHolterMonitor-rescue:R R11
 U 1 1 5AB6D16E
 P 10200 3950
 F 0 "R11" V 10280 3950 50  0000 C CNN
@@ -662,7 +622,7 @@ F 3 "" H 10200 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L OpenHardwareHolterMonitor-rescue:R R12
 U 1 1 5AB6D174
 P 10200 4400
 F 0 "R12" V 10280 4400 50  0000 C CNN
@@ -673,7 +633,7 @@ F 3 "" H 10200 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L OpenHardwareHolterMonitor-rescue:GND #PWR012
 U 1 1 5AB6D17A
 P 10200 5200
 F 0 "#PWR012" H 10200 4950 50  0001 C CNN
@@ -686,20 +646,20 @@ $EndComp
 Wire Wire Line
 	10200 4550 10200 4600
 Wire Wire Line
-	10200 4100 10200 4250
+	10200 4100 10200 4200
 Wire Wire Line
 	10200 4200 9100 4200
 Connection ~ 10200 4200
 Text Label 9100 4200 0    60   ~ 0
 read_bat_2
 Wire Wire Line
-	9100 4800 9900 4800
+	9100 4800 9650 4800
 Wire Wire Line
 	9100 3750 10200 3750
 Wire Wire Line
 	10200 3750 10200 3800
 $Comp
-L Q_NMOS_DGS Q4
+L OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS Q4
 U 1 1 5AB6D189
 P 10100 4800
 F 0 "Q4" H 10300 4850 50  0000 L CNN
@@ -710,9 +670,9 @@ F 3 "" H 10100 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10200 5000 10200 5200
+	10200 5000 10200 5150
 $Comp
-L R R10
+L OpenHardwareHolterMonitor-rescue:R R10
 U 1 1 5AB6D672
 P 9650 5000
 F 0 "R10" V 9730 5000 50  0000 C CNN
@@ -726,7 +686,7 @@ Wire Wire Line
 	9650 5150 10200 5150
 Connection ~ 10200 5150
 $Comp
-L R R7
+L OpenHardwareHolterMonitor-rescue:R R7
 U 1 1 5AB6DED9
 P 7900 5000
 F 0 "R7" V 7980 5000 50  0000 C CNN
@@ -766,7 +726,7 @@ RTC_P
 Text Label 1000 2700 0    60   ~ 0
 RTC_N
 $Comp
-L Crystal Y1
+L OpenHardwareHolterMonitor-rescue:Crystal Y1
 U 1 1 5AB80CB4
 P 8250 2300
 F 0 "Y1" H 8250 2450 50  0000 C CNN
@@ -781,7 +741,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 2300 8550 2300
 $Comp
-L C C1
+L OpenHardwareHolterMonitor-rescue:C C1
 U 1 1 5AB811F5
 P 7950 2750
 F 0 "C1" H 7975 2850 50  0000 L CNN
@@ -792,7 +752,7 @@ F 3 "" H 7950 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L OpenHardwareHolterMonitor-rescue:C C2
 U 1 1 5AB81307
 P 8550 2750
 F 0 "C2" H 8575 2850 50  0000 L CNN
@@ -803,9 +763,9 @@ F 3 "" H 8550 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 2000 7950 2600
+	7950 2000 7950 2300
 Wire Wire Line
-	8550 2000 8550 2600
+	8550 2000 8550 2300
 Connection ~ 7950 2300
 Connection ~ 8550 2300
 Wire Wire Line
@@ -813,7 +773,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 2900 8550 3000
 $Comp
-L GND #PWR013
+L OpenHardwareHolterMonitor-rescue:GND #PWR013
 U 1 1 5AB819C3
 P 7950 3000
 F 0 "#PWR013" H 7950 2750 50  0001 C CNN
@@ -824,7 +784,7 @@ F 3 "" H 7950 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L OpenHardwareHolterMonitor-rescue:GND #PWR014
 U 1 1 5AB81ABB
 P 8550 3000
 F 0 "#PWR014" H 8550 2750 50  0001 C CNN
@@ -911,7 +871,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 2100 9600 2150
 $Comp
-L GND #PWR015
+L OpenHardwareHolterMonitor-rescue:GND #PWR015
 U 1 1 5AB8DBEB
 P 9600 2150
 F 0 "#PWR015" H 9600 1900 50  0001 C CNN
@@ -928,7 +888,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 2050 9600 1850
 $Comp
-L +3V3 #PWR016
+L OpenHardwareHolterMonitor-rescue:+3V3 #PWR016
 U 1 1 5AB8E0DB
 P 9600 1850
 F 0 "#PWR016" H 9600 1700 50  0001 C CNN
@@ -939,22 +899,9 @@ F 3 "" H 9600 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 4700 6150 4700
-Wire Wire Line
-	5850 4700 5500 4700
-Text Label 5500 4700 0    60   ~ 0
+	6200 4700 5850 4700
+Text Label 5850 4700 0    60   ~ 0
 FTDI_V
-$Comp
-L D_Schottky D1
-U 1 1 5AB94F8B
-P 6000 4700
-F 0 "D1" H 6000 4800 50  0000 C CNN
-F 1 "D_Schottky" H 6000 4600 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 6000 4700 50  0001 C CNN
-F 3 "" H 6000 4700 50  0000 C CNN
-	1    6000 4700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5100 6350 4800 6350
 Text Label 4800 6350 0    60   ~ 0
@@ -978,7 +925,7 @@ Wire Wire Line
 Text Label 9900 2600 0    60   ~ 0
 IO13
 $Comp
-L Conn_01x14 J1
+L OpenHardwareHolterMonitor-rescue:Conn_01x14 J1
 U 1 1 5B164661
 P 10400 2700
 F 0 "J1" H 10400 3400 50  0000 C CNN
@@ -995,4 +942,30 @@ IO2
 NoConn ~ 4800 6750
 Text Notes 4400 7100 0    60   ~ 0
 TODO - Custom FTDI?
+Wire Wire Line
+	1650 6550 1900 6550
+Wire Wire Line
+	4150 5600 4200 5600
+Wire Wire Line
+	4050 4850 4200 4850
+Wire Wire Line
+	5350 2950 5350 3100
+Wire Wire Line
+	5900 3200 6150 3200
+Wire Wire Line
+	8450 4200 8450 4250
+Wire Wire Line
+	10200 4200 10200 4250
+Wire Wire Line
+	10200 5150 10200 5200
+Wire Wire Line
+	8450 5150 8450 5200
+Wire Wire Line
+	7900 4800 8150 4800
+Wire Wire Line
+	9650 4800 9900 4800
+Wire Wire Line
+	7950 2300 7950 2600
+Wire Wire Line
+	8550 2300 8550 2600
 $EndSCHEMATC

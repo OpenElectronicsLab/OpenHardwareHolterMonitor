@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name OpenHardwareHolterMonitor-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenHardwareHolterMonitor-rescue.lib)(options "")(descr ""))
+  (lib (name esp32)(type Legacy)(uri ${KIPRJMOD}/esp32.lib)(options "")(descr ""))
+  (lib (name ads1299)(type Legacy)(uri ${KIPRJMOD}/ads1299.lib)(options "")(descr ""))
+  (lib (name ads1298)(type Legacy)(uri ${KIPRJMOD}/ads1298.lib)(options "")(descr ""))
+  (lib (name mcp73833)(type Legacy)(uri ${KIPRJMOD}/mcp73833.lib)(options "")(descr ""))
+  (lib (name lp5912)(type Legacy)(uri ${KIPRJMOD}/lp5912.lib)(options "")(descr ""))
+  (lib (name rem_3-xxxxs)(type Legacy)(uri ${KIPRJMOD}/rem_3-xxxxs.lib)(options "")(descr ""))
+  (lib (name tps2113a)(type Legacy)(uri ${KIPRJMOD}/tps2113a.lib)(options "")(descr ""))
+)
