@@ -48,8 +48,6 @@ F 3 "" H 1600 4000 50  0000 C CNN
 	1    1600 4000
 	-1   0    0    1   
 $EndComp
-Text Label 1150 4400 0    60   ~ 0
-GND_ISO
 Text Label 4900 4000 2    60   ~ 0
 Vbat1
 Text HLabel 4350 650  0    60   Input ~ 0
@@ -90,8 +88,6 @@ F 3 "" V 4650 4310 50  0000 C CNN
 	1    4650 4250
 	1    0    0    -1  
 $EndComp
-Text Label 4650 4500 0    60   ~ 0
-GND_ISO
 $Comp
 L OpenHardwareHolterMonitor-rescue:D_Schottky D7
 U 1 1 5A6D7930
@@ -116,18 +112,12 @@ F 3 "" H 8850 4100 60  0001 C CNN
 	1    8850 4100
 	-1   0    0    -1  
 $EndComp
-Text Label 6800 4000 0    60   ~ 0
+Text Label 6600 4100 0    60   ~ 0
 REGULATOR_IN
 Text Label 6450 4000 2    60   ~ 0
 REGULATOR_IN
-Text Label 6800 4100 0    60   ~ 0
-GND_ISO
 Text Label 10700 4000 2    60   ~ 0
 3v3
-Text Label 9850 4100 2    60   ~ 0
-GND_ISO
-Text Label 8850 4650 2    60   ~ 0
-GND_ISO
 $Comp
 L OpenHardwareHolterMonitor-rescue:TEST TP2
 U 1 1 5A7EF644
@@ -167,8 +157,6 @@ F 3 "" H 4000 4650 50  0000 C CNN
 	1    4000 4650
 	1    0    0    -1  
 $EndComp
-Text Label 4400 5200 0    60   ~ 0
-GND_ISO
 $Comp
 L OpenHardwareHolterMonitor-rescue:R R32
 U 1 1 5A7F2979
@@ -208,32 +196,32 @@ F 3 "" H 4850 4850 50  0001 C CNN
 	1    4850 4800
 	0    -1   -1   0   
 $EndComp
-Text Notes 4000 5400 0    30   ~ 0
+Text Notes 4000 5450 0    30   ~ 0
 MCP Datasheet typical: approx 5C-40C\nWith series resistor of 276 Ohm and parallel resistor of 149751 Ohm\n would give range of approx: 0C-45C
 $Comp
 L OpenHardwareHolterMonitor-rescue:C C40
 U 1 1 5AAD2225
-P 8150 4450
+P 7900 4300
 AR Path="/5AAD2225" Ref="C40"  Part="1" 
 AR Path="/5A6D4EDD/5AAD2225" Ref="C40"  Part="1" 
-F 0 "C40" H 8175 4550 50  0000 L CNN
-F 1 "10uF" H 8175 4350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8188 4300 50  0001 C CNN
-F 3 "" H 8150 4450 50  0000 C CNN
-	1    8150 4450
+F 0 "C40" H 7925 4400 50  0000 L CNN
+F 1 "10uF" H 7925 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7938 4150 50  0001 C CNN
+F 3 "" H 7900 4300 50  0000 C CNN
+	1    7900 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenHardwareHolterMonitor-rescue:C C42
 U 1 1 5AAD236E
-P 10400 4450
+P 10400 4250
 AR Path="/5AAD236E" Ref="C42"  Part="1" 
 AR Path="/5A6D4EDD/5AAD236E" Ref="C42"  Part="1" 
-F 0 "C42" H 10425 4550 50  0000 L CNN
-F 1 "10uF" H 10425 4350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10438 4300 50  0001 C CNN
-F 3 "" H 10400 4450 50  0000 C CNN
-	1    10400 4450
+F 0 "C42" H 10425 4350 50  0000 L CNN
+F 1 "10uF" H 10425 4150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10438 4100 50  0001 C CNN
+F 3 "" H 10400 4250 50  0000 C CNN
+	1    10400 4250
 	1    0    0    -1  
 $EndComp
 Text Notes 9100 4600 0    30   ~ 0
@@ -264,8 +252,6 @@ F 3 "" H 1550 6100 50  0000 C CNN
 	1    1550 6100
 	-1   0    0    1   
 $EndComp
-Text Label 1100 6500 0    60   ~ 0
-GND_ISO
 Text Label 4850 6100 2    60   ~ 0
 Vbat2
 Text Label 1100 6300 0    60   ~ 0
@@ -298,8 +284,6 @@ F 3 "" V 4600 6410 50  0000 C CNN
 	1    4600 6350
 	1    0    0    -1  
 $EndComp
-Text Label 4600 6600 0    60   ~ 0
-GND_ISO
 $Comp
 L OpenHardwareHolterMonitor-rescue:D_Schottky D6
 U 1 1 5AAD2FCB
@@ -354,8 +338,6 @@ F 3 "" H 3950 6750 50  0000 C CNN
 	1    3950 6750
 	1    0    0    -1  
 $EndComp
-Text Label 4350 7300 0    60   ~ 0
-GND_ISO
 $Comp
 L OpenHardwareHolterMonitor-rescue:R R31
 U 1 1 5AAD2FF3
@@ -395,12 +377,12 @@ F 3 "" H 4800 6950 50  0001 C CNN
 	1    4800 6900
 	0    -1   -1   0   
 $EndComp
-Text Notes 3950 7500 0    30   ~ 0
+Text Notes 3950 7550 0    30   ~ 0
 MCP Datasheet typical: approx 5C-40C\nWith series resistor of 276 Ohm and parallel resistor of 149751 Ohm\n would give range of approx: 0C-45C
 Text Label 5000 800  2    60   ~ 0
 Bat2_Stat1
 Text Label 1550 800  2    60   ~ 0
-GND_ISO
+GND
 Text Label 3350 650  2    60   ~ 0
 Vbat1
 Text Label 3350 800  2    60   ~ 0
@@ -504,7 +486,7 @@ AR Path="/5AAD82B3" Ref="FL1"  Part="1"
 AR Path="/5A6D4EDD/5AAD82B3" Ref="FL1"  Part="1" 
 F 0 "FL1" H 7800 2975 50  0000 C CNN
 F 1 "131uH" H 7800 2625 50  0000 C CNN
-F 2 "" V 7800 2840 50  0001 C CNN
+F 2 "CMS1:CMS1" V 7800 2840 50  0001 C CNN
 F 3 "" V 7800 2840 50  0000 C CNN
 	1    7800 2800
 	1    0    0    -1  
@@ -559,7 +541,7 @@ Text Notes 2300 1400 0    30   ~ 0
 Text Label 10750 2750 2    60   ~ 0
 V_ISO
 Text Label 10750 2650 2    60   ~ 0
-GND_ISO
+GND
 Text HLabel 5800 650  0    60   Input ~ 0
 FTDI_VIN
 $Comp
@@ -613,7 +595,7 @@ AR Path="/5AD33DB1" Ref="J12"  Part="1"
 AR Path="/5A6D4EDD/5AD33DB1" Ref="J12"  Part="1" 
 F 0 "J12" H 1600 1950 50  0000 L CNN
 F 1 "USB_OTG" H 1600 1850 50  0000 L CNN
-F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521_CircularHoles" H 1950 1450 50  0001 C CNN
+F 2 "PlasticsOne:PlasticsOne_41828" H 1950 1450 50  0001 C CNN
 F 3 "" H 1950 1450 50  0001 C CNN
 	1    1800 1500
 	-1   0    0    -1  
@@ -907,8 +889,6 @@ Wire Wire Line
 	2050 4100 2200 4100
 Connection ~ 2050 4000
 Wire Wire Line
-	2200 4400 1150 4400
-Wire Wire Line
 	3800 4000 4000 4000
 Wire Wire Line
 	3800 4100 4000 4100
@@ -929,26 +909,20 @@ Wire Wire Line
 Wire Wire Line
 	4650 4000 4650 4050
 Wire Wire Line
-	4650 4350 4650 4500
+	4650 4350 4650 4400
 Connection ~ 4650 4000
-Wire Wire Line
-	8000 4000 8050 4000
 Wire Wire Line
 	5500 4000 6450 4000
 Wire Wire Line
-	8250 4100 6800 4100
-Wire Wire Line
 	9450 4000 10400 4000
-Wire Wire Line
-	9450 4100 9850 4100
 Wire Wire Line
 	8850 4500 8850 4650
 Wire Wire Line
-	2200 4300 2100 4300
+	2200 4300 2050 4300
 Wire Wire Line
-	2100 4300 2100 4800
+	2050 4300 2050 4800
 Wire Wire Line
-	2100 4800 950  4800
+	2050 4800 950  4800
 Wire Wire Line
 	950  4800 950  4750
 Wire Wire Line
@@ -986,17 +960,10 @@ Wire Wire Line
 	5100 5050 4400 5050
 Connection ~ 4400 5050
 Wire Wire Line
-	8150 4300 8150 4000
-Connection ~ 8150 4000
-Wire Wire Line
-	8150 4600 8150 4650
-Wire Wire Line
-	8150 4650 8850 4650
-Wire Wire Line
-	10400 4300 10400 4000
+	10400 4100 10400 4000
 Connection ~ 10400 4000
 Wire Wire Line
-	10400 4650 10400 4600
+	10400 4650 10400 4400
 Connection ~ 8850 4650
 Wire Wire Line
 	1700 6100 1850 6100
@@ -1007,8 +974,6 @@ Wire Wire Line
 Wire Wire Line
 	2000 6200 2150 6200
 Connection ~ 2000 6100
-Wire Wire Line
-	2150 6500 1100 6500
 Wire Wire Line
 	3750 6100 3950 6100
 Wire Wire Line
@@ -1026,16 +991,16 @@ Wire Wire Line
 Wire Wire Line
 	4600 6100 4600 6150
 Wire Wire Line
-	4600 6450 4600 6600
+	4600 6450 4600 6500
 Connection ~ 4600 6100
 Wire Wire Line
 	5450 6100 6400 6100
 Wire Wire Line
-	2150 6400 2050 6400
+	2150 6400 2000 6400
 Wire Wire Line
-	2050 6400 2050 6900
+	2000 6400 2000 6900
 Wire Wire Line
-	2050 6900 900  6900
+	2000 6900 900  6900
 Wire Wire Line
 	900  6900 900  6850
 Wire Wire Line
@@ -1151,8 +1116,6 @@ Wire Wire Line
 	10250 2750 10750 2750
 Wire Wire Line
 	10250 2650 10750 2650
-Wire Wire Line
-	6800 4000 7500 4000
 Wire Wire Line
 	6300 650  7100 650 
 Wire Wire Line
@@ -1272,11 +1235,6 @@ Wire Wire Line
 	8050 3900 8050 4000
 Connection ~ 8050 4000
 Wire Wire Line
-	7500 4000 7500 4200
-Wire Wire Line
-	7500 4200 8250 4200
-Connection ~ 7500 4000
-Wire Wire Line
 	1900 3900 1900 4000
 Connection ~ 1900 4000
 $Comp
@@ -1370,15 +1328,13 @@ Wire Wire Line
 Wire Wire Line
 	4400 4200 4550 4200
 Wire Wire Line
-	4400 5050 4400 5200
+	4400 5050 4400 5100
 Wire Wire Line
 	4400 5050 4000 5050
 Wire Wire Line
-	8150 4000 8250 4000
-Wire Wire Line
 	10400 4000 10700 4000
 Wire Wire Line
-	8850 4650 10400 4650
+	8850 4650 9550 4650
 Wire Wire Line
 	2000 6100 2150 6100
 Wire Wire Line
@@ -1390,7 +1346,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 6300 4500 6300
 Wire Wire Line
-	4350 7150 4350 7300
+	4350 7150 4350 7200
 Wire Wire Line
 	4350 7150 3950 7150
 Wire Wire Line
@@ -1454,10 +1410,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 3150 8100 3450
 Wire Wire Line
-	8050 4000 8150 4000
-Wire Wire Line
-	7500 4000 7600 4000
-Wire Wire Line
 	1900 4000 2050 4000
 Wire Wire Line
 	1850 6100 2000 6100
@@ -1498,17 +1450,6 @@ Wire Wire Line
 	8900 3500 9450 3500
 Text Label 8900 3500 0    50   ~ 0
 V_ISO
-$Comp
-L Switch:SW_SPST SW1
-U 1 1 5B21EA3A
-P 7800 4000
-F 0 "SW1" H 7800 4235 50  0000 C CNN
-F 1 "SW_SPST" H 7800 4144 50  0000 C CNN
-F 2 "" H 7800 4000 50  0001 C CNN
-F 3 "" H 7800 4000 50  0001 C CNN
-	1    7800 4000
-	1    0    0    -1  
-$EndComp
 Text Label 7100 650  2    60   ~ 0
 REGULATOR_IN
 $Comp
@@ -1540,10 +1481,148 @@ Wire Wire Line
 Wire Wire Line
 	8500 2850 8550 2850
 Connection ~ 8500 2750
-Text Notes 7600 3950 0    30   ~ 0
-ALPS SSSS810701
+Text Notes 7450 4150 0    30   ~ 0
+ALPS SSSS811101
 Text Notes 4650 6450 0    30   ~ 0
 Keystone  Electronics 1043
 Text Notes 4700 4350 0    30   ~ 0
 Keystone  Electronics 1043
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5B269F35
+P 7450 4100
+F 0 "SW1" H 7450 4385 50  0000 C CNN
+F 1 "SW_SPDT" H 7450 4294 50  0000 C CNN
+F 2 "Alps:ALPS_SSSS810701" H 7450 4100 50  0001 C CNN
+F 3 "" H 7450 4100 50  0001 C CNN
+	1    7450 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4100 7250 4100
+NoConn ~ 7650 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5B41E505
+P 10700 4850
+F 0 "#PWR?" H 10700 4600 50  0001 C CNN
+F 1 "GND" H 10705 4677 50  0000 C CNN
+F 2 "" H 10700 4850 50  0001 C CNN
+F 3 "" H 10700 4850 50  0001 C CNN
+	1    10700 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 4650 10700 4850
+Wire Wire Line
+	8050 4000 8150 4000
+Wire Wire Line
+	8250 4100 8200 4100
+Wire Wire Line
+	8200 4100 8200 4650
+Connection ~ 8200 4650
+Wire Wire Line
+	8200 4650 8850 4650
+Wire Wire Line
+	7650 4000 7900 4000
+Wire Wire Line
+	8250 4200 8150 4200
+Wire Wire Line
+	8150 4200 8150 4000
+Connection ~ 8150 4000
+Wire Wire Line
+	8150 4000 8250 4000
+Wire Wire Line
+	7900 4000 7900 4150
+Connection ~ 7900 4000
+Wire Wire Line
+	7900 4000 8050 4000
+Wire Wire Line
+	7900 4450 7900 4650
+Wire Wire Line
+	9450 4100 9550 4100
+Wire Wire Line
+	9550 4100 9550 4650
+Connection ~ 9550 4650
+Wire Wire Line
+	9550 4650 10400 4650
+Wire Wire Line
+	10400 4650 10700 4650
+Connection ~ 10400 4650
+Wire Wire Line
+	7900 4650 8200 4650
+$Comp
+L power:GND #PWR?
+U 1 1 5B61EC7F
+P 4650 4400
+F 0 "#PWR?" H 4650 4150 50  0001 C CNN
+F 1 "GND" H 4655 4227 50  0000 C CNN
+F 2 "" H 4650 4400 50  0001 C CNN
+F 3 "" H 4650 4400 50  0001 C CNN
+	1    4650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B62E702
+P 4400 5100
+F 0 "#PWR?" H 4400 4850 50  0001 C CNN
+F 1 "GND" H 4405 4927 50  0000 C CNN
+F 2 "" H 4400 5100 50  0001 C CNN
+F 3 "" H 4400 5100 50  0001 C CNN
+	1    4400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B64DDF2
+P 4350 7200
+F 0 "#PWR?" H 4350 6950 50  0001 C CNN
+F 1 "GND" H 4355 7027 50  0000 C CNN
+F 2 "" H 4350 7200 50  0001 C CNN
+F 3 "" H 4350 7200 50  0001 C CNN
+	1    4350 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6500 2100 6500
+Wire Wire Line
+	2100 6500 2100 6600
+$Comp
+L power:GND #PWR?
+U 1 1 5B68C8D1
+P 2100 6600
+F 0 "#PWR?" H 2100 6350 50  0001 C CNN
+F 1 "GND" H 2105 6427 50  0000 C CNN
+F 2 "" H 2100 6600 50  0001 C CNN
+F 3 "" H 2100 6600 50  0001 C CNN
+	1    2100 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4400 2150 4400
+Wire Wire Line
+	2150 4400 2150 4500
+$Comp
+L power:GND #PWR?
+U 1 1 5B6EB6A1
+P 2150 4500
+F 0 "#PWR?" H 2150 4250 50  0001 C CNN
+F 1 "GND" H 2155 4327 50  0000 C CNN
+F 2 "" H 2150 4500 50  0001 C CNN
+F 3 "" H 2150 4500 50  0001 C CNN
+	1    2150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B6FB9BD
+P 4600 6500
+F 0 "#PWR?" H 4600 6250 50  0001 C CNN
+F 1 "GND" H 4605 6327 50  0000 C CNN
+F 2 "" H 4600 6500 50  0001 C CNN
+F 3 "" H 4600 6500 50  0001 C CNN
+	1    4600 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
