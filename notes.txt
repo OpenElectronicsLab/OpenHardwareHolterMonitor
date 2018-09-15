@@ -149,3 +149,7 @@ NameError: name 'ln' is not defined
 40.58363861408782
 
 
+TODO, CHANGES:
+* Medical Instrument Design and Development on page 265
+suggests switching to sheilded leads for EMI
+ (can we use filtering instead?)
