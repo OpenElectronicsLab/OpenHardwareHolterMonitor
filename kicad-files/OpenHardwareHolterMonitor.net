@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/eric/src/OpenHardwareHolterMonitor/kicad-files/OpenHardwareHolterMonitor.sch)
-    (date "Sat 15 Sep 2018 02:52:51 PM CEST")
+    (date "Sat 15 Sep 2018 05:38:58 PM CEST")
     (tool "Eeschema (5.0.0-rc2-108-g8444b1b61)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -531,7 +531,7 @@
       (tstamp 5A6D71A9))
     (comp (ref BT2)
       (value Battery_Cell)
-      (footprint Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled)
+      (footprint keystone1043:Keystone1043)
       (libsource (lib OpenHardwareHolterMonitor-rescue) (part Battery_Cell) (description ""))
       (sheetpath (names /power/) (tstamps /5A6D4EDD/))
       (tstamp 5A6D74AC))
@@ -615,7 +615,7 @@
       (tstamp 5AAD2FAD))
     (comp (ref BT1)
       (value Battery_Cell)
-      (footprint Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled)
+      (footprint keystone1043:Keystone1043)
       (libsource (lib OpenHardwareHolterMonitor-rescue) (part Battery_Cell) (description ""))
       (sheetpath (names /power/) (tstamps /5A6D4EDD/))
       (tstamp 5AAD2FC2))

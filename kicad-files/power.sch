@@ -83,7 +83,7 @@ AR Path="/5A6D74AC" Ref="BT2"  Part="1"
 AR Path="/5A6D4EDD/5A6D74AC" Ref="BT2"  Part="1" 
 F 0 "BT2" H 4750 4350 50  0000 L CNN
 F 1 "Battery_Cell" H 4750 4250 50  0000 L CNN
-F 2 "Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" V 4650 4310 50  0001 C CNN
+F 2 "keystone1043:Keystone1043" V 4650 4310 50  0001 C CNN
 F 3 "" V 4650 4310 50  0000 C CNN
 	1    4650 4250
 	1    0    0    -1  
@@ -279,7 +279,7 @@ AR Path="/5AAD2FC2" Ref="BT1"  Part="1"
 AR Path="/5A6D4EDD/5AAD2FC2" Ref="BT1"  Part="1" 
 F 0 "BT1" H 4700 6450 50  0000 L CNN
 F 1 "Battery_Cell" H 4700 6350 50  0000 L CNN
-F 2 "Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" V 4600 6410 50  0001 C CNN
+F 2 "keystone1043:Keystone1043" V 4600 6410 50  0001 C CNN
 F 3 "" V 4600 6410 50  0000 C CNN
 	1    4600 6350
 	1    0    0    -1  
