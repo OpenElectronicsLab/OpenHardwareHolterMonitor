@@ -595,7 +595,7 @@ AR Path="/5AD33DB1" Ref="J12"  Part="1"
 AR Path="/5A6D4EDD/5AD33DB1" Ref="J12"  Part="1" 
 F 0 "J12" H 1600 1950 50  0000 L CNN
 F 1 "USB_OTG" H 1600 1850 50  0000 L CNN
-F 2 "PlasticsOne:PlasticsOne_41828" H 1950 1450 50  0001 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521_CircularHoles" H 1950 1450 50  0001 C CNN
 F 3 "" H 1950 1450 50  0001 C CNN
 	1    1800 1500
 	-1   0    0    -1  
