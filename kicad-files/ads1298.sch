@@ -361,8 +361,8 @@ AGND
 NoConn ~ 5700 4950
 Text Label 7000 5050 2    60   ~ 0
 AGND
-Text Label 7000 5400 2    60   ~ 0
-RLDOUT
+Text Label 7150 5400 2    60   ~ 0
+RLDOUT_FILT
 $Comp
 L OpenHardwareHolterMonitor-rescue:R R15
 U 1 1 5A438827
@@ -753,13 +753,9 @@ Wire Wire Line
 Connection ~ 6500 2100
 Wire Wire Line
 	5900 2550 5900 2400
-Wire Wire Line
-	5650 2400 5900 2400
 Connection ~ 6500 2400
 Wire Wire Line
 	5800 2000 5650 2000
-Wire Wire Line
-	5650 2000 5650 2400
 Wire Wire Line
 	5600 2550 5650 2550
 Connection ~ 5650 2550
@@ -876,8 +872,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 6050 5100 6050
 Connection ~ 6700 2100
-Connection ~ 5650 2400
-Connection ~ 5900 2400
 Wire Wire Line
 	5800 1500 5800 1800
 Connection ~ 4700 5500
@@ -1325,8 +1319,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 2100 7000 2100
 Wire Wire Line
-	5650 2400 5650 2550
-Wire Wire Line
 	5900 2400 6000 2400
 Wire Wire Line
 	4700 5500 4700 5650
@@ -1368,4 +1360,11 @@ Wire Wire Line
 	9800 600  9900 600 
 Wire Wire Line
 	7500 3100 7500 3300
+Wire Wire Line
+	5650 2000 5650 2550
+Wire Wire Line
+	5800 1500 6150 1500
+Connection ~ 5800 1500
+Text Label 6150 1500 2    50   ~ 0
+AVDD
 $EndSCHEMATC

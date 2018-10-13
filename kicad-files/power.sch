@@ -126,7 +126,7 @@ AR Path="/5A7EF644" Ref="TP2"  Part="1"
 AR Path="/5A6D4EDD/5A7EF644" Ref="TP2"  Part="1" 
 F 0 "TP2" H 950 5050 50  0000 C BNN
 F 1 "TEST" H 950 5000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 950 4750 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 950 4750 50  0001 C CNN
 F 3 "" H 950 4750 50  0000 C CNN
 	1    950  4750
 	1    0    0    -1  
@@ -139,7 +139,7 @@ AR Path="/5A7EF8B4" Ref="TP4"  Part="1"
 AR Path="/5A6D4EDD/5A7EF8B4" Ref="TP4"  Part="1" 
 F 0 "TP4" H 4300 5050 50  0000 C BNN
 F 1 "TEST" H 4300 5000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 4300 4750 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4300 4750 50  0001 C CNN
 F 3 "" H 4300 4750 50  0000 C CNN
 	1    4300 4750
 	1    0    0    -1  
@@ -307,7 +307,7 @@ AR Path="/5AAD2FD6" Ref="TP1"  Part="1"
 AR Path="/5A6D4EDD/5AAD2FD6" Ref="TP1"  Part="1" 
 F 0 "TP1" H 900 7150 50  0000 C BNN
 F 1 "TEST" H 900 7100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 900 6850 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 900 6850 50  0001 C CNN
 F 3 "" H 900 6850 50  0000 C CNN
 	1    900  6850
 	1    0    0    -1  
@@ -320,7 +320,7 @@ AR Path="/5AAD2FE2" Ref="TP3"  Part="1"
 AR Path="/5A6D4EDD/5AAD2FE2" Ref="TP3"  Part="1" 
 F 0 "TP3" H 4250 7150 50  0000 C BNN
 F 1 "TEST" H 4250 7100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 4250 6850 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4250 6850 50  0001 C CNN
 F 3 "" H 4250 6850 50  0000 C CNN
 	1    4250 6850
 	1    0    0    -1  
