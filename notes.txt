@@ -1,3 +1,12 @@
+TODO:
+* Power vias near ADS129x are only temporary, still need capacitor placement
+* sort out digital/analogue ground pins on ADS (funky corner)
+* star grounding
+* no ground plane under electrodes - 8mm isolation
+
+
+
+--------------------------------------------
 esp32	20mA
  +WiFi	90-260mA
 ads1298	5mA
