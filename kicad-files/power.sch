@@ -25,13 +25,13 @@ F 3 "" H 3000 4200 60  0001 C CNN
 	1    3000 4200
 	1    0    0    -1  
 $EndComp
-Text HLabel 1050 650  0    60   Input ~ 0
+Text HLabel 10650 650  0    60   Input ~ 0
 Vout_3v3
-Text HLabel 1050 800  0    60   Input ~ 0
+Text HLabel 10650 800  0    60   Input ~ 0
 Vgnd
-Text HLabel 2850 650  0    60   Input ~ 0
+Text HLabel 10650 1350 0    60   Input ~ 0
 Vbat1
-Text HLabel 2850 800  0    60   Input ~ 0
+Text HLabel 10650 1500 0    60   Input ~ 0
 Vbat2
 Text Label 1150 4000 0    60   ~ 0
 V_ISO
@@ -50,11 +50,11 @@ F 3 "" H 1600 4000 50  0000 C CNN
 $EndComp
 Text Label 4900 4000 2    60   ~ 0
 Vbat1
-Text HLabel 4350 650  0    60   Input ~ 0
+Text HLabel 10500 1000 0    60   Input ~ 0
 ~Bat1charging~
-Text HLabel 4350 800  0    60   Input ~ 0
+Text HLabel 10500 1150 0    60   Input ~ 0
 ~Bat2Charging~
-Text Label 5000 650  2    60   ~ 0
+Text Label 11150 1000 2    60   ~ 0
 Bat1_Stat1
 Text Label 1150 4200 0    60   ~ 0
 Bat1_Stat1
@@ -73,7 +73,7 @@ F 3 "" H 1900 4250 50  0000 C CNN
 $EndComp
 Text Label 850  4250 0    60   ~ 0
 3v3
-Text Label 1550 650  2    60   ~ 0
+Text Label 11150 650  2    60   ~ 0
 3v3
 $Comp
 L OpenHardwareHolterMonitor-rescue:Battery_Cell BT2
@@ -379,13 +379,13 @@ F 3 "" H 4800 6950 50  0001 C CNN
 $EndComp
 Text Notes 3950 7550 0    30   ~ 0
 MCP Datasheet typical: approx 5C-40C\nWith series resistor of 276 Ohm and parallel resistor of 149751 Ohm\n would give range of approx: 0C-45C
-Text Label 5000 800  2    60   ~ 0
+Text Label 11150 1150 2    60   ~ 0
 Bat2_Stat1
-Text Label 1550 800  2    60   ~ 0
+Text Label 11150 800  2    60   ~ 0
 GND
-Text Label 3350 650  2    60   ~ 0
+Text Label 11150 1350 2    60   ~ 0
 Vbat1
-Text Label 3350 800  2    60   ~ 0
+Text Label 11150 1500 2    60   ~ 0
 Vbat2
 $Comp
 L OpenHardwareHolterMonitor-rescue:GNDPWR #PWR017
@@ -542,50 +542,50 @@ Text Label 10750 2750 2    60   ~ 0
 V_ISO
 Text Label 10750 2650 2    60   ~ 0
 GND
-Text HLabel 5800 650  0    60   Input ~ 0
+Text HLabel 9900 1800 0    60   Input ~ 0
 FTDI_VIN
 $Comp
 L OpenHardwareHolterMonitor-rescue:LED D9
 U 1 1 5AB70007
-P 10450 800
+P 7450 5400
 AR Path="/5AB70007" Ref="D9"  Part="1" 
 AR Path="/5A6D4EDD/5AB70007" Ref="D9"  Part="1" 
-F 0 "D9" H 10450 900 50  0000 C CNN
-F 1 "LED" H 10450 700 50  0000 C CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 10450 800 50  0001 C CNN
-F 3 "" H 10450 800 50  0000 C CNN
-	1    10450 800 
+F 0 "D9" H 7450 5500 50  0000 C CNN
+F 1 "LED" H 7450 5300 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 7450 5400 50  0001 C CNN
+F 3 "" H 7450 5400 50  0000 C CNN
+	1    7450 5400
 	-1   0    0    1   
 $EndComp
 $Comp
 L OpenHardwareHolterMonitor-rescue:R R36
 U 1 1 5AB7020A
-P 10800 1050
+P 7800 5650
 AR Path="/5AB7020A" Ref="R36"  Part="1" 
 AR Path="/5A6D4EDD/5AB7020A" Ref="R36"  Part="1" 
-F 0 "R36" V 10880 1050 50  0000 C CNN
-F 1 "NI" V 10800 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10730 1050 50  0001 C CNN
-F 3 "" H 10800 1050 50  0000 C CNN
-	1    10800 1050
+F 0 "R36" V 7880 5650 50  0000 C CNN
+F 1 "NI" V 7800 5650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7730 5650 50  0001 C CNN
+F 3 "" H 7800 5650 50  0000 C CNN
+	1    7800 5650
 	-1   0    0    1   
 $EndComp
 $Comp
 L OpenHardwareHolterMonitor-rescue:GND #PWR021
 U 1 1 5AB7048D
-P 10800 1350
+P 7800 5950
 AR Path="/5AB7048D" Ref="#PWR021"  Part="1" 
 AR Path="/5A6D4EDD/5AB7048D" Ref="#PWR021"  Part="1" 
-F 0 "#PWR021" H 10800 1100 50  0001 C CNN
-F 1 "GND" H 10800 1200 50  0000 C CNN
-F 2 "" H 10800 1350 50  0000 C CNN
-F 3 "" H 10800 1350 50  0000 C CNN
-	1    10800 1350
+F 0 "#PWR021" H 7800 5700 50  0001 C CNN
+F 1 "GND" H 7800 5800 50  0000 C CNN
+F 2 "" H 7800 5950 50  0000 C CNN
+F 3 "" H 7800 5950 50  0000 C CNN
+	1    7800 5950
 	1    0    0    -1  
 $EndComp
-Text Label 9900 800  0    60   ~ 0
+Text Label 6900 5400 0    60   ~ 0
 3v3
-Text Notes 9900 600  0    60   ~ 0
+Text Notes 6900 5200 0    60   ~ 0
 Optional Power Indicator
 $Comp
 L OpenHardwareHolterMonitor-rescue:USB_OTG J12
@@ -896,7 +896,7 @@ Wire Wire Line
 	4000 4100 4000 4000
 Connection ~ 4000 4000
 Wire Wire Line
-	4350 650  5000 650 
+	10500 1000 11150 1000
 Wire Wire Line
 	1150 4200 2050 4200
 Wire Wire Line
@@ -905,7 +905,7 @@ Connection ~ 2050 4200
 Wire Wire Line
 	1750 4250 850  4250
 Wire Wire Line
-	1050 650  1550 650 
+	10650 650  11150 650 
 Wire Wire Line
 	4650 4000 4650 4050
 Wire Wire Line
@@ -1038,13 +1038,13 @@ Wire Wire Line
 	5050 7150 4350 7150
 Connection ~ 4350 7150
 Wire Wire Line
-	4350 800  5000 800 
+	10500 1150 11150 1150
 Wire Wire Line
-	1050 800  1550 800 
+	10650 800  11150 800 
 Wire Wire Line
-	2850 650  3350 650 
+	10650 1350 11150 1350
 Wire Wire Line
-	2850 800  3350 800 
+	10650 1500 11150 1500
 Wire Wire Line
 	900  1900 900  1950
 Wire Wire Line
@@ -1117,15 +1117,15 @@ Wire Wire Line
 Wire Wire Line
 	10250 2650 10750 2650
 Wire Wire Line
-	6300 650  7100 650 
+	10400 1800 11200 1800
 Wire Wire Line
-	9900 800  10300 800 
+	6900 5400 7300 5400
 Wire Wire Line
-	10600 800  10800 800 
+	7600 5400 7800 5400
 Wire Wire Line
-	10800 800  10800 900 
+	7800 5400 7800 5500
 Wire Wire Line
-	10800 1200 10800 1350
+	7800 5800 7800 5950
 Wire Wire Line
 	1800 1950 1800 1900
 Connection ~ 1800 1950
@@ -1432,41 +1432,41 @@ Wire Wire Line
 $Comp
 L OpenHardwareHolterMonitor-rescue:D_Schottky D?
 U 1 1 5B1EFEA8
-P 9600 3500
+P 9100 5650
 AR Path="/5B1EFEA8" Ref="D?"  Part="1" 
 AR Path="/5A6D4EDD/5B1EFEA8" Ref="D10"  Part="1" 
-F 0 "D10" H 9600 3600 50  0000 C CNN
-F 1 "D_Schottky" H 9600 3400 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 9600 3500 50  0001 C CNN
-F 3 "" H 9600 3500 50  0000 C CNN
-	1    9600 3500
+F 0 "D10" H 9100 5750 50  0000 C CNN
+F 1 "D_Schottky" H 9100 5550 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 9100 5650 50  0001 C CNN
+F 3 "" H 9100 5650 50  0000 C CNN
+	1    9100 5650
 	-1   0    0    1   
 $EndComp
-Text Label 10700 3500 2    60   ~ 0
+Text Label 10200 5650 2    60   ~ 0
 REGULATOR_IN
 Wire Wire Line
-	9750 3500 10700 3500
+	9250 5650 10200 5650
 Wire Wire Line
-	8900 3500 9450 3500
-Text Label 8900 3500 0    50   ~ 0
+	8400 5650 8950 5650
+Text Label 8400 5650 0    50   ~ 0
 V_ISO
-Text Label 7100 650  2    60   ~ 0
+Text Label 11200 1800 2    60   ~ 0
 REGULATOR_IN
 $Comp
 L OpenHardwareHolterMonitor-rescue:D_Schottky D?
 U 1 1 5B23FC19
-P 6150 650
+P 10250 1800
 AR Path="/5B23FC19" Ref="D?"  Part="1" 
 AR Path="/5A6D4EDD/5B23FC19" Ref="D1"  Part="1" 
-F 0 "D1" H 6150 750 50  0000 C CNN
-F 1 "D_Schottky" H 6150 550 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 6150 650 50  0001 C CNN
-F 3 "" H 6150 650 50  0000 C CNN
-	1    6150 650 
+F 0 "D1" H 10250 1900 50  0000 C CNN
+F 1 "D_Schottky" H 10250 1700 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 10250 1800 50  0001 C CNN
+F 3 "" H 10250 1800 50  0000 C CNN
+	1    10250 1800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6000 650  5800 650 
+	10100 1800 9900 1800
 Wire Wire Line
 	8550 2650 8500 2650
 Wire Wire Line
@@ -1625,4 +1625,8 @@ F 3 "" H 4600 6500 50  0001 C CNN
 	1    4600 6500
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	600  3700 9300 3700
+Wire Notes Line
+	9300 3700 9300 550 
 $EndSCHEMATC

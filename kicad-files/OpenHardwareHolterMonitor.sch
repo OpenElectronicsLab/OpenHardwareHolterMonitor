@@ -34,7 +34,7 @@ Wire Wire Line
 Text Label 4100 2700 2    60   ~ 0
 CLK
 Text Label 4100 2800 2    60   ~ 0
-CS
+~CS~
 Text Label 4100 2000 2    60   ~ 0
 MOSI
 Text Label 4100 2600 2    60   ~ 0
@@ -968,4 +968,24 @@ Wire Wire Line
 	7950 2300 7950 2600
 Wire Wire Line
 	8550 2300 8550 2600
+Text Label 3800 2100 0    50   ~ 0
+~PWDN~_OUT
+Text Label 3750 2400 0    50   ~ 0
+~RESET~_OUT
+Text Label 3800 3000 0    50   ~ 0
+~DRDY~_IN
+Text Label 3750 2900 0    50   ~ 0
+START_OUT
+Text Label 2100 4550 1    50   ~ 0
+SD_DAT1
+Text Label 2200 4550 1    50   ~ 0
+SD_DAT0
+Text Label 1500 4950 1    50   ~ 0
+SD_VSS
+Text Label 2600 4350 1    50   ~ 0
+SD_CLK
+Text Label 2800 4650 1    50   ~ 0
+SD_DAT2
+Text Label 2700 4650 1    50   ~ 0
+SD_CD
 $EndSCHEMATC
