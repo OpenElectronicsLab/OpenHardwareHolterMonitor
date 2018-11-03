@@ -159,86 +159,86 @@ $EndComp
 $Comp
 L OpenHardwareHolterMonitor-rescue:S8050 Q1
 U 1 1 5A2C0790
-P 4800 4850
-F 0 "Q1" H 5000 4925 50  0000 L CNN
-F 1 "S8050" H 5000 4850 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5000 4775 50  0000 L CIN
-F 3 "" H 4800 4850 50  0000 L CNN
-	1    4800 4850
+P 4700 5050
+F 0 "Q1" H 4900 5125 50  0000 L CNN
+F 1 "S8050" H 4900 5050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4900 4975 50  0000 L CIN
+F 3 "" H 4700 5050 50  0000 L CNN
+	1    4700 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenHardwareHolterMonitor-rescue:S8050 Q2
 U 1 1 5A2C0855
-P 4800 5600
-F 0 "Q2" H 5000 5675 50  0000 L CNN
-F 1 "S8050" H 5000 5600 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5000 5525 50  0000 L CIN
-F 3 "" H 4800 5600 50  0000 L CNN
-	1    4800 5600
+P 4700 5800
+F 0 "Q2" H 4900 5875 50  0000 L CNN
+F 1 "S8050" H 4900 5800 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4900 5725 50  0000 L CIN
+F 3 "" H 4700 5800 50  0000 L CNN
+	1    4700 5800
 	1    0    0    1   
 $EndComp
 $Comp
 L OpenHardwareHolterMonitor-rescue:R R5
 U 1 1 5A2C0A57
-P 4350 4850
-F 0 "R5" V 4430 4850 50  0000 C CNN
-F 1 "12K" V 4350 4850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 4850 50  0001 C CNN
-F 3 "" H 4350 4850 50  0000 C CNN
-	1    4350 4850
+P 4250 5050
+F 0 "R5" V 4330 5050 50  0000 C CNN
+F 1 "12K" V 4250 5050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 5050 50  0001 C CNN
+F 3 "" H 4250 5050 50  0000 C CNN
+	1    4250 5050
 	0    1    1    0   
 $EndComp
 $Comp
 L OpenHardwareHolterMonitor-rescue:R R6
 U 1 1 5A2C0ACC
-P 4350 5600
-F 0 "R6" V 4430 5600 50  0000 C CNN
-F 1 "12K" V 4350 5600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 5600 50  0001 C CNN
-F 3 "" H 4350 5600 50  0000 C CNN
-	1    4350 5600
+P 4250 5800
+F 0 "R6" V 4330 5800 50  0000 C CNN
+F 1 "12K" V 4250 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 5800 50  0001 C CNN
+F 3 "" H 4250 5800 50  0000 C CNN
+	1    4250 5800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4500 4850 4600 4850
+	4400 5050 4500 5050
 Wire Wire Line
-	4500 5600 4600 5600
+	4400 5800 4500 5800
 Wire Wire Line
-	3900 4850 4050 4850
+	3800 5050 3950 5050
 Wire Wire Line
-	3900 5600 4150 5600
+	3800 5800 4050 5800
 Wire Wire Line
-	4150 5600 4150 5150
+	4050 5800 4050 5350
 Wire Wire Line
-	4150 5150 4900 5150
+	4050 5350 4800 5350
 Wire Wire Line
-	4900 5150 4900 5050
-Connection ~ 4150 5600
+	4800 5350 4800 5250
+Connection ~ 4050 5800
 Wire Wire Line
-	4050 4850 4050 5250
+	3950 5050 3950 5450
 Wire Wire Line
-	4050 5250 4900 5250
+	3950 5450 4800 5450
 Wire Wire Line
-	4900 5250 4900 5400
-Connection ~ 4050 4850
-Text Label 3900 4850 0    60   ~ 0
+	4800 5450 4800 5600
+Connection ~ 3950 5050
+Text Label 3800 5050 0    60   ~ 0
 DTR
-Text Label 3900 5600 0    60   ~ 0
+Text Label 3800 5800 0    60   ~ 0
 RTS
 Wire Wire Line
-	4900 4650 4900 4600
+	4800 4850 4800 4800
 Wire Wire Line
-	4900 4600 5250 4600
+	4800 4800 5150 4800
 Wire Wire Line
-	4900 5800 4900 5900
+	4800 6000 4800 6100
 Wire Wire Line
-	4900 5900 5250 5900
-Text Label 5250 5900 2    60   ~ 0
+	4800 6100 5150 6100
+Text Label 5150 6100 2    60   ~ 0
 IO0
-Text Label 5250 4600 2    60   ~ 0
+Text Label 5150 4800 2    60   ~ 0
 EN
-Text Notes 4000 4600 0    30   ~ 0
+Text Notes 3900 4800 0    30   ~ 0
 copied from esp32_core_board_v2 schematic
 $Comp
 L OpenHardwareHolterMonitor-rescue:CONN_01X07 P1
@@ -494,6 +494,7 @@ F5 "Vbat2" I L 6200 4250 60
 F6 "~Bat1charging~" I L 6200 4400 60 
 F7 "~Bat2Charging~" I L 6200 4550 60 
 F8 "FTDI_VIN" I L 6200 4700 50 
+F9 "Enable_Charging" I L 6200 4850 50 
 $EndSheet
 Wire Wire Line
 	5700 3800 6200 3800
@@ -808,8 +809,6 @@ Wire Wire Line
 	1400 2300 1100 2300
 Text Label 1100 2300 0    60   ~ 0
 IO39
-Text Label 1100 2900 0    60   ~ 0
-IO26
 Text Label 1100 3000 0    60   ~ 0
 IO27
 Text Label 1100 3100 0    60   ~ 0
@@ -817,16 +816,12 @@ IO14
 Text Label 1100 3200 0    60   ~ 0
 IO12
 Wire Wire Line
-	1400 2900 1100 2900
-Wire Wire Line
 	1400 3000 1100 3000
 Wire Wire Line
 	1400 3100 1100 3100
 Wire Wire Line
 	1400 3200 1100 3200
 Text Label 9900 2900 0    60   ~ 0
-IO26
-Text Label 9900 3000 0    60   ~ 0
 IO27
 Text Label 9900 2700 0    60   ~ 0
 IO14
@@ -835,18 +830,16 @@ IO12
 Wire Wire Line
 	10200 2900 9900 2900
 Wire Wire Line
-	10200 3000 9900 3000
-Wire Wire Line
 	10200 2700 9900 2700
 Wire Wire Line
 	10200 2500 9900 2500
 Wire Wire Line
-	10200 3100 9900 3100
-Text Label 9900 3100 0    60   ~ 0
+	10200 3000 9900 3000
+Text Label 9900 3000 0    60   ~ 0
 IO36
 Wire Wire Line
-	10200 3200 9900 3200
-Text Label 9900 3200 0    60   ~ 0
+	10200 3100 9900 3100
+Text Label 9900 3100 0    60   ~ 0
 IO39
 Text Label 2900 4000 1    60   ~ 0
 IO15
@@ -945,9 +938,9 @@ TODO - Custom FTDI?
 Wire Wire Line
 	1650 6550 1900 6550
 Wire Wire Line
-	4150 5600 4200 5600
+	4050 5800 4100 5800
 Wire Wire Line
-	4050 4850 4200 4850
+	3950 5050 4100 5050
 Wire Wire Line
 	5350 2950 5350 3100
 Wire Wire Line
@@ -988,4 +981,16 @@ Text Label 2800 4650 1    50   ~ 0
 SD_DAT2
 Text Label 2700 4650 1    50   ~ 0
 SD_CD
+Wire Wire Line
+	6200 4850 5500 4850
+Text Label 5500 4850 0    50   ~ 0
+Enable_Charging
+Wire Wire Line
+	550  2900 1400 2900
+Text Label 550  2900 0    50   ~ 0
+Enable_Charging
+Text Label 9550 3200 0    50   ~ 0
+Enable_Charging
+Wire Wire Line
+	9550 3200 10200 3200
 $EndSCHEMATC

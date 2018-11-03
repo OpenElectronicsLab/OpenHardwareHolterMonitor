@@ -4,6 +4,11 @@ TODO:
 * star grounding
 * no ground plane under electrodes - 8mm isolation
 
+CONSIDER:
+* Medical Instrument Design and Development on page 265
+  suggests switching to sheilded leads for EMI
+  (can we use filtering instead?)
+
 
 
 --------------------------------------------
@@ -156,9 +161,3 @@ NameError: name 'ln' is not defined
 41.16716023313063
 >>> 1/( 1/(273.15 + 25) + 1/3380. * log(5638*1.01/10e3) ) - 273.15
 40.58363861408782
-
-
-TODO, CHANGES:
-* Medical Instrument Design and Development on page 265
-suggests switching to sheilded leads for EMI
- (can we use filtering instead?)
