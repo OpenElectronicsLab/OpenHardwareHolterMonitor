@@ -147,32 +147,6 @@ $EndComp
 Text Label 7850 5900 2    60   ~ 0
 REGULATOR_IN
 $Comp
-L OpenHardwareHolterMonitor-rescue:TEST TP1
-U 1 1 5AAD2FD6
-P 800 6850
-AR Path="/5AAD2FD6" Ref="TP1"  Part="1" 
-AR Path="/5A6D4EDD/5AAD2FD6" Ref="TP1"  Part="1" 
-F 0 "TP1" H 800 7150 50  0000 C BNN
-F 1 "TEST" H 800 7100 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 800 6850 50  0001 C CNN
-F 3 "" H 800 6850 50  0000 C CNN
-	1    800  6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenHardwareHolterMonitor-rescue:TEST TP3
-U 1 1 5AAD2FE2
-P 4150 6850
-AR Path="/5AAD2FE2" Ref="TP3"  Part="1" 
-AR Path="/5A6D4EDD/5AAD2FE2" Ref="TP3"  Part="1" 
-F 0 "TP3" H 4150 7150 50  0000 C BNN
-F 1 "TEST" H 4150 7100 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4150 6850 50  0001 C CNN
-F 3 "" H 4150 6850 50  0000 C CNN
-	1    4150 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenHardwareHolterMonitor-rescue:R R29
 U 1 1 5AAD2FEA
 P 3850 6750
@@ -764,11 +738,11 @@ Wire Wire Line
 Wire Wire Line
 	3650 6400 4050 6400
 Wire Wire Line
-	4050 6400 4050 6900
+	4050 6400 4050 6600
 Wire Wire Line
-	4050 6900 4150 6900
+	4050 6600 4150 6600
 Wire Wire Line
-	4150 6900 4150 6850
+	4150 6600 4150 6550
 Wire Wire Line
 	3650 6500 3850 6500
 Wire Wire Line
@@ -1594,32 +1568,6 @@ $EndComp
 Text Label 7850 4100 2    60   ~ 0
 REGULATOR_IN
 $Comp
-L OpenHardwareHolterMonitor-rescue:TEST TP?
-U 1 1 5C793D7A
-P 800 5050
-AR Path="/5C793D7A" Ref="TP?"  Part="1" 
-AR Path="/5A6D4EDD/5C793D7A" Ref="TP2"  Part="1" 
-F 0 "TP2" H 800 5350 50  0000 C BNN
-F 1 "TEST" H 800 5300 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 800 5050 50  0001 C CNN
-F 3 "" H 800 5050 50  0000 C CNN
-	1    800  5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenHardwareHolterMonitor-rescue:TEST TP?
-U 1 1 5C793D81
-P 4150 5050
-AR Path="/5C793D81" Ref="TP?"  Part="1" 
-AR Path="/5A6D4EDD/5C793D81" Ref="TP4"  Part="1" 
-F 0 "TP4" H 4150 5350 50  0000 C BNN
-F 1 "TEST" H 4150 5300 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4150 5050 50  0001 C CNN
-F 3 "" H 4150 5050 50  0000 C CNN
-	1    4150 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenHardwareHolterMonitor-rescue:R R?
 U 1 1 5C793D88
 P 3850 4950
@@ -1710,11 +1658,11 @@ Wire Wire Line
 Wire Wire Line
 	3650 4600 4050 4600
 Wire Wire Line
-	4050 4600 4050 5100
+	4050 4600 4050 4800
 Wire Wire Line
-	4050 5100 4150 5100
+	4050 4800 4150 4800
 Wire Wire Line
-	4150 5100 4150 5050
+	4150 4800 4150 4750
 Wire Wire Line
 	3650 4700 3850 4700
 Wire Wire Line
@@ -2003,5 +1951,49 @@ F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 7250 4350 50  0001 C CNN
 F 3 "" H 7250 4350 50  0000 C CNN
 	1    7250 4350
 	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Test_Point TP6
+U 1 1 5C9F41EF
+P 4150 4750
+F 0 "TP6" H 4208 4870 50  0000 L CNN
+F 1 "Test_Point" H 4208 4779 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 4350 4750 50  0001 C CNN
+F 3 "~" H 4350 4750 50  0001 C CNN
+	1    4150 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP7
+U 1 1 5CA1153E
+P 4150 6550
+F 0 "TP7" H 4208 6670 50  0000 L CNN
+F 1 "Test_Point" H 4208 6579 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 4350 6550 50  0001 C CNN
+F 3 "~" H 4350 6550 50  0001 C CNN
+	1    4150 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP4
+U 1 1 5CAA2827
+P 800 5050
+F 0 "TP4" H 858 5170 50  0000 L CNN
+F 1 "Test_Point" H 858 5079 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 1000 5050 50  0001 C CNN
+F 3 "~" H 1000 5050 50  0001 C CNN
+	1    800  5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP5
+U 1 1 5CABF986
+P 800 6850
+F 0 "TP5" H 858 6970 50  0000 L CNN
+F 1 "Test_Point" H 858 6879 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 1000 6850 50  0001 C CNN
+F 3 "~" H 1000 6850 50  0001 C CNN
+	1    800  6850
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

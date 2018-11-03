@@ -821,46 +821,42 @@ Wire Wire Line
 	1400 3100 1100 3100
 Wire Wire Line
 	1400 3200 1100 3200
-Text Label 9900 2900 0    60   ~ 0
+Text Label 11000 2500 2    60   ~ 0
 IO27
-Text Label 9900 2700 0    60   ~ 0
+Text Label 11000 2400 2    60   ~ 0
 IO14
-Text Label 9900 2500 0    60   ~ 0
+Text Label 11000 2300 2    60   ~ 0
 IO12
 Wire Wire Line
-	10200 2900 9900 2900
+	11000 2500 10700 2500
 Wire Wire Line
-	10200 2700 9900 2700
+	11000 2400 10700 2400
 Wire Wire Line
-	10200 2500 9900 2500
+	11000 2300 10700 2300
 Wire Wire Line
-	10200 3000 9900 3000
-Text Label 9900 3000 0    60   ~ 0
+	9900 2600 10200 2600
+Text Label 9900 2600 0    60   ~ 0
 IO36
 Wire Wire Line
-	10200 3100 9900 3100
-Text Label 9900 3100 0    60   ~ 0
+	10700 2600 11000 2600
+Text Label 11000 2600 2    60   ~ 0
 IO39
 Text Label 2900 4000 1    60   ~ 0
 IO15
 Wire Wire Line
 	2900 3700 2900 4000
-Text Label 9900 2800 0    60   ~ 0
+Text Label 9900 2500 0    60   ~ 0
 IO15
 Wire Wire Line
-	10200 2800 9900 2800
+	9900 2500 10200 2500
 Text Label 4000 3100 2    60   ~ 0
 IO4
 Wire Wire Line
 	3700 3100 4000 3100
-Text Label 9900 2400 0    60   ~ 0
+Text Label 9900 2300 0    60   ~ 0
 IO4
 Wire Wire Line
-	10200 2400 9900 2400
-Wire Wire Line
-	10200 2200 9900 2200
-Wire Wire Line
-	10200 2100 9600 2100
+	10200 2300 9900 2300
 Wire Wire Line
 	9600 2100 9600 2150
 $Comp
@@ -874,8 +870,6 @@ F 3 "" H 9600 2150 50  0000 C CNN
 	1    9600 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 2200 9900 2050
 Wire Wire Line
 	9900 2050 9600 2050
 Wire Wire Line
@@ -900,12 +894,12 @@ Wire Wire Line
 Text Label 4800 6350 0    60   ~ 0
 DTR
 Wire Wire Line
-	10200 3300 9900 3300
+	10200 5800 9900 5800
 Wire Wire Line
-	10200 3400 9900 3400
-Text Label 9900 3300 0    60   ~ 0
+	10200 6000 9900 6000
+Text Label 9900 5800 0    60   ~ 0
 Vbat1
-Text Label 9900 3400 0    60   ~ 0
+Text Label 9900 6000 0    60   ~ 0
 Vbat2
 Wire Wire Line
 	2200 3700 2200 3900
@@ -914,23 +908,12 @@ Wire Wire Line
 Text Label 1650 3900 0    60   ~ 0
 IO13
 Wire Wire Line
-	10200 2600 9900 2600
-Text Label 9900 2600 0    60   ~ 0
+	9900 2400 10200 2400
+Text Label 9900 2400 0    60   ~ 0
 IO13
-$Comp
-L OpenHardwareHolterMonitor-rescue:Conn_01x14 J1
-U 1 1 5B164661
-P 10400 2700
-F 0 "J1" H 10400 3400 50  0000 C CNN
-F 1 "Conn_01x14" H 10400 1900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 10400 2700 50  0001 C CNN
-F 3 "" H 10400 2700 50  0001 C CNN
-	1    10400 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10200 2300 9900 2300
-Text Label 9900 2300 0    60   ~ 0
+	10700 2200 11000 2200
+Text Label 11000 2200 2    60   ~ 0
 IO2
 NoConn ~ 4800 6750
 Text Notes 4400 7100 0    60   ~ 0
@@ -989,8 +972,73 @@ Wire Wire Line
 	550  2900 1400 2900
 Text Label 550  2900 0    50   ~ 0
 Enable_Charging
-Text Label 9550 3200 0    50   ~ 0
+Text Label 9550 5600 0    50   ~ 0
 Enable_Charging
 Wire Wire Line
-	9550 3200 10200 3200
+	9550 5600 10200 5600
+$Comp
+L Connector:Test_Point TP1
+U 1 1 5C99AAF0
+P 10200 5600
+F 0 "TP1" V 10154 5788 50  0000 L CNN
+F 1 "Test_Point" V 10245 5788 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10400 5600 50  0001 C CNN
+F 3 "~" H 10400 5600 50  0001 C CNN
+	1    10200 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP2
+U 1 1 5C99ABBF
+P 10200 5800
+F 0 "TP2" V 10154 5988 50  0000 L CNN
+F 1 "Test_Point" V 10245 5988 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10400 5800 50  0001 C CNN
+F 3 "~" H 10400 5800 50  0001 C CNN
+	1    10200 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP3
+U 1 1 5C99AC98
+P 10200 6000
+F 0 "TP3" V 10154 6188 50  0000 L CNN
+F 1 "Test_Point" V 10245 6188 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10400 6000 50  0001 C CNN
+F 3 "~" H 10400 6000 50  0001 C CNN
+	1    10200 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_02x06_Odd_Even J1
+U 1 1 5CAE7D82
+P 10400 2300
+F 0 "J1" H 10450 2717 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 10450 2626 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch1.27mm" H 10400 2300 50  0001 C CNN
+F 3 "~" H 10400 2300 50  0001 C CNN
+	1    10400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 2100 11100 2150
+$Comp
+L OpenHardwareHolterMonitor-rescue:GND #PWR0102
+U 1 1 5CAE7EA9
+P 11100 2150
+F 0 "#PWR0102" H 11100 1900 50  0001 C CNN
+F 1 "GND" H 11100 2000 50  0000 C CNN
+F 2 "" H 11100 2150 50  0000 C CNN
+F 3 "" H 11100 2150 50  0000 C CNN
+	1    11100 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 2100 11100 2100
+Wire Wire Line
+	9600 2100 10200 2100
+Wire Wire Line
+	9900 2050 9900 2200
+Wire Wire Line
+	9900 2200 10200 2200
 $EndSCHEMATC
