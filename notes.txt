@@ -1,4 +1,5 @@
 TODO:
+* make separate zone for non-isolated part of boad & wire-up power
 * Power vias near ADS129x are only temporary, still need capacitor placement
 * sort out digital/analogue ground pins on ADS (funky corner)
 * star grounding
