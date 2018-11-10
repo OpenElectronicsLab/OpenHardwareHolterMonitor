@@ -1996,4 +1996,8 @@ F 3 "~" H 1000 6850 50  0001 C CNN
 	1    800  6850
 	1    0    0    -1  
 $EndComp
+Text Notes 2150 5650 0    30   ~ 0
+Consider thermal pad and SMD
+Text Notes 2150 7450 0    30   ~ 0
+Consider thermal pad and SMD
 $EndSCHEMATC
