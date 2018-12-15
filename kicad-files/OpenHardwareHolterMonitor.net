@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/eric/src/OpenHardwareHolterMonitor/kicad-files/OpenHardwareHolterMonitor.sch)
-    (date "Sat 03 Nov 2018 05:05:53 PM CET")
-    (tool "Eeschema (5.0.0-rc2-108-g8444b1b61)")
+    (date "Sat 15 Dec 2018 05:29:39 PM CET")
+    (tool "Eeschema 5.0.1+dfsg1-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -39,7 +39,7 @@
   (components
     (comp (ref U1)
       (value ESP-WROOM-32)
-      (footprint ESP-WROOM-32:MODULE_ESP-WROOM-32)
+      (footprint esp-wroom-32:MODULE_ESP-WROOM-32)
       (libsource (lib esp32) (part ESP-WROOM-32) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A22CCAC))

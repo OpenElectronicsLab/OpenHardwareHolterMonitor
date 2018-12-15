@@ -12,4 +12,5 @@
   (lib (name Sockets)(type KiCad)(uri "$(KIPRJMOD)/Sockets.pretty")(options "")(descr ""))
   (lib (name TO_SOT_Packages_SMD)(type KiCad)(uri "$(KIPRJMOD)/TO_SOT_Packages_SMD.pretty")(options "")(descr ""))
   (lib (name keystone1043)(type KiCad)(uri ${KIPRJMOD}/keystone1043.pretty)(options "")(descr ""))
+  (lib (name esp-wroom-32)(type KiCad)(uri ${KIPRJMOD}/esp-wroom-32.pretty)(options "")(descr ""))
 )

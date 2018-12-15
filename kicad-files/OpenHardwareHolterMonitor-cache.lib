@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_02x06_Odd_Even
+# Connector_Conn_02x06_Odd_Even
 #
-DEF Connector:Conn_02x06_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Conn_02x06_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Connector:Conn_02x06_Odd_Even" 50 -400 50 H V C CNN
+F1 "Connector_Conn_02x06_Odd_Even" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -45,11 +45,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Test_Point
+# Connector_Test_Point
 #
-DEF Connector:Test_Point TP 0 30 N N 1 F N
+DEF Connector_Test_Point TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "Connector:Test_Point" 0 200 50 H V C CNN
+F1 "Connector_Test_Point" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -62,11 +62,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:+3V3
+# OpenHardwareHolterMonitor-rescue_+3V3
 #
-DEF OpenHardwareHolterMonitor-rescue:+3V3 #PWR 0 0 Y Y 1 F P
+DEF OpenHardwareHolterMonitor-rescue_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenHardwareHolterMonitor-rescue:+3V3" 0 140 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -77,11 +77,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:+5C
+# OpenHardwareHolterMonitor-rescue_+5C
 #
-DEF OpenHardwareHolterMonitor-rescue:+5C #PWR 0 0 Y Y 1 F P
+DEF OpenHardwareHolterMonitor-rescue_+5C #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenHardwareHolterMonitor-rescue:+5C" 0 140 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_+5C" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -92,11 +92,11 @@ X +5C 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:+5V
+# OpenHardwareHolterMonitor-rescue_+5V
 #
-DEF OpenHardwareHolterMonitor-rescue:+5V #PWR 0 0 Y Y 1 F P
+DEF OpenHardwareHolterMonitor-rescue_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenHardwareHolterMonitor-rescue:+5V" 0 140 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -107,11 +107,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:Battery_Cell
+# OpenHardwareHolterMonitor-rescue_Battery_Cell
 #
-DEF OpenHardwareHolterMonitor-rescue:Battery_Cell BT 0 0 N N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "OpenHardwareHolterMonitor-rescue:Battery_Cell" 100 0 50 H V L CNN
+F1 "OpenHardwareHolterMonitor-rescue_Battery_Cell" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -126,11 +126,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:C
+# OpenHardwareHolterMonitor-rescue_C
 #
-DEF OpenHardwareHolterMonitor-rescue:C C 0 10 N Y 1 F N
+DEF OpenHardwareHolterMonitor-rescue_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "OpenHardwareHolterMonitor-rescue:C" 25 -100 50 H V L CNN
+F1 "OpenHardwareHolterMonitor-rescue_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -144,11 +144,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:CONN_01X07
+# OpenHardwareHolterMonitor-rescue_CONN_01X07
 #
-DEF OpenHardwareHolterMonitor-rescue:CONN_01X07 P 0 40 Y N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_CONN_01X07 P 0 40 Y N 1 F N
 F0 "P" 0 400 50 H V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:CONN_01X07" 100 0 50 V V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_CONN_01X07" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -176,11 +176,11 @@ X P7 7 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:CP
+# OpenHardwareHolterMonitor-rescue_CP
 #
-DEF OpenHardwareHolterMonitor-rescue:CP C 0 10 N Y 1 F N
+DEF OpenHardwareHolterMonitor-rescue_CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "OpenHardwareHolterMonitor-rescue:CP" 25 -100 50 H V L CNN
+F1 "OpenHardwareHolterMonitor-rescue_CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -199,11 +199,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:Conn_01x01
+# OpenHardwareHolterMonitor-rescue_Conn_01x01
 #
-DEF OpenHardwareHolterMonitor-rescue:Conn_01x01 J 0 40 Y N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:Conn_01x01" 0 -100 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -221,11 +221,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:Crystal
+# OpenHardwareHolterMonitor-rescue_Crystal
 #
-DEF OpenHardwareHolterMonitor-rescue:Crystal Y 0 40 N N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:Crystal" 0 -150 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -242,11 +242,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:D_Schottky
+# OpenHardwareHolterMonitor-rescue_D_Schottky
 #
-DEF OpenHardwareHolterMonitor-rescue:D_Schottky D 0 40 N N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:D_Schottky" 0 -100 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -265,11 +265,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:D_Schottky_AAK
+# OpenHardwareHolterMonitor-rescue_D_Schottky_AAK
 #
-DEF OpenHardwareHolterMonitor-rescue:D_Schottky_AAK D 0 0 Y N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_D_Schottky_AAK D 0 0 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:D_Schottky_AAK" 0 -100 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_D_Schottky_AAK" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -289,11 +289,11 @@ X K 3 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:D_Zener
+# OpenHardwareHolterMonitor-rescue_D_Zener
 #
-DEF OpenHardwareHolterMonitor-rescue:D_Zener D 0 40 N N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:D_Zener" 0 -100 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -312,11 +312,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:EMI_Filter_LL
+# OpenHardwareHolterMonitor-rescue_EMI_Filter_LL
 #
-DEF OpenHardwareHolterMonitor-rescue:EMI_Filter_LL FL 0 10 Y N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_EMI_Filter_LL FL 0 10 Y N 1 F N
 F0 "FL" 0 175 50 H V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:EMI_Filter_LL" 0 -175 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_EMI_Filter_LL" 0 -175 50 H V C CNN
 F2 "" 0 40 50 V V C CNN
 F3 "" 0 40 50 V V C CNN
 $FPLIST
@@ -349,11 +349,11 @@ X 4 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:GND
+# OpenHardwareHolterMonitor-rescue_GND
 #
-DEF OpenHardwareHolterMonitor-rescue:GND #PWR 0 0 Y Y 1 F P
+DEF OpenHardwareHolterMonitor-rescue_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "OpenHardwareHolterMonitor-rescue:GND" 0 -150 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -362,11 +362,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:GNDPWR
+# OpenHardwareHolterMonitor-rescue_GNDPWR
 #
-DEF OpenHardwareHolterMonitor-rescue:GNDPWR #PWR 0 0 Y Y 1 F P
+DEF OpenHardwareHolterMonitor-rescue_GNDPWR #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -200 50 H I C CNN
-F1 "OpenHardwareHolterMonitor-rescue:GNDPWR" 0 -130 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_GNDPWR" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -381,11 +381,11 @@ X GNDPWR 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:LED
+# OpenHardwareHolterMonitor-rescue_LED
 #
-DEF OpenHardwareHolterMonitor-rescue:LED D 0 40 Y N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:LED" 0 -100 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -402,11 +402,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:Micro_SD_Card
+# OpenHardwareHolterMonitor-rescue_Micro_SD_Card
 #
-DEF OpenHardwareHolterMonitor-rescue:Micro_SD_Card J 0 40 Y Y 1 F N
+DEF OpenHardwareHolterMonitor-rescue_Micro_SD_Card J 0 40 Y Y 1 F N
 F0 "J" -650 600 50 H V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:Micro_SD_Card" 650 600 50 H V R CNN
+F1 "OpenHardwareHolterMonitor-rescue_Micro_SD_Card" 650 600 50 H V R CNN
 F2 "" 1150 300 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -432,11 +432,11 @@ X SHIELD 9 800 -600 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:PWR_FLAG
+# OpenHardwareHolterMonitor-rescue_PWR_FLAG
 #
-DEF OpenHardwareHolterMonitor-rescue:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF OpenHardwareHolterMonitor-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "OpenHardwareHolterMonitor-rescue:PWR_FLAG" 0 150 50 H V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -445,11 +445,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:Polyfuse
+# OpenHardwareHolterMonitor-rescue_Polyfuse
 #
-DEF OpenHardwareHolterMonitor-rescue:Polyfuse F 0 0 N Y 1 F N
+DEF OpenHardwareHolterMonitor-rescue_Polyfuse F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:Polyfuse" 100 0 50 V V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_Polyfuse" 100 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -465,11 +465,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS
+# OpenHardwareHolterMonitor-rescue_Q_NMOS_DGS
 #
-DEF OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS Q 0 0 Y N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_Q_NMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS" 200 -50 50 H V L CNN
+F1 "OpenHardwareHolterMonitor-rescue_Q_NMOS_DGS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -497,11 +497,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:R
+# OpenHardwareHolterMonitor-rescue_R
 #
-DEF OpenHardwareHolterMonitor-rescue:R R 0 0 N Y 1 F N
+DEF OpenHardwareHolterMonitor-rescue_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:R" 0 0 50 V V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -515,11 +515,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:S8050
+# OpenHardwareHolterMonitor-rescue_S8050
 #
-DEF OpenHardwareHolterMonitor-rescue:S8050 Q 0 0 Y N 1 F N
+DEF OpenHardwareHolterMonitor-rescue_S8050 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "OpenHardwareHolterMonitor-rescue:S8050" 200 0 50 H V L CNN
+F1 "OpenHardwareHolterMonitor-rescue_S8050" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -538,11 +538,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:Thermistor_NTC
+# OpenHardwareHolterMonitor-rescue_Thermistor_NTC
 #
-DEF OpenHardwareHolterMonitor-rescue:Thermistor_NTC TH 0 0 N Y 1 F N
+DEF OpenHardwareHolterMonitor-rescue_Thermistor_NTC TH 0 0 N Y 1 F N
 F0 "TH" -175 0 50 V V C CNN
-F1 "OpenHardwareHolterMonitor-rescue:Thermistor_NTC" 125 0 50 V V C CNN
+F1 "OpenHardwareHolterMonitor-rescue_Thermistor_NTC" 125 0 50 V V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 $FPLIST
@@ -570,11 +570,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:USB_C_Receptacle
+# OpenHardwareHolterMonitor-rescue_USB_C_Receptacle
 #
-DEF OpenHardwareHolterMonitor-rescue:USB_C_Receptacle J 0 40 Y Y 1 F N
+DEF OpenHardwareHolterMonitor-rescue_USB_C_Receptacle J 0 40 Y Y 1 F N
 F0 "J" -400 1450 50 H V L CNN
-F1 "OpenHardwareHolterMonitor-rescue:USB_C_Receptacle" 400 1450 50 H V R CNN
+F1 "OpenHardwareHolterMonitor-rescue_USB_C_Receptacle" 400 1450 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
@@ -650,11 +650,11 @@ X SHIELD S1 -300 -1600 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenHardwareHolterMonitor-rescue:USB_OTG
+# OpenHardwareHolterMonitor-rescue_USB_OTG
 #
-DEF OpenHardwareHolterMonitor-rescue:USB_OTG J 0 40 Y Y 1 F N
+DEF OpenHardwareHolterMonitor-rescue_USB_OTG J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "OpenHardwareHolterMonitor-rescue:USB_OTG" -200 350 50 H V L CNN
+F1 "OpenHardwareHolterMonitor-rescue_USB_OTG" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -685,11 +685,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_SPDT
+# Switch_SW_SPDT
 #
-DEF Switch:SW_SPDT SW 0 0 Y N 1 F N
+DEF Switch_SW_SPDT SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Switch:SW_SPDT" 0 -200 50 H V C CNN
+F1 "Switch_SW_SPDT" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -703,11 +703,11 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ads1298:ADS1298
+# ads1298_ADS1298
 #
-DEF ads1298:ADS1298 U 0 40 Y Y 1 F N
+DEF ads1298_ADS1298 U 0 40 Y Y 1 F N
 F0 "U" 0 -200 60 H V C CNN
-F1 "ads1298:ADS1298" 0 200 60 H V C CNN
+F1 "ads1298_ADS1298" 0 200 60 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -779,11 +779,11 @@ X IN4N 9 -1450 -50 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# device:LED
+# device_LED
 #
-DEF device:LED D 0 40 Y N 1 F N
+DEF device_LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device:LED" 0 -100 50 H V C CNN
+F1 "device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -800,11 +800,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Q_NMOS_DGS
+# device_Q_NMOS_DGS
 #
-DEF device:Q_NMOS_DGS Q 0 0 Y N 1 F N
+DEF device_Q_NMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "device:Q_NMOS_DGS" 200 -50 50 H V L CNN
+F1 "device_Q_NMOS_DGS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -832,11 +832,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Q_PMOS_DGS
+# device_Q_PMOS_DGS
 #
-DEF device:Q_PMOS_DGS Q 0 0 Y N 1 F N
+DEF device_Q_PMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "device:Q_PMOS_DGS" 200 -50 50 H V L CNN
+F1 "device_Q_PMOS_DGS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -864,11 +864,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R
+# device_R
 #
-DEF device:R R 0 0 N Y 1 F N
+DEF device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
+F1 "device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -882,11 +882,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32:ESP-WROOM-32
+# esp32_ESP-WROOM-32
 #
-DEF esp32:ESP-WROOM-32 U 0 40 Y Y 1 F N
+DEF esp32_ESP-WROOM-32 U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "esp32:ESP-WROOM-32" 0 100 60 H V C CNN
+F1 "esp32_ESP-WROOM-32" 0 100 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -934,11 +934,11 @@ X IO33 9 -1150 -150 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# lp5912:LP5912
+# lp5912_LP5912
 #
-DEF lp5912:LP5912 U 0 40 Y Y 1 F N
+DEF lp5912_LP5912 U 0 40 Y Y 1 F N
 F0 "U" 0 150 60 H V C CNN
-F1 "lp5912:LP5912" 0 50 60 H V C CNN
+F1 "lp5912_LP5912" 0 50 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -956,11 +956,11 @@ X PAD 7 0 -400 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# mcp73833:MCP73833
+# mcp73833_MCP73833
 #
-DEF mcp73833:MCP73833 U 0 40 Y Y 1 F N
+DEF mcp73833_MCP73833 U 0 40 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "mcp73833:MCP73833" 0 -50 60 H V C CNN
+F1 "mcp73833_MCP73833" 0 -50 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -981,11 +981,11 @@ X VBAT 9 800 100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -994,11 +994,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# rem_3-xxxxs:REM_3-xxxxS
+# rem_3-xxxxs_REM_3-xxxxS
 #
-DEF rem_3-xxxxs:REM_3-xxxxS U 0 40 Y Y 1 F N
+DEF rem_3-xxxxs_REM_3-xxxxS U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "rem_3-xxxxs:REM_3-xxxxS" 0 -150 60 H V C CNN
+F1 "rem_3-xxxxs_REM_3-xxxxS" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -1013,11 +1013,11 @@ X +VIN 23 -850 50 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# tps2113a:TPS2113A
+# tps2113a_TPS2113A
 #
-DEF tps2113a:TPS2113A U 0 40 Y Y 1 F N
+DEF tps2113a_TPS2113A U 0 40 Y Y 1 F N
 F0 "U" 0 100 60 H V C CNN
-F1 "tps2113a:TPS2113A" 0 0 60 H V C CNN
+F1 "tps2113a_TPS2113A" 0 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
