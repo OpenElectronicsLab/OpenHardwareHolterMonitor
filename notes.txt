@@ -10,6 +10,13 @@ CONSIDER:
   suggests switching to sheilded leads for EMI
   (can we use filtering instead?)
 
+* Build a configurably "noisy" and "bad" power-supply for testing
+  dial-in out-of-spec for USB: (only 3 or 4 volts or +8 volts)
+  configurable amount of 50Hz or 60Hz noise
+
+* Create test signals (configurable fake EEG readings we can feed in)
+
+* simulate defribulator voltage added to test cardiac signals
 
 
 --------------------------------------------
