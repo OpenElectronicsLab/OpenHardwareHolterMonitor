@@ -7,4 +7,5 @@
   (lib (name lp5912)(type Legacy)(uri ${KIPRJMOD}/lp5912.lib)(options "")(descr ""))
   (lib (name rem_3-xxxxs)(type Legacy)(uri ${KIPRJMOD}/rem_3-xxxxs.lib)(options "")(descr ""))
   (lib (name tps2113a)(type Legacy)(uri ${KIPRJMOD}/tps2113a.lib)(options "")(descr ""))
+  (lib (name ALPS)(type Legacy)(uri /home/eric/src/OpenHardwareHolterMonitor/kicad-files/ALPS.lib)(options "")(descr ""))
 )

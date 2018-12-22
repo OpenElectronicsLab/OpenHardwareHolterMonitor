@@ -1170,13 +1170,14 @@ ALPS SSSS811101
 Text Notes 6300 7400 0    30   ~ 0
 Keystone  Electronics 1043
 $Comp
-L Switch:SW_SPDT SW1
+L ALPS:ALPS_SSSS810701 SW1
 U 1 1 5B269F35
 P 7850 5500
 F 0 "SW1" H 7850 5785 50  0000 C CNN
 F 1 "SW_SPDT" H 7850 5694 50  0000 C CNN
 F 2 "Alps:ALPS_SSSS810701" H 7850 5500 50  0001 C CNN
 F 3 "" H 7850 5500 50  0001 C CNN
+F 4 "SSSS810701" H 7850 5500 50  0000 C CNN "manufacturer-pn"
 	1    7850 5500
 	1    0    0    -1  
 $EndComp
@@ -2000,4 +2001,10 @@ Text Notes 2150 5650 0    30   ~ 0
 Consider thermal pad and SMD
 Text Notes 2150 7450 0    30   ~ 0
 Consider thermal pad and SMD
+Wire Wire Line
+	7750 5700 6550 5700
+Wire Wire Line
+	6550 5700 6550 5600
+Wire Wire Line
+	6550 5600 6250 5600
 $EndSCHEMATC

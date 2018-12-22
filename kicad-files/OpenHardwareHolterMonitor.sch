@@ -127,7 +127,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 4600 1500 4400
 Wire Wire Line
-	1400 1900 900  1900
+	1400 1900 1350 1900
 Wire Wire Line
 	900  1900 900  2000
 $Comp
@@ -734,6 +734,7 @@ F 0 "Y1" H 8250 2450 50  0000 C CNN
 F 1 "32768Hz" H 8250 2150 50  0000 C CNN
 F 2 "crystals:K161" H 8250 2300 50  0001 C CNN
 F 3 "" H 8250 2300 50  0000 C CNN
+F 4 "FK161EIHM0.032768" H 8250 2300 50  0000 C CNN "manufacturer-pn"
 	1    8250 2300
 	1    0    0    -1  
 $EndComp
@@ -1041,4 +1042,55 @@ Wire Wire Line
 	9900 2050 9900 2200
 Wire Wire Line
 	9900 2200 10200 2200
+Wire Wire Line
+	1400 1800 1350 1800
+Wire Wire Line
+	1350 1800 1350 1900
+Connection ~ 1350 1900
+Wire Wire Line
+	1350 1900 900  1900
+$Comp
+L Mechanical:Mounting_Hole MH_NW1
+U 1 1 5C1F5248
+P 850 7150
+F 0 "MH_NW1" H 950 7196 50  0000 L CNN
+F 1 "Mounting_Hole" H 950 7105 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO7380" H 850 7150 50  0001 C CNN
+F 3 "" H 850 7150 50  0001 C CNN
+	1    850  7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MH_SW1
+U 1 1 5C1F5695
+P 850 7450
+F 0 "MH_SW1" H 950 7496 50  0000 L CNN
+F 1 "Mounting_Hole" H 950 7405 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO7380" H 850 7450 50  0001 C CNN
+F 3 "" H 850 7450 50  0001 C CNN
+	1    850  7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MH_NE1
+U 1 1 5C1F5739
+P 2000 7150
+F 0 "MH_NE1" H 2100 7196 50  0000 L CNN
+F 1 "Mounting_Hole" H 2100 7105 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO7380" H 2000 7150 50  0001 C CNN
+F 3 "" H 2000 7150 50  0001 C CNN
+	1    2000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MH_SE1
+U 1 1 5C1F57DC
+P 2000 7450
+F 0 "MH_SE1" H 2100 7496 50  0000 L CNN
+F 1 "Mounting_Hole" H 2100 7405 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO7380" H 2000 7450 50  0001 C CNN
+F 3 "" H 2000 7450 50  0001 C CNN
+	1    2000 7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
