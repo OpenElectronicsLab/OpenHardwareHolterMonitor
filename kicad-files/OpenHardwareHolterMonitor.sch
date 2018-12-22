@@ -730,11 +730,11 @@ $Comp
 L OpenHardwareHolterMonitor-rescue:Crystal Y1
 U 1 1 5AB80CB4
 P 8250 2300
-F 0 "Y1" H 8250 2450 50  0000 C CNN
-F 1 "32768Hz" H 8250 2150 50  0000 C CNN
+F 0 "Y1" V 8250 2300 50  0000 C CNN
+F 1 "32768Hz" H 8250 2450 50  0000 C CNN
 F 2 "crystals:K161" H 8250 2300 50  0001 C CNN
 F 3 "" H 8250 2300 50  0000 C CNN
-F 4 "FK161EIHM0.032768" H 8250 2300 50  0000 C CNN "manufacturer-pn"
+F 4 "FK161EIHM0.032768" H 8250 2150 50  0000 C CNN "manufacturer-pn"
 	1    8250 2300
 	1    0    0    -1  
 $EndComp
@@ -750,6 +750,7 @@ F 0 "C1" H 7975 2850 50  0000 L CNN
 F 1 "12pF" H 7975 2650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7988 2600 50  0001 C CNN
 F 3 "" H 7950 2750 50  0000 C CNN
+F 4 "C0603C120J5GAC" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    7950 2750
 	1    0    0    -1  
 $EndComp
@@ -761,6 +762,7 @@ F 0 "C2" H 8575 2850 50  0000 L CNN
 F 1 "12pF" H 8575 2650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8588 2600 50  0001 C CNN
 F 3 "" H 8550 2750 50  0000 C CNN
+F 4 "C0603C120J5GAC" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    8550 2750
 	1    0    0    -1  
 $EndComp
@@ -800,8 +802,6 @@ Text Label 7950 2000 0    60   ~ 0
 RTC_P
 Text Label 8550 2000 0    60   ~ 0
 RTC_N
-Text Notes 8300 2400 1    30   ~ 0
-FK161
 Wire Wire Line
 	1400 2200 1100 2200
 Text Label 1100 2200 0    60   ~ 0

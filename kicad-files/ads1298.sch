@@ -75,6 +75,7 @@ F 0 "C16" H 5675 1600 50  0000 L CNN
 F 1 "1uF" H 5675 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5688 1350 50  0001 C CNN
 F 3 "" H 5650 1500 50  0000 C CNN
+F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5650 1500
 	0    1    1    0   
 $EndComp
@@ -101,6 +102,7 @@ F 0 "C23" H 6725 2350 50  0000 L CNN
 F 1 "1uF" H 6725 2150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6738 2100 50  0001 C CNN
 F 3 "" H 6700 2250 50  0000 C CNN
+F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6700 2250
 	-1   0    0    1   
 $EndComp
@@ -114,6 +116,7 @@ F 0 "C12" H 5275 1550 50  0000 L CNN
 F 1 "10uF" H 5275 1350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5288 1300 50  0001 C CNN
 F 3 "" H 5250 1450 50  0000 C CNN
+F 4 "EMK212BB7106KG-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5250 1450
 	0    1    1    0   
 $EndComp
@@ -153,6 +156,7 @@ F 0 "C15" H 5375 5800 50  0000 L CNN
 F 1 "1uF" H 5375 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5388 5550 50  0001 C CNN
 F 3 "" H 5350 5700 50  0000 C CNN
+F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5350 5700
 	0    1    1    0   
 $EndComp
@@ -166,6 +170,7 @@ F 0 "C9" H 4925 2050 50  0000 L CNN
 F 1 "1uF" H 4925 1850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 1800 50  0001 C CNN
 F 3 "" H 4900 1950 50  0000 C CNN
+F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4900 1950
 	-1   0    0    1   
 $EndComp
@@ -179,6 +184,7 @@ F 0 "C8" H 4625 2050 50  0000 L CNN
 F 1 "22uF" H 4625 1850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4638 1800 50  0001 C CNN
 F 3 "" H 4600 1950 50  0000 C CNN
+F 4 " GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4600 1950
 	-1   0    0    1   
 $EndComp
@@ -192,6 +198,7 @@ F 0 "C5" H 4325 2050 50  0000 L CNN
 F 1 "1uF" H 4325 1850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4338 1800 50  0001 C CNN
 F 3 "" H 4300 1950 50  0000 C CNN
+F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4300 1950
 	-1   0    0    1   
 $EndComp
@@ -285,6 +292,7 @@ F 0 "C7" H 4475 5600 50  0000 L CNN
 F 1 "1uF" H 4475 5400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4488 5350 50  0001 C CNN
 F 3 "" H 4450 5500 50  0000 C CNN
+F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4450 5500
 	0    1    1    0   
 $EndComp
@@ -298,6 +306,7 @@ F 0 "C11" H 4975 5800 50  0000 L CNN
 F 1 "1uF" H 4975 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 5550 50  0001 C CNN
 F 3 "" H 4950 5700 50  0000 C CNN
+F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4950 5700
 	0    1    1    0   
 $EndComp
@@ -311,6 +320,7 @@ F 0 "C19" H 5675 5700 50  0000 L CNN
 F 1 "1uF" H 5675 5500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5688 5450 50  0001 C CNN
 F 3 "" H 5650 5600 50  0000 C CNN
+F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5650 5600
 	0    1    1    0   
 $EndComp
@@ -337,6 +347,7 @@ F 0 "C3" H 3525 4750 50  0000 L CNN
 F 1 "1uF" H 3525 4550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3538 4500 50  0001 C CNN
 F 3 "" H 3500 4650 50  0000 C CNN
+F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    3500 4650
 	1    0    0    -1  
 $EndComp

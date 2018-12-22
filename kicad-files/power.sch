@@ -55,6 +55,7 @@ F 0 "C40" H 8325 5800 50  0000 L CNN
 F 1 "10uF" H 8325 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8338 5550 50  0001 C CNN
 F 3 "" H 8300 5700 50  0000 C CNN
+F 4 "EMK212BB7106KG-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    8300 5700
 	1    0    0    -1  
 $EndComp
@@ -68,6 +69,7 @@ F 0 "C42" H 10825 5750 50  0000 L CNN
 F 1 "10uF" H 10825 5550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10838 5500 50  0001 C CNN
 F 3 "" H 10800 5650 50  0000 C CNN
+F 4 "EMK212BB7106KG-T" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10800 5650
 	1    0    0    -1  
 $EndComp
@@ -283,6 +285,7 @@ F 0 "C39" H 7375 2900 50  0000 L CNN
 F 1 "22uF" H 7375 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7388 2650 50  0001 C CNN
 F 3 "" H 7350 2800 50  0000 C CNN
+F 4 " GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    7350 2800
 	1    0    0    -1  
 $EndComp
@@ -296,6 +299,7 @@ F 0 "C41" H 8225 2900 50  0000 L CNN
 F 1 "22uF" H 8225 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8238 2650 50  0001 C CNN
 F 3 "" H 8200 2800 50  0000 C CNN
+F 4 " GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    8200 2800
 	1    0    0    -1  
 $EndComp
