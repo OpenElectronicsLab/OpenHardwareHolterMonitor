@@ -57,6 +57,8 @@ F 0 "CON1" H 1850 6200 50  0000 C CNN
 F 1 "Micro_SD_Card" H 3150 6200 50  0000 R CNN
 F 2 "Connectors_Card:MicroSd_Wurth_693072010801" H 3650 5900 50  0001 C CNN
 F 3 "" H 2500 5600 50  0000 C CNN
+F 4 "Wurth" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "693072010801" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    2500 5600
 	0    1    1    0   
 $EndComp
@@ -750,7 +752,8 @@ F 0 "C1" H 7975 2850 50  0000 L CNN
 F 1 "12pF" H 7975 2650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7988 2600 50  0001 C CNN
 F 3 "" H 7950 2750 50  0000 C CNN
-F 4 "C0603C120J5GAC" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 4 "CC0603JRNPO9BN120 " H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    7950 2750
 	1    0    0    -1  
 $EndComp
@@ -762,7 +765,8 @@ F 0 "C2" H 8575 2850 50  0000 L CNN
 F 1 "12pF" H 8575 2650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8588 2600 50  0001 C CNN
 F 3 "" H 8550 2750 50  0000 C CNN
-F 4 "C0603C120J5GAC" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 4 "CC0603JRNPO9BN120 " H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    8550 2750
 	1    0    0    -1  
 $EndComp
@@ -978,7 +982,7 @@ Enable_Charging
 Wire Wire Line
 	9550 5600 10200 5600
 $Comp
-L Connector:Test_Point TP1
+L OpenHardwareHolterMonitor-rescue:Test_Point-Connector TP1
 U 1 1 5C99AAF0
 P 10200 5600
 F 0 "TP1" V 10154 5788 50  0000 L CNN
@@ -989,7 +993,7 @@ F 3 "~" H 10400 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP2
+L OpenHardwareHolterMonitor-rescue:Test_Point-Connector TP2
 U 1 1 5C99ABBF
 P 10200 5800
 F 0 "TP2" V 10154 5988 50  0000 L CNN
@@ -1000,7 +1004,7 @@ F 3 "~" H 10400 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP3
+L OpenHardwareHolterMonitor-rescue:Test_Point-Connector TP3
 U 1 1 5C99AC98
 P 10200 6000
 F 0 "TP3" V 10154 6188 50  0000 L CNN
@@ -1011,7 +1015,7 @@ F 3 "~" H 10400 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_02x06_Odd_Even J1
+L OpenHardwareHolterMonitor-rescue:Conn_02x06_Odd_Even-Connector J1
 U 1 1 5CAE7D82
 P 10400 2300
 F 0 "J1" H 10450 2717 50  0000 C CNN
@@ -1050,7 +1054,7 @@ Connection ~ 1350 1900
 Wire Wire Line
 	1350 1900 900  1900
 $Comp
-L Mechanical:Mounting_Hole MH_NW1
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical MH_NW1
 U 1 1 5C1F5248
 P 850 7150
 F 0 "MH_NW1" H 950 7196 50  0000 L CNN
@@ -1061,7 +1065,7 @@ F 3 "" H 850 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MH_SW1
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical MH_SW1
 U 1 1 5C1F5695
 P 850 7450
 F 0 "MH_SW1" H 950 7496 50  0000 L CNN
@@ -1072,7 +1076,7 @@ F 3 "" H 850 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MH_NE1
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical MH_NE1
 U 1 1 5C1F5739
 P 2000 7150
 F 0 "MH_NE1" H 2100 7196 50  0000 L CNN
@@ -1083,7 +1087,7 @@ F 3 "" H 2000 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MH_SE1
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical MH_SE1
 U 1 1 5C1F57DC
 P 2000 7450
 F 0 "MH_SE1" H 2100 7496 50  0000 L CNN

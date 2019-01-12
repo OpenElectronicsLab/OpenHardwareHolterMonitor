@@ -1,0 +1,8 @@
+## Resistor placement
+
+The 51k resistors must be placed on edge or on alternating sides of the board.
+
+## Through hole components
+
+Through hole components are to be placed on the opposite side of the board
+from the surface mount components.

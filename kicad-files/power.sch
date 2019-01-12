@@ -38,6 +38,8 @@ F 0 "U6" H 9250 5650 60  0000 C CNN
 F 1 "LP5912" H 9250 5550 60  0000 C CNN
 F 2 "WSON:WSON-6_2x2mm_Pitch0.65mm" H 9250 5500 60  0001 C CNN
 F 3 "" H 9250 5500 60  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "LP5912-3.3DRVT " H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9250 5500
 	-1   0    0    -1  
 $EndComp
@@ -55,7 +57,8 @@ F 0 "C40" H 8325 5800 50  0000 L CNN
 F 1 "10uF" H 8325 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8338 5550 50  0001 C CNN
 F 3 "" H 8300 5700 50  0000 C CNN
-F 4 "EMK212BB7106KG-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 4 "CL21B106KPQNNNE" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    8300 5700
 	1    0    0    -1  
 $EndComp
@@ -69,7 +72,8 @@ F 0 "C42" H 10825 5750 50  0000 L CNN
 F 1 "10uF" H 10825 5550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10838 5500 50  0001 C CNN
 F 3 "" H 10800 5650 50  0000 C CNN
-F 4 "EMK212BB7106KG-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 4 "CL21B106KPQNNNE" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    10800 5650
 	1    0    0    -1  
 $EndComp
@@ -98,6 +102,8 @@ F 0 "D2" H 1450 6200 50  0000 C CNN
 F 1 "D_Schottky" H 1450 6000 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1450 6100 50  0001 C CNN
 F 3 "" H 1450 6100 50  0000 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    1450 6100
 	-1   0    0    1   
 $EndComp
@@ -130,6 +136,8 @@ F 0 "BT1" H 6350 7400 50  0000 L CNN
 F 1 "Battery_Cell" H 6350 7300 50  0000 L CNN
 F 2 "keystone1043:Keystone1043" V 6250 7360 50  0001 C CNN
 F 3 "" V 6250 7360 50  0000 C CNN
+F 4 "1043" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Keystone" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    6250 7300
 	1    0    0    -1  
 $EndComp
@@ -143,6 +151,8 @@ F 0 "D6" H 6750 6000 50  0000 C CNN
 F 1 "D_Schottky" H 6750 5800 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 6750 5900 50  0001 C CNN
 F 3 "" H 6750 5900 50  0000 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6750 5900
 	-1   0    0    1   
 $EndComp
@@ -171,6 +181,8 @@ F 0 "R31" V 4080 6300 50  0000 C CNN
 F 1 "0" V 4000 6300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3930 6300 50  0001 C CNN
 F 3 "" H 4000 6300 50  0000 C CNN
+F 4 "RC0603FR-070RL" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4000 6300
 	0    1    1    0   
 $EndComp
@@ -272,6 +284,8 @@ F 0 "D8" H 6200 2850 50  0000 C CNN
 F 1 "D_Schottky_AAK" H 6200 2650 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:TO-277A" H 6200 2750 50  0001 C CNN
 F 3 "" H 6200 2750 50  0000 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "V10P45S-M3/86A" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6200 2750
 	0    1    1    0   
 $EndComp
@@ -285,7 +299,8 @@ F 0 "C39" H 7375 2900 50  0000 L CNN
 F 1 "22uF" H 7375 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7388 2650 50  0001 C CNN
 F 3 "" H 7350 2800 50  0000 C CNN
-F 4 " GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 4 "GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "TODO:C8 tantilum? Murata Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    7350 2800
 	1    0    0    -1  
 $EndComp
@@ -299,7 +314,8 @@ F 0 "C41" H 8225 2900 50  0000 L CNN
 F 1 "22uF" H 8225 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8238 2650 50  0001 C CNN
 F 3 "" H 8200 2800 50  0000 C CNN
-F 4 " GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 4 "GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "TODO:C8 tantilum? Murata Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    8200 2800
 	1    0    0    -1  
 $EndComp
@@ -313,6 +329,8 @@ F 0 "FL1" H 7800 2975 50  0000 C CNN
 F 1 "131uH" H 7800 2625 50  0000 C CNN
 F 2 "CMS1:CMS1" V 7800 2840 50  0001 C CNN
 F 3 "" V 7800 2840 50  0000 C CNN
+F 4 "Eaton" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CMS1-12-R" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    7800 2800
 	1    0    0    -1  
 $EndComp
@@ -324,6 +342,8 @@ F 0 "U7" H 9400 2800 60  0000 C CNN
 F 1 "REM_3-xxxxS" H 9400 2650 60  0000 C CNN
 F 2 "isolators:REM3" H 9400 2800 60  0001 C CNN
 F 3 "" H 9400 2800 60  0001 C CNN
+F 4 "Recom Power" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "REM3-0505S/A" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9400 2800
 	1    0    0    -1  
 $EndComp
@@ -345,6 +365,8 @@ F 0 "F1" V 2350 1100 50  0000 C CNN
 F 1 "Polyfuse" V 2550 1100 50  0000 C CNN
 F 2 "Resistors_SMD:R_1812_HandSoldering" H 2500 900 50  0001 L CNN
 F 3 "" H 2450 1100 50  0001 C CNN
+F 4 "Littelfuse" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "2920L050DR" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    2450 1100
 	0    1    1    0   
 $EndComp
@@ -467,6 +489,8 @@ F 0 "F2" V 4650 2600 50  0000 C CNN
 F 1 "Polyfuse" V 4850 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_1812_HandSoldering" H 4800 2400 50  0001 L CNN
 F 3 "" H 4750 2600 50  0001 C CNN
+F 4 "Littelfuse" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "2920L050DR" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4750 2600
 	0    1    1    0   
 $EndComp
@@ -594,9 +618,11 @@ P 6850 1600
 AR Path="/5B0AAD39" Ref="C36"  Part="1" 
 AR Path="/5A6D4EDD/5B0AAD39" Ref="C36"  Part="1" 
 F 0 "C36" H 6875 1700 50  0000 L CNN
-F 1 "0.1uF" H 6875 1500 50  0000 L CNN
+F 1 "100nF" H 6875 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6888 1450 50  0001 C CNN
 F 3 "" H 6850 1600 50  0001 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    6850 1600
 	1    0    0    -1  
 $EndComp
@@ -607,9 +633,11 @@ P 7250 1600
 AR Path="/5B0C34BA" Ref="C38"  Part="1" 
 AR Path="/5A6D4EDD/5B0C34BA" Ref="C38"  Part="1" 
 F 0 "C38" H 7275 1700 50  0000 L CNN
-F 1 "0.1uF" H 7275 1500 50  0000 L CNN
+F 1 "100nF" H 7275 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7288 1450 50  0001 C CNN
 F 3 "" H 7250 1600 50  0001 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    7250 1600
 	1    0    0    -1  
 $EndComp
@@ -977,6 +1005,8 @@ F 0 "C34" H 6475 2900 50  0000 L CNN
 F 1 "330uF" H 6475 2700 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-E_EIA-7260-38_Hand" H 6488 2650 50  0001 C CNN
 F 3 "" H 6450 2800 50  0001 C CNN
+F 4 "AVX" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "TPSE337K010T0050V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6450 2800
 	1    0    0    -1  
 $EndComp
@@ -990,6 +1020,8 @@ F 0 "C35" H 6775 2900 50  0000 L CNN
 F 1 "330uF" H 6775 2700 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-E_EIA-7260-38_Hand" H 6788 2650 50  0001 C CNN
 F 3 "" H 6750 2800 50  0001 C CNN
+F 4 "AVX" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "TPSE337K010T0050V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6750 2800
 	1    0    0    -1  
 $EndComp
@@ -1003,6 +1035,8 @@ F 0 "C37" H 7075 2900 50  0000 L CNN
 F 1 "330uF" H 7075 2700 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-E_EIA-7260-38_Hand" H 7088 2650 50  0001 C CNN
 F 3 "" H 7050 2800 50  0001 C CNN
+F 4 "AVX" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "TPSE337K010T0050V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    7050 2800
 	1    0    0    -1  
 $EndComp
@@ -1127,6 +1161,8 @@ F 0 "D10" H 10000 4450 50  0000 C CNN
 F 1 "D_Schottky" H 10000 4250 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 10000 4350 50  0001 C CNN
 F 3 "" H 10000 4350 50  0000 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10000 4350
 	-1   0    0    1   
 $EndComp
@@ -1150,6 +1186,8 @@ F 0 "D1" H 10200 1900 50  0000 C CNN
 F 1 "D_Schottky" H 10200 1700 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 10200 1800 50  0001 C CNN
 F 3 "" H 10200 1800 50  0000 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10200 1800
 	-1   0    0    1   
 $EndComp
@@ -1174,14 +1212,17 @@ ALPS SSSS811101
 Text Notes 6300 7400 0    30   ~ 0
 Keystone  Electronics 1043
 $Comp
-L ALPS:ALPS_SSSS810701 SW1
+L OpenHardwareHolterMonitor-rescue:ALPS_SSSS810701-ALPS SW1
 U 1 1 5B269F35
 P 7850 5500
+AR Path="/5B269F35" Ref="SW1"  Part="1" 
+AR Path="/5A6D4EDD/5B269F35" Ref="SW1"  Part="1" 
 F 0 "SW1" H 7850 5785 50  0000 C CNN
 F 1 "SW_SPDT" H 7850 5694 50  0000 C CNN
 F 2 "Alps:ALPS_SSSS810701" H 7850 5500 50  0001 C CNN
 F 3 "" H 7850 5500 50  0001 C CNN
 F 4 "SSSS810701" H 7850 5500 50  0000 C CNN "manufacturer-pn"
+F 5 "TODO: Digikey does not stock" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    7850 5500
 	1    0    0    -1  
 $EndComp
@@ -1284,7 +1325,7 @@ Enable_Charging
 Text Label 11150 2150 2    60   ~ 0
 Enable_Charging
 $Comp
-L device:Q_NMOS_DGS Q6
+L OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS-device Q6
 U 1 1 5BF1799C
 P 3750 7150
 F 0 "Q6" H 3955 7196 50  0000 L CNN
@@ -1312,7 +1353,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 2150 11150 2150
 $Comp
-L device:R R43
+L OpenHardwareHolterMonitor-rescue:R-device R43
 U 1 1 5C0A2C6C
 P 10000 3950
 F 0 "R43" V 10207 3950 50  0000 C CNN
@@ -1342,7 +1383,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 7500 4600 7500
 $Comp
-L device:Q_PMOS_DGS Q8
+L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q8
 U 1 1 5C337DE9
 P 5050 6200
 F 0 "Q8" H 5256 6154 50  0000 L CNN
@@ -1353,7 +1394,7 @@ F 3 "" H 5050 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Q_PMOS_DGS Q10
+L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q10
 U 1 1 5C34B9F0
 P 5650 6200
 F 0 "Q10" H 5856 6154 50  0000 L CNN
@@ -1364,7 +1405,7 @@ F 3 "" H 5650 6200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R38
+L OpenHardwareHolterMonitor-rescue:R-device R38
 U 1 1 5C380629
 P 4950 6850
 F 0 "R38" H 5020 6896 50  0000 L CNN
@@ -1375,7 +1416,7 @@ F 3 "" H 4950 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R42
+L OpenHardwareHolterMonitor-rescue:R-device R42
 U 1 1 5C380745
 P 6450 6200
 F 0 "R42" H 6520 6246 50  0000 L CNN
@@ -1444,7 +1485,7 @@ Connection ~ 6250 7400
 Wire Wire Line
 	6250 7050 6000 7050
 $Comp
-L device:R R40
+L OpenHardwareHolterMonitor-rescue:R-device R40
 U 1 1 5C4A5705
 P 5850 7050
 F 0 "R40" V 5643 7050 50  0000 C CNN
@@ -1455,7 +1496,7 @@ F 3 "" H 5850 7050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D11
+L OpenHardwareHolterMonitor-rescue:LED-device D11
 U 1 1 5C4A58A1
 P 5800 7250
 F 0 "D11" H 5791 7466 50  0000 C CNN
@@ -1522,6 +1563,8 @@ F 0 "D3" H 1450 4400 50  0000 C CNN
 F 1 "D_Schottky" H 1450 4200 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1450 4300 50  0001 C CNN
 F 3 "" H 1450 4300 50  0000 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    1450 4300
 	-1   0    0    1   
 $EndComp
@@ -1554,6 +1597,8 @@ F 0 "BT2" H 6350 5600 50  0000 L CNN
 F 1 "Battery_Cell" H 6350 5500 50  0000 L CNN
 F 2 "keystone1043:Keystone1043" V 6250 5560 50  0001 C CNN
 F 3 "" V 6250 5560 50  0000 C CNN
+F 4 "1043" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Keystone" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    6250 5500
 	1    0    0    -1  
 $EndComp
@@ -1567,6 +1612,8 @@ F 0 "D12" H 6750 4200 50  0000 C CNN
 F 1 "D_Schottky" H 6750 4000 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 6750 4100 50  0001 C CNN
 F 3 "" H 6750 4100 50  0000 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6750 4100
 	-1   0    0    1   
 $EndComp
@@ -1595,6 +1642,8 @@ F 0 "R32" V 4080 4500 50  0000 C CNN
 F 1 "0" V 4000 4500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3930 4500 50  0001 C CNN
 F 3 "" H 4000 4500 50  0000 C CNN
+F 4 "RC0603FR-070RL" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4000 4500
 	0    1    1    0   
 $EndComp
@@ -1741,7 +1790,7 @@ F 3 "" H 6250 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NMOS_DGS Q5
+L OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS-device Q5
 U 1 1 5C793DE1
 P 3750 5350
 F 0 "Q5" H 3955 5396 50  0000 L CNN
@@ -1778,7 +1827,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 5700 4600 5700
 $Comp
-L device:Q_PMOS_DGS Q7
+L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q7
 U 1 1 5C793DF6
 P 5050 4400
 F 0 "Q7" H 5256 4354 50  0000 L CNN
@@ -1789,7 +1838,7 @@ F 3 "" H 5050 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Q_PMOS_DGS Q9
+L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q9
 U 1 1 5C793DFD
 P 5650 4400
 F 0 "Q9" H 5856 4354 50  0000 L CNN
@@ -1800,7 +1849,7 @@ F 3 "" H 5650 4400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R37
+L OpenHardwareHolterMonitor-rescue:R-device R37
 U 1 1 5C793E04
 P 4950 5050
 F 0 "R37" H 5020 5096 50  0000 L CNN
@@ -1811,7 +1860,7 @@ F 3 "" H 4950 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R41
+L OpenHardwareHolterMonitor-rescue:R-device R41
 U 1 1 5C793E0B
 P 6450 4400
 F 0 "R41" H 6520 4446 50  0000 L CNN
@@ -1880,7 +1929,7 @@ Connection ~ 6250 5600
 Wire Wire Line
 	6250 5250 6000 5250
 $Comp
-L device:R R39
+L OpenHardwareHolterMonitor-rescue:R-device R39
 U 1 1 5C793E33
 P 5850 5250
 F 0 "R39" V 5643 5250 50  0000 C CNN
@@ -1891,7 +1940,7 @@ F 3 "" H 5850 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D7
+L OpenHardwareHolterMonitor-rescue:LED-device D7
 U 1 1 5C793E3A
 P 5800 5450
 F 0 "D7" H 5791 5666 50  0000 C CNN
@@ -1941,6 +1990,8 @@ F 0 "D14" H 7250 6250 50  0000 C CNN
 F 1 "D_Schottky" H 7250 6050 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 7250 6150 50  0001 C CNN
 F 3 "" H 7250 6150 50  0000 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    7250 6150
 	-1   0    0    1   
 $EndComp
@@ -1954,11 +2005,13 @@ F 0 "D13" H 7250 4450 50  0000 C CNN
 F 1 "D_Schottky" H 7250 4250 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 7250 4350 50  0001 C CNN
 F 3 "" H 7250 4350 50  0000 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    7250 4350
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Test_Point TP6
+L OpenHardwareHolterMonitor-rescue:Test_Point-Connector TP6
 U 1 1 5C9F41EF
 P 4150 4750
 F 0 "TP6" H 4208 4870 50  0000 L CNN
@@ -1969,7 +2022,7 @@ F 3 "~" H 4350 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TP7
+L OpenHardwareHolterMonitor-rescue:Test_Point-Connector TP7
 U 1 1 5CA1153E
 P 4150 6550
 F 0 "TP7" H 4208 6670 50  0000 L CNN
@@ -1980,7 +2033,7 @@ F 3 "~" H 4350 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TP4
+L OpenHardwareHolterMonitor-rescue:Test_Point-Connector TP4
 U 1 1 5CAA2827
 P 800 5050
 F 0 "TP4" H 858 5170 50  0000 L CNN
@@ -1991,7 +2044,7 @@ F 3 "~" H 1000 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TP5
+L OpenHardwareHolterMonitor-rescue:Test_Point-Connector TP5
 U 1 1 5CABF986
 P 800 6850
 F 0 "TP5" H 858 6970 50  0000 L CNN

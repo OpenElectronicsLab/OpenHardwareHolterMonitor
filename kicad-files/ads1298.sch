@@ -62,6 +62,8 @@ F 0 "C17" H 5675 1900 50  0000 L CNN
 F 1 "100nF" H 5675 1700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5688 1650 50  0001 C CNN
 F 3 "" H 5650 1800 50  0000 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    5650 1800
 	0    1    1    0   
 $EndComp
@@ -76,6 +78,7 @@ F 1 "1uF" H 5675 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5688 1350 50  0001 C CNN
 F 3 "" H 5650 1500 50  0000 C CNN
 F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    5650 1500
 	0    1    1    0   
 $EndComp
@@ -89,6 +92,8 @@ F 0 "C22" H 6525 2350 50  0000 L CNN
 F 1 "100nF" H 6525 2150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6538 2100 50  0001 C CNN
 F 3 "" H 6500 2250 50  0000 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    6500 2250
 	-1   0    0    1   
 $EndComp
@@ -103,6 +108,7 @@ F 1 "1uF" H 6725 2150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6738 2100 50  0001 C CNN
 F 3 "" H 6700 2250 50  0000 C CNN
 F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    6700 2250
 	-1   0    0    1   
 $EndComp
@@ -116,7 +122,8 @@ F 0 "C12" H 5275 1550 50  0000 L CNN
 F 1 "10uF" H 5275 1350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5288 1300 50  0001 C CNN
 F 3 "" H 5250 1450 50  0000 C CNN
-F 4 "EMK212BB7106KG-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 4 "CL21B106KPQNNNE" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    5250 1450
 	0    1    1    0   
 $EndComp
@@ -130,6 +137,8 @@ F 0 "C13" H 5275 1800 50  0000 L CNN
 F 1 "100nF" H 5275 1600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5288 1550 50  0001 C CNN
 F 3 "" H 5250 1700 50  0000 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 5250 1700 50  0001 C CNN "ManufacturerName"
 	1    5250 1700
 	0    1    1    0   
 $EndComp
@@ -143,6 +152,8 @@ F 0 "C14" H 5375 5500 50  0000 L CNN
 F 1 "100nF" H 5375 5300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5388 5250 50  0001 C CNN
 F 3 "" H 5350 5400 50  0000 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    5350 5400
 	0    1    1    0   
 $EndComp
@@ -157,6 +168,7 @@ F 1 "1uF" H 5375 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5388 5550 50  0001 C CNN
 F 3 "" H 5350 5700 50  0000 C CNN
 F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    5350 5700
 	0    1    1    0   
 $EndComp
@@ -171,6 +183,7 @@ F 1 "1uF" H 4925 1850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 1800 50  0001 C CNN
 F 3 "" H 4900 1950 50  0000 C CNN
 F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4900 1950
 	-1   0    0    1   
 $EndComp
@@ -184,7 +197,8 @@ F 0 "C8" H 4625 2050 50  0000 L CNN
 F 1 "22uF" H 4625 1850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4638 1800 50  0001 C CNN
 F 3 "" H 4600 1950 50  0000 C CNN
-F 4 " GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 4 "GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "TODO:C8 tantilum? Murata Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4600 1950
 	-1   0    0    1   
 $EndComp
@@ -199,6 +213,7 @@ F 1 "1uF" H 4325 1850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4338 1800 50  0001 C CNN
 F 3 "" H 4300 1950 50  0000 C CNN
 F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4300 1950
 	-1   0    0    1   
 $EndComp
@@ -212,6 +227,8 @@ F 0 "C18" H 5675 5400 50  0000 L CNN
 F 1 "100nF" H 5675 5200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5688 5150 50  0001 C CNN
 F 3 "" H 5650 5300 50  0000 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    5650 5300
 	0    1    1    0   
 $EndComp
@@ -225,6 +242,8 @@ F 0 "C10" H 4975 5500 50  0000 L CNN
 F 1 "100nF" H 4975 5300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 5250 50  0001 C CNN
 F 3 "" H 4950 5400 50  0000 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4950 5400
 	0    1    1    0   
 $EndComp
@@ -238,6 +257,8 @@ F 0 "C20" H 6425 5150 50  0000 L CNN
 F 1 "100pF" H 6425 4950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6438 4900 50  0001 C CNN
 F 3 "" H 6400 5050 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPO9BN101" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6400 5050
 	0    1    1    0   
 $EndComp
@@ -251,6 +272,8 @@ F 0 "C21" H 6475 5650 50  0000 L CNN
 F 1 "10nF" H 6475 5450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6488 5400 50  0001 C CNN
 F 3 "" H 6450 5550 50  0000 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CL10B103KB8NCNC" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6450 5550
 	1    0    0    -1  
 $EndComp
@@ -279,6 +302,8 @@ F 0 "C6" H 4475 5300 50  0000 L CNN
 F 1 "100nF" H 4475 5100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4488 5050 50  0001 C CNN
 F 3 "" H 4450 5200 50  0000 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4450 5200
 	0    1    1    0   
 $EndComp
@@ -293,6 +318,7 @@ F 1 "1uF" H 4475 5400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4488 5350 50  0001 C CNN
 F 3 "" H 4450 5500 50  0000 C CNN
 F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4450 5500
 	0    1    1    0   
 $EndComp
@@ -307,6 +333,7 @@ F 1 "1uF" H 4975 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 5550 50  0001 C CNN
 F 3 "" H 4950 5700 50  0000 C CNN
 F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4950 5700
 	0    1    1    0   
 $EndComp
@@ -321,6 +348,7 @@ F 1 "1uF" H 5675 5500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5688 5450 50  0001 C CNN
 F 3 "" H 5650 5600 50  0000 C CNN
 F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    5650 5600
 	0    1    1    0   
 $EndComp
@@ -334,6 +362,8 @@ F 0 "C4" H 3725 4750 50  0000 L CNN
 F 1 "100nF" H 3725 4550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3738 4500 50  0001 C CNN
 F 3 "" H 3700 4650 50  0000 C CNN
+F 4 "CC0603JRX7R9BB104" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    3700 4650
 	1    0    0    -1  
 $EndComp
@@ -348,6 +378,7 @@ F 1 "1uF" H 3525 4550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3538 4500 50  0001 C CNN
 F 3 "" H 3500 4650 50  0000 C CNN
 F 4 "LMK107B7105KA-T" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    3500 4650
 	1    0    0    -1  
 $EndComp
@@ -435,6 +466,8 @@ F 0 "R18" V 10130 1050 50  0000 C CNN
 F 1 "51k" V 10050 1050 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 1050 50  0001 C CNN
 F 3 "" H 10050 1050 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 1050
 	0    1    1    0   
 $EndComp
@@ -448,6 +481,8 @@ F 0 "C25" H 9825 1300 50  0000 L CNN
 F 1 "470pF" H 9825 1100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 1050 50  0001 C CNN
 F 3 "" H 9800 1200 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 1200
 	1    0    0    -1  
 $EndComp
@@ -463,6 +498,8 @@ F 0 "R20" V 10130 2000 50  0000 C CNN
 F 1 "51k" V 10050 2000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 2000 50  0001 C CNN
 F 3 "" H 10050 2000 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 2000
 	0    1    1    0   
 $EndComp
@@ -476,6 +513,8 @@ F 0 "C27" H 9825 2250 50  0000 L CNN
 F 1 "470pF" H 9825 2050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 2000 50  0001 C CNN
 F 3 "" H 9800 2150 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 2150
 	1    0    0    -1  
 $EndComp
@@ -491,6 +530,8 @@ F 0 "R21" V 10130 2600 50  0000 C CNN
 F 1 "51k" V 10050 2600 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 2600 50  0001 C CNN
 F 3 "" H 10050 2600 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 2600
 	0    1    1    0   
 $EndComp
@@ -504,6 +545,8 @@ F 0 "C28" H 9825 2850 50  0000 L CNN
 F 1 "470pF" H 9825 2650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 2600 50  0001 C CNN
 F 3 "" H 9800 2750 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 2750
 	1    0    0    -1  
 $EndComp
@@ -519,6 +562,8 @@ F 0 "R22" V 10130 3000 50  0000 C CNN
 F 1 "51k" V 10050 3000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 3000 50  0001 C CNN
 F 3 "" H 10050 3000 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 3000
 	0    1    1    0   
 $EndComp
@@ -532,6 +577,8 @@ F 0 "C29" H 9825 3250 50  0000 L CNN
 F 1 "470pF" H 9825 3050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 3000 50  0001 C CNN
 F 3 "" H 9800 3150 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 3150
 	1    0    0    -1  
 $EndComp
@@ -547,6 +594,8 @@ F 0 "R23" V 10130 3400 50  0000 C CNN
 F 1 "51k" V 10050 3400 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 3400 50  0001 C CNN
 F 3 "" H 10050 3400 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 3400
 	0    1    1    0   
 $EndComp
@@ -560,6 +609,8 @@ F 0 "C30" H 9825 3650 50  0000 L CNN
 F 1 "470pF" H 9825 3450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 3400 50  0001 C CNN
 F 3 "" H 9800 3550 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 3550
 	1    0    0    -1  
 $EndComp
@@ -575,6 +626,8 @@ F 0 "R24" V 10130 3800 50  0000 C CNN
 F 1 "51k" V 10050 3800 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 3800 50  0001 C CNN
 F 3 "" H 10050 3800 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 3800
 	0    1    1    0   
 $EndComp
@@ -588,6 +641,8 @@ F 0 "C31" H 9825 4050 50  0000 L CNN
 F 1 "470pF" H 9825 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 3800 50  0001 C CNN
 F 3 "" H 9800 3950 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 3950
 	1    0    0    -1  
 $EndComp
@@ -603,6 +658,8 @@ F 0 "R25" V 10130 4200 50  0000 C CNN
 F 1 "51k" V 10050 4200 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 4200 50  0001 C CNN
 F 3 "" H 10050 4200 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 4200
 	0    1    1    0   
 $EndComp
@@ -616,6 +673,8 @@ F 0 "C32" H 9825 4450 50  0000 L CNN
 F 1 "470pF" H 9825 4250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 4200 50  0001 C CNN
 F 3 "" H 9800 4350 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 4350
 	1    0    0    -1  
 $EndComp
@@ -631,6 +690,8 @@ F 0 "R26" V 10130 4600 50  0000 C CNN
 F 1 "51k" V 10050 4600 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 4600 50  0001 C CNN
 F 3 "" H 10050 4600 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 4600
 	0    1    1    0   
 $EndComp
@@ -644,6 +705,8 @@ F 0 "C33" H 9825 4850 50  0000 L CNN
 F 1 "470pF" H 9825 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 4600 50  0001 C CNN
 F 3 "" H 9800 4750 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 4750
 	1    0    0    -1  
 $EndComp
@@ -659,6 +722,8 @@ F 0 "R19" V 10130 1550 50  0000 C CNN
 F 1 "51k" V 10050 1550 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 1550 50  0001 C CNN
 F 3 "" H 10050 1550 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 1550
 	0    1    1    0   
 $EndComp
@@ -672,6 +737,8 @@ F 0 "C26" H 9825 1800 50  0000 L CNN
 F 1 "470pF" H 9825 1600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 1550 50  0001 C CNN
 F 3 "" H 9800 1700 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 1700
 	1    0    0    -1  
 $EndComp
@@ -1038,6 +1105,8 @@ F 0 "C24" H 9825 850 50  0000 L CNN
 F 1 "470pF" H 9825 650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 600 50  0001 C CNN
 F 3 "" H 9800 750 50  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "CC0603JRNPOYBN471" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9800 750 
 	1    0    0    -1  
 $EndComp
@@ -1051,6 +1120,8 @@ F 0 "R17" V 10130 600 50  0000 C CNN
 F 1 "51k" V 10050 600 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 600 50  0001 C CNN
 F 3 "" H 10050 600 50  0000 C CNN
+F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 600 
 	0    1    1    0   
 $EndComp
