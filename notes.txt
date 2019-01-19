@@ -1,6 +1,13 @@
-TODO:
+TODO THIS VERSION:
 * place infromational text in the gaps between isolated resistors
 * fix alignment on debug labels IN1P..IN8P, etc (only roughly placed)
+* re-work PCB after finishing BOM
+
+FOR NEXT VERSION:
+* keep a detailed journal of decisions
+* add manufacturer-partnumber and manufacturer fields before other annotations
+* label all of the networks between components
+* finish BOM before starting PCB
 
 CONSIDER:
 * Medical Instrument Design and Development on page 265

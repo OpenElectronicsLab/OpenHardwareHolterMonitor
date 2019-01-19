@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/eric/src/OpenHardwareHolterMonitor/kicad-files/OpenHardwareHolterMonitor.sch)
-    (date "Sat 19 Jan 2019 03:43:31 PM CET")
+    (date "Sat 19 Jan 2019 05:14:36 PM CET")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -789,7 +789,7 @@
       (footprint TO_SOT_Packages_SMD:TO-277A)
       (fields
         (field (name ManufacturerName) Vishay)
-        (field (name manufacturer-pn) V10P45S-M3/86A))
+        (field (name manufacturer-pn) TPS2113A))
       (libsource (lib OpenHardwareHolterMonitor-rescue) (part D_Schottky_AAK) (description ""))
       (sheetpath (names /power/) (tstamps /5A6D4EDD/))
       (tstamp 5AAD6351))
@@ -840,7 +840,10 @@
       (tstamp 5AADC715))
     (comp (ref D4)
       (value D_Zener)
-      (footprint Diodes_SMD:D_SOD-323_HandSoldering)
+      (footprint Diodes_SMD:D_SMB_Handsoldering)
+      (fields
+        (field (name ManufacturerName) "Micro Commercial Components (MCC)")
+        (field (name manufacturer-pn) SMBJ5339B-TP))
       (libsource (lib OpenHardwareHolterMonitor-rescue) (part D_Zener) (description ""))
       (sheetpath (names /power/) (tstamps /5A6D4EDD/))
       (tstamp 5AADCE5E))
@@ -879,7 +882,10 @@
       (tstamp 5AD488CF))
     (comp (ref D5)
       (value D_Zener)
-      (footprint Diodes_SMD:D_SOD-323_HandSoldering)
+      (footprint Diodes_SMD:D_SMB_Handsoldering)
+      (fields
+        (field (name ManufacturerName) "Micro Commercial Components (MCC)")
+        (field (name manufacturer-pn) SMBJ5339B-TP))
       (libsource (lib OpenHardwareHolterMonitor-rescue) (part D_Zener) (description ""))
       (sheetpath (names /power/) (tstamps /5A6D4EDD/))
       (tstamp 5AD488D5))

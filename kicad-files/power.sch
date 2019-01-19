@@ -285,7 +285,7 @@ F 1 "D_Schottky_AAK" H 6200 2650 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:TO-277A" H 6200 2750 50  0001 C CNN
 F 3 "" H 6200 2750 50  0000 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 "V10P45S-M3/86A" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "TPS2113A" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6200 2750
 	0    1    1    0   
 $EndComp
@@ -366,7 +366,7 @@ F 1 "Polyfuse" V 2550 1100 50  0000 C CNN
 F 2 "Resistors_SMD:R_1812_HandSoldering" H 2500 900 50  0001 L CNN
 F 3 "" H 2450 1100 50  0001 C CNN
 F 4 "Littelfuse" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 "2920L050DR" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 " F8132CT-ND" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    2450 1100
 	0    1    1    0   
 $EndComp
@@ -378,12 +378,14 @@ AR Path="/5AADCE5E" Ref="D4"  Part="1"
 AR Path="/5A6D4EDD/5AADCE5E" Ref="D4"  Part="1" 
 F 0 "D4" H 3000 1650 50  0000 C CNN
 F 1 "D_Zener" H 3000 1450 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 3000 1550 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMB_Handsoldering" H 3000 1550 50  0001 C CNN
 F 3 "" H 3000 1550 50  0000 C CNN
+F 4 "SMBJ5339B-TP" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Micro Commercial Components (MCC)" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    3000 1550
 	0    1    1    0   
 $EndComp
-Text Notes 2300 1400 0    30   ~ 0
+Text Notes 2250 1400 0    30   ~ 0
 2920L050DR 
 Text Label 10750 2750 2    60   ~ 0
 V_ISO
@@ -401,6 +403,8 @@ F 0 "D9" H 9850 4900 50  0000 C CNN
 F 1 "LED" H 9850 4700 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 9850 4800 50  0001 C CNN
 F 3 "" H 9850 4800 50  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "LTST-C191KGKT" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9850 4800
 	-1   0    0    1   
 $EndComp
@@ -490,7 +494,7 @@ F 1 "Polyfuse" V 4850 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_1812_HandSoldering" H 4800 2400 50  0001 L CNN
 F 3 "" H 4750 2600 50  0001 C CNN
 F 4 "Littelfuse" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 "2920L050DR" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 " F8132CT-ND" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4750 2600
 	0    1    1    0   
 $EndComp
@@ -502,8 +506,10 @@ AR Path="/5AD488D5" Ref="D5"  Part="1"
 AR Path="/5A6D4EDD/5AD488D5" Ref="D5"  Part="1" 
 F 0 "D5" H 5300 3150 50  0000 C CNN
 F 1 "D_Zener" H 5300 2950 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 5300 3050 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMB_Handsoldering" H 5300 3050 50  0001 C CNN
 F 3 "" H 5300 3050 50  0000 C CNN
+F 4 "SMBJ5339B-TP" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "Micro Commercial Components (MCC)" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    5300 3050
 	0    1    1    0   
 $EndComp
@@ -1502,6 +1508,8 @@ F 0 "D11" H 5791 7466 50  0000 C CNN
 F 1 "LED" H 5791 7375 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 5800 7250 50  0001 C CNN
 F 3 "~" H 5800 7250 50  0001 C CNN
+F 4 "Inolux" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "IN-S63BTA " H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5800 7250
 	1    0    0    -1  
 $EndComp
@@ -1950,6 +1958,8 @@ F 0 "D7" H 5791 5666 50  0000 C CNN
 F 1 "LED" H 5791 5575 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 5800 5450 50  0001 C CNN
 F 3 "~" H 5800 5450 50  0001 C CNN
+F 4 "Inolux" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "IN-S63BTA " H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5800 5450
 	1    0    0    -1  
 $EndComp
