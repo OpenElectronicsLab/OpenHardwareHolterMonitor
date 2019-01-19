@@ -43,8 +43,8 @@ F 5 "LP5912-3.3DRVT " H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9250 5500
 	-1   0    0    -1  
 $EndComp
-Text Label 7000 5500 0    60   ~ 0
-REGULATOR_IN
+Text Label 6850 4850 0    60   ~ 0
+SWITCH_IN
 Text Label 11100 5400 2    60   ~ 0
 3v3
 $Comp
@@ -157,7 +157,7 @@ F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	-1   0    0    1   
 $EndComp
 Text Label 7850 5900 2    60   ~ 0
-REGULATOR_IN
+SWITCH_IN
 $Comp
 L OpenHardwareHolterMonitor-rescue:R R29
 U 1 1 5AAD2FEA
@@ -1167,7 +1167,7 @@ F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	-1   0    0    1   
 $EndComp
 Text Label 11100 4350 2    60   ~ 0
-REGULATOR_IN
+SWITCH_IN
 Wire Wire Line
 	10150 4350 11100 4350
 Wire Wire Line
@@ -1175,7 +1175,7 @@ Wire Wire Line
 Text Label 9300 4350 0    50   ~ 0
 V_ISO
 Text Label 11150 1800 2    60   ~ 0
-REGULATOR_IN
+SWITCH_IN
 $Comp
 L OpenHardwareHolterMonitor-rescue:D_Schottky D?
 U 1 1 5B23FC19
@@ -1207,28 +1207,23 @@ Wire Wire Line
 Wire Wire Line
 	8500 2850 8550 2850
 Connection ~ 8500 2750
-Text Notes 7850 5550 0    30   ~ 0
-ALPS SSSS811101
 Text Notes 6300 7400 0    30   ~ 0
 Keystone  Electronics 1043
 $Comp
-L OpenHardwareHolterMonitor-rescue:ALPS_SSSS810701-ALPS SW1
+L Switch:SW_SPDT SW1
 U 1 1 5B269F35
-P 7850 5500
+P 7400 5250
 AR Path="/5B269F35" Ref="SW1"  Part="1" 
 AR Path="/5A6D4EDD/5B269F35" Ref="SW1"  Part="1" 
-F 0 "SW1" H 7850 5785 50  0000 C CNN
-F 1 "SW_SPDT" H 7850 5694 50  0000 C CNN
-F 2 "Alps:ALPS_SSSS810701" H 7850 5500 50  0001 C CNN
-F 3 "" H 7850 5500 50  0001 C CNN
-F 4 "SSSS810701" H 7850 5500 50  0000 C CNN "manufacturer-pn"
-F 5 "TODO: Digikey does not stock" H 0   0   50  0001 C CNN "ManufacturerName"
-	1    7850 5500
-	1    0    0    -1  
+F 0 "SW1" H 7400 5535 50  0000 C CNN
+F 1 "SW_SPDT" H 7400 5444 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPDT_CK-JS102011SAQN" H 7400 5250 50  0001 C CNN
+F 3 "" H 7400 5250 50  0001 C CNN
+F 4 "JS102011SAQN" H 7400 5250 50  0001 C CNN "manufacturer-pn"
+F 5 "C&K" H -450 -250 50  0001 C CNN "ManufacturerName"
+	1    7400 5250
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 5500 7650 5500
-NoConn ~ 8050 5600
 $Comp
 L power:GND #PWR0101
 U 1 1 5B41E505
@@ -1390,6 +1385,8 @@ F 0 "Q8" H 5256 6154 50  0000 L CNN
 F 1 "Q_PMOS_DGS" H 5256 6245 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5250 6300 50  0001 C CNN
 F 3 "" H 5050 6200 50  0001 C CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "DMG2305UX" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5050 6200
 	-1   0    0    1   
 $EndComp
@@ -1401,6 +1398,8 @@ F 0 "Q10" H 5856 6154 50  0000 L CNN
 F 1 "Q_PMOS_DGS" H 5856 6245 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5850 6300 50  0001 C CNN
 F 3 "" H 5650 6200 50  0001 C CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "DMG2305UX" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5650 6200
 	1    0    0    1   
 $EndComp
@@ -1617,7 +1616,7 @@ F 5 "BAT60JFILM" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6750 4100
 	-1   0    0    1   
 $EndComp
-Text Label 7850 4100 2    60   ~ 0
+Text Label 8050 5400 0    60   ~ 0
 REGULATOR_IN
 $Comp
 L OpenHardwareHolterMonitor-rescue:R R?
@@ -1834,6 +1833,8 @@ F 0 "Q7" H 5256 4354 50  0000 L CNN
 F 1 "Q_PMOS_DGS" H 5256 4445 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5250 4500 50  0001 C CNN
 F 3 "" H 5050 4400 50  0001 C CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "DMG2305UX" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5050 4400
 	-1   0    0    1   
 $EndComp
@@ -1845,6 +1846,8 @@ F 0 "Q9" H 5856 4354 50  0000 L CNN
 F 1 "Q_PMOS_DGS" H 5856 4445 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5850 4500 50  0001 C CNN
 F 3 "" H 5650 4400 50  0001 C CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "DMG2305UX" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5650 4400
 	1    0    0    1   
 $EndComp
@@ -2058,10 +2061,51 @@ Text Notes 2150 5650 0    30   ~ 0
 Consider thermal pad and SMD
 Text Notes 2150 7450 0    30   ~ 0
 Consider thermal pad and SMD
+$Comp
+L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q11
+U 1 1 5C48123F
+P 7700 4950
+F 0 "Q11" V 7906 4904 50  0000 L CNN
+F 1 "Q_PMOS_DGS" V 7550 4950 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 7900 5050 50  0001 C CNN
+F 3 "" H 7700 4950 50  0001 C CNN
+F 4 "Diodes Incorporated" H 2650 550 50  0001 C CNN "ManufacturerName"
+F 5 "DMG2305UX" H 2650 550 50  0001 C CNN "manufacturer-pn"
+	1    7700 4950
+	0    1    -1   0   
+$EndComp
 Wire Wire Line
-	7750 5700 6550 5700
+	7900 4850 8050 4850
 Wire Wire Line
-	6550 5700 6550 5600
+	8050 4850 8050 5400
 Wire Wire Line
-	6550 5600 6250 5600
+	7200 5150 7000 5150
+$Comp
+L power:GND #PWR0103
+U 1 1 5C6276AF
+P 7150 5500
+F 0 "#PWR0103" H 7150 5250 50  0001 C CNN
+F 1 "GND" H 7155 5327 50  0000 C CNN
+F 2 "" H 7150 5500 50  0001 C CNN
+F 3 "" H 7150 5500 50  0001 C CNN
+	1    7150 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4850 7000 4850
+Wire Wire Line
+	7000 5150 7000 4850
+Connection ~ 7000 4850
+Wire Wire Line
+	7000 4850 7500 4850
+Wire Wire Line
+	7600 5250 7700 5250
+Wire Wire Line
+	7700 5250 7700 5150
+Text Label 7850 4100 2    50   ~ 0
+SWITCH_IN
+Wire Wire Line
+	7200 5350 7150 5350
+Wire Wire Line
+	7150 5350 7150 5500
 $EndSCHEMATC
