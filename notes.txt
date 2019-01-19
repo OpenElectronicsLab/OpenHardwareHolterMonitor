@@ -1,9 +1,6 @@
 TODO:
-* make separate zone for non-isolated part of boad & wire-up power
-* Power vias near ADS129x are only temporary, still need capacitor placement
-* sort out digital/analogue ground pins on ADS (funky corner)
-* star grounding
-* no ground plane under electrodes - 8mm isolation
+* place infromational text in the gaps between isolated resistors
+* fix alignment on debug labels IN1P..IN8P, etc (only roughly placed)
 
 CONSIDER:
 * Medical Instrument Design and Development on page 265
@@ -18,6 +15,9 @@ CONSIDER:
 
 * simulate defribulator voltage added to test cardiac signals
 
+--------------------------------------------
+Alternated resistors front-to-back in order increase the clearance between
+resistors.
 
 --------------------------------------------
 esp32	20mA
