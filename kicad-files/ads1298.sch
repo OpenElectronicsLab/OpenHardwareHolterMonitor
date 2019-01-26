@@ -467,7 +467,7 @@ F 1 "51k" V 10050 1050 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 1050 50  0001 C CNN
 F 3 "" H 10050 1050 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 1050
 	0    1    1    0   
 $EndComp
@@ -499,7 +499,7 @@ F 1 "51k" V 10050 2000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 2000 50  0001 C CNN
 F 3 "" H 10050 2000 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 2000
 	0    1    1    0   
 $EndComp
@@ -531,7 +531,7 @@ F 1 "51k" V 10050 2600 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 2600 50  0001 C CNN
 F 3 "" H 10050 2600 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 2600
 	0    1    1    0   
 $EndComp
@@ -563,7 +563,7 @@ F 1 "51k" V 10050 3000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 3000 50  0001 C CNN
 F 3 "" H 10050 3000 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 3000
 	0    1    1    0   
 $EndComp
@@ -595,7 +595,7 @@ F 1 "51k" V 10050 3400 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 3400 50  0001 C CNN
 F 3 "" H 10050 3400 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 3400
 	0    1    1    0   
 $EndComp
@@ -627,7 +627,7 @@ F 1 "51k" V 10050 3800 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 3800 50  0001 C CNN
 F 3 "" H 10050 3800 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 3800
 	0    1    1    0   
 $EndComp
@@ -659,7 +659,7 @@ F 1 "51k" V 10050 4200 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 4200 50  0001 C CNN
 F 3 "" H 10050 4200 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 4200
 	0    1    1    0   
 $EndComp
@@ -691,7 +691,7 @@ F 1 "51k" V 10050 4600 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 4600 50  0001 C CNN
 F 3 "" H 10050 4600 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 4600
 	0    1    1    0   
 $EndComp
@@ -723,7 +723,7 @@ F 1 "51k" V 10050 1550 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 1550 50  0001 C CNN
 F 3 "" H 10050 1550 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 1550
 	0    1    1    0   
 $EndComp
@@ -1121,7 +1121,7 @@ F 1 "51k" V 10050 600 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 9980 600 50  0001 C CNN
 F 3 "" H 10050 600 50  0000 C CNN
 F 4 "Stackpole Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "ASRM2JA51K0" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10050 600 
 	0    1    1    0   
 $EndComp

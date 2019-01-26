@@ -284,8 +284,8 @@ F 0 "D8" H 6200 2850 50  0000 C CNN
 F 1 "D_Schottky_AAK" H 6200 2650 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:TO-277A" H 6200 2750 50  0001 C CNN
 F 3 "" H 6200 2750 50  0000 C CNN
-F 4 "Vishay" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 "TPS2113A" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 4 "" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6200 2750
 	0    1    1    0   
 $EndComp
@@ -366,7 +366,7 @@ F 1 "Polyfuse" V 2550 1100 50  0000 C CNN
 F 2 "Resistors_SMD:R_1812_HandSoldering" H 2500 900 50  0001 L CNN
 F 3 "" H 2450 1100 50  0001 C CNN
 F 4 "Littelfuse" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " F8132CT-ND" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "F8132CT-ND" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    2450 1100
 	0    1    1    0   
 $EndComp
@@ -494,7 +494,7 @@ F 1 "Polyfuse" V 4850 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_1812_HandSoldering" H 4800 2400 50  0001 L CNN
 F 3 "" H 4750 2600 50  0001 C CNN
 F 4 "Littelfuse" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 " F8132CT-ND" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "F8132CT-ND" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4750 2600
 	0    1    1    0   
 $EndComp
@@ -574,6 +574,8 @@ F 0 "U5" H 5950 1450 60  0000 C CNN
 F 1 "TPS2113A" H 5950 1350 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 5950 1350 60  0001 C CNN
 F 3 "" H 5950 1350 60  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "TPS2113A" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5950 1350
 	1    0    0    -1  
 $EndComp
