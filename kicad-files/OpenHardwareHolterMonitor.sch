@@ -22,6 +22,8 @@ F 0 "U1" H 2550 2550 60  0000 C CNN
 F 1 "ESP-WROOM-32" H 2550 2650 60  0000 C CNN
 F 2 "esp-wroom-32:MODULE_ESP-WROOM-32" H 2550 2550 60  0001 C CNN
 F 3 "" H 2550 2550 60  0001 C CNN
+F 4 " RF Solutions" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ESP-32" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    2550 2550
 	1    0    0    -1  
 $EndComp
@@ -166,6 +168,8 @@ F 0 "Q1" H 4900 5125 50  0000 L CNN
 F 1 "S8050" H 4900 5050 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4900 4975 50  0000 L CIN
 F 3 "" H 4700 5050 50  0000 L CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "DSS4240T-7" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4700 5050
 	1    0    0    -1  
 $EndComp
@@ -177,6 +181,8 @@ F 0 "Q2" H 4900 5875 50  0000 L CNN
 F 1 "S8050" H 4900 5800 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4900 5725 50  0000 L CIN
 F 3 "" H 4700 5800 50  0000 L CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "DSS4240T-7" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4700 5800
 	1    0    0    1   
 $EndComp
@@ -188,6 +194,8 @@ F 0 "R5" V 4330 5050 50  0000 C CNN
 F 1 "12K" V 4250 5050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 5050 50  0001 C CNN
 F 3 "" H 4250 5050 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B1202V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4250 5050
 	0    1    1    0   
 $EndComp
@@ -199,6 +207,8 @@ F 0 "R6" V 4330 5800 50  0000 C CNN
 F 1 "12K" V 4250 5800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 5800 50  0001 C CNN
 F 3 "" H 4250 5800 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B1202V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4250 5800
 	0    1    1    0   
 $EndComp
@@ -250,6 +260,8 @@ F 0 "P1" H 5300 7050 50  0000 C CNN
 F 1 "Custom_FTDI" V 5400 6650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 5300 6650 50  0001 C CNN
 F 3 "" H 5300 6650 50  0000 C CNN
+F 4 "Wurth" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "61300711121" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5300 6650
 	1    0    0    -1  
 $EndComp
@@ -432,6 +444,8 @@ F 0 "R1" V 4430 2000 50  0000 C CNN
 F 1 "47" V 4350 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 2000 50  0001 C CNN
 F 3 "" H 4350 2000 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4350 2000
 	0    1    1    0   
 $EndComp
@@ -443,6 +457,8 @@ F 0 "R2" V 4430 2700 50  0000 C CNN
 F 1 "47" V 4350 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 2700 50  0001 C CNN
 F 3 "" H 4350 2700 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4350 2700
 	0    1    1    0   
 $EndComp
@@ -454,6 +470,8 @@ F 0 "R3" V 4430 2800 50  0000 C CNN
 F 1 "47" V 4350 2800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 2800 50  0001 C CNN
 F 3 "" H 4350 2800 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4350 2800
 	0    1    1    0   
 $EndComp
@@ -477,6 +495,8 @@ F 0 "R4" V 4430 2900 50  0000 C CNN
 F 1 "47" V 4350 2900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 2900 50  0001 C CNN
 F 3 "" H 4350 2900 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4350 2900
 	0    1    1    0   
 $EndComp
@@ -556,6 +576,8 @@ F 0 "R8" V 8530 3950 50  0000 C CNN
 F 1 "3.9k" V 8450 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8380 3950 50  0001 C CNN
 F 3 "" H 8450 3950 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B3901V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    8450 3950
 	1    0    0    -1  
 $EndComp
@@ -567,6 +589,8 @@ F 0 "R9" V 8530 4400 50  0000 C CNN
 F 1 "1k" V 8450 4400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8380 4400 50  0001 C CNN
 F 3 "" H 8450 4400 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B1001V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    8450 4400
 	1    0    0    -1  
 $EndComp
@@ -604,6 +628,8 @@ F 0 "Q3" H 8550 4850 50  0000 L CNN
 F 1 "Q_NMOS_DGS" H 8550 4750 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23W_Handsoldering" H 8550 4900 50  0001 C CNN
 F 3 "" H 8350 4800 50  0000 C CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "2N7002-7-F " H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    8350 4800
 	1    0    0    -1  
 $EndComp
@@ -621,6 +647,8 @@ F 0 "R11" V 10280 3950 50  0000 C CNN
 F 1 "3.9k" V 10200 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10130 3950 50  0001 C CNN
 F 3 "" H 10200 3950 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B3901V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10200 3950
 	1    0    0    -1  
 $EndComp
@@ -632,6 +660,8 @@ F 0 "R12" V 10280 4400 50  0000 C CNN
 F 1 "1k" V 10200 4400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10130 4400 50  0001 C CNN
 F 3 "" H 10200 4400 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B1001V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10200 4400
 	1    0    0    -1  
 $EndComp
@@ -669,6 +699,8 @@ F 0 "Q4" H 10300 4850 50  0000 L CNN
 F 1 "Q_NMOS_DGS" H 10300 4750 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23W_Handsoldering" H 10300 4900 50  0001 C CNN
 F 3 "" H 10100 4800 50  0000 C CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "2N7002-7-F " H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10100 4800
 	1    0    0    -1  
 $EndComp
@@ -682,6 +714,8 @@ F 0 "R10" V 9730 5000 50  0000 C CNN
 F 1 "100k" V 9650 5000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9580 5000 50  0001 C CNN
 F 3 "" H 9650 5000 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9650 5000
 	1    0    0    -1  
 $EndComp
@@ -696,6 +730,8 @@ F 0 "R7" V 7980 5000 50  0000 C CNN
 F 1 "100k" V 7900 5000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7830 5000 50  0001 C CNN
 F 3 "" H 7900 5000 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    7900 5000
 	1    0    0    -1  
 $EndComp
@@ -1022,6 +1058,8 @@ F 0 "J1" H 10450 2717 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 10450 2626 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch1.27mm" H 10400 2300 50  0001 C CNN
 F 3 "~" H 10400 2300 50  0001 C CNN
+F 4 "Harwin" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "M50-3000645" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    10400 2300
 	1    0    0    -1  
 $EndComp

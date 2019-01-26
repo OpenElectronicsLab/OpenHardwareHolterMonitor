@@ -25,6 +25,8 @@ F 0 "U2" H 5350 3550 60  0000 C CNN
 F 1 "ADS1298" H 5350 3950 60  0000 C CNN
 F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 5350 3750 60  0001 C CNN
 F 3 "" H 5350 3750 60  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ADS1298IPAG" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    5350 3750
 	-1   0    0    1   
 $EndComp
@@ -287,6 +289,8 @@ F 0 "R16" V 6330 5550 50  0000 C CNN
 F 1 "392k" V 6250 5550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6180 5550 50  0001 C CNN
 F 3 "" H 6250 5550 50  0000 C CNN
+F 4 "TE Connectivity Passive Product" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "RN73C1J392KBTD" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    6250 5550
 	1    0    0    -1  
 $EndComp
@@ -415,6 +419,8 @@ F 0 "R15" V 3130 4400 50  0000 C CNN
 F 1 "47" V 3050 4400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2980 4400 50  0001 C CNN
 F 3 "" H 3050 4400 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    3050 4400
 	0    1    1    0   
 $EndComp
@@ -428,6 +434,8 @@ F 0 "R14" V 3130 4000 50  0000 C CNN
 F 1 "47" V 3050 4000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2980 4000 50  0001 C CNN
 F 3 "" H 3050 4000 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    3050 4000
 	0    1    1    0   
 $EndComp
@@ -451,6 +459,8 @@ F 0 "R13" V 3130 3800 50  0000 C CNN
 F 1 "100k" V 3050 3800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2980 3800 50  0001 C CNN
 F 3 "" H 3050 3800 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    3050 3800
 	0    1    1    0   
 $EndComp
@@ -1190,6 +1200,8 @@ F 0 "J2" H 11000 700 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 500 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 600 50  0001 C CNN
 F 3 "" H 11000 600 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 600 
 	1    0    0    -1  
 $EndComp
@@ -1203,6 +1215,8 @@ F 0 "J3" H 11000 1150 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 950 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 1050 50  0001 C CNN
 F 3 "" H 11000 1050 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 1050
 	1    0    0    -1  
 $EndComp
@@ -1216,6 +1230,8 @@ F 0 "J4" H 11000 1650 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 1450 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 1550 50  0001 C CNN
 F 3 "" H 11000 1550 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 1550
 	1    0    0    -1  
 $EndComp
@@ -1229,6 +1245,8 @@ F 0 "J5" H 11000 2100 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 1900 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 2000 50  0001 C CNN
 F 3 "" H 11000 2000 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 2000
 	1    0    0    -1  
 $EndComp
@@ -1242,6 +1260,8 @@ F 0 "J6" H 11000 2700 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 2500 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 2600 50  0001 C CNN
 F 3 "" H 11000 2600 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 2600
 	1    0    0    -1  
 $EndComp
@@ -1255,6 +1275,8 @@ F 0 "J7" H 11000 3100 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 2900 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 3000 50  0001 C CNN
 F 3 "" H 11000 3000 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 3000
 	1    0    0    -1  
 $EndComp
@@ -1268,6 +1290,8 @@ F 0 "J8" H 11000 3500 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 3300 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 3400 50  0001 C CNN
 F 3 "" H 11000 3400 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 3400
 	1    0    0    -1  
 $EndComp
@@ -1281,6 +1305,8 @@ F 0 "J9" H 11000 3900 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 3700 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 3800 50  0001 C CNN
 F 3 "" H 11000 3800 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 3800
 	1    0    0    -1  
 $EndComp
@@ -1294,6 +1320,8 @@ F 0 "J10" H 11000 4300 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 4100 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 4200 50  0001 C CNN
 F 3 "" H 11000 4200 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 4200
 	1    0    0    -1  
 $EndComp
@@ -1307,6 +1335,8 @@ F 0 "J11" H 11000 4700 50  0000 C CNN
 F 1 "Conn_01x01" H 11000 4500 50  0000 C CNN
 F 2 "PlasticsOne:PlasticsOne_41828" H 11000 4600 50  0001 C CNN
 F 3 "" H 11000 4600 50  0001 C CNN
+F 4 "PlasticsOne" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 4600
 	1    0    0    -1  
 $EndComp
