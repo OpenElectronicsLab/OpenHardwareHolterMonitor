@@ -1,4 +1,4 @@
-START HERE: scan schematic for notes, then rework PCB
+START HERE: then rework PCB
 
 TODO THIS VERSION:
 * place infromational text in the gaps between isolated resistors
@@ -16,6 +16,8 @@ CONSIDER:
   suggests switching to sheilded leads for EMI
   (can we use filtering instead?)
 
+* look at standards, determine if external clock is required
+
 * Build a configurably "noisy" and "bad" power-supply for testing
   dial-in out-of-spec for USB: (only 3 or 4 volts or +8 volts)
   configurable amount of 50Hz or 60Hz noise
@@ -26,6 +28,9 @@ CONSIDER:
 
 * test vibration influence with car, train, metro, bus, bike
   compare with swapping-in a tantilum for C8
+
+* Regulater's Capacitor C42 1uF to 10uF should be fine;
+  bigger is typically better, but we may get oscillation, need to test
 
 --------------------------------------------
 Alternated resistors front-to-back in order increase the clearance between

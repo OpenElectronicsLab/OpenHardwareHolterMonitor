@@ -1188,8 +1188,6 @@ left
 Text Notes 11100 2850 2    61   ~ 0
 chest
 Connection ~ 7500 3100
-Text Notes 4800 6350 0    60   ~ 0
-TODO: Consider external clock
 $Comp
 L OpenHardwareHolterMonitor-rescue:Conn_01x01 J2
 U 1 1 5B169F12
@@ -1340,8 +1338,6 @@ F 5 "41828" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    11000 4600
 	1    0    0    -1  
 $EndComp
-Text Notes 4750 2250 1    30   ~ 0
-C8 Could be tantilum for vibration resistance
 Wire Wire Line
 	4600 5000 4800 5000
 Wire Wire Line

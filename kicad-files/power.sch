@@ -77,8 +77,6 @@ F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    10800 5650
 	1    0    0    -1  
 $EndComp
-Text Notes 9500 6000 0    30   ~ 0
-1uF to 10uF should be fine; bigger is typically better,\n but we may get oscillation, need to test
 $Comp
 L mcp73833:MCP73833 U3
 U 1 1 5AAD2F9D
@@ -220,8 +218,6 @@ F 3 "" H 4600 6850 50  0001 C CNN
 	1    4600 6800
 	1    0    0    -1  
 $EndComp
-Text Notes 2150 7400 0    30   ~ 0
-MCP Datasheet typical: approx 5C-40C\nWith series resistor of 276 Ohm and parallel resistor of 149751 Ohm\n would give range of approx: 0C-45C
 Text Label 11150 1150 2    60   ~ 0
 Bat2_Stat1
 Text Label 11150 800  2    60   ~ 0
@@ -355,12 +351,6 @@ F 5 "REM3-0505S/A" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    9400 2800
 	1    0    0    -1  
 $EndComp
-Text Notes 7650 3100 0    30   ~ 0
-CMS1-12-R
-Text Notes 6050 3000 1    30   ~ 0
-V10P45S-M3/86A
-Text Notes 9200 2600 0    30   ~ 0
-REM3-0505S/A
 Text Notes 6450 3350 0    30   ~ 0
 REM3-0505 Data sheet recommends\n1000uF through-hole Nippon Chemi-con KY series\nwe replaced with 3 SMD tantalums\n
 $Comp
@@ -374,7 +364,7 @@ F 1 "Polyfuse" V 2550 1100 50  0000 C CNN
 F 2 "Resistors_SMD:R_1812_HandSoldering" H 2500 900 50  0001 L CNN
 F 3 "" H 2450 1100 50  0001 C CNN
 F 4 "Littelfuse" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 "F8132CT-ND" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "1812L050/60MR" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    2450 1100
 	0    1    1    0   
 $EndComp
@@ -393,8 +383,6 @@ F 5 "Micro Commercial Components (MCC)" H 0   0   50  0001 C CNN "ManufacturerNa
 	1    3000 1550
 	0    1    1    0   
 $EndComp
-Text Notes 2250 1400 0    30   ~ 0
-2920L050DR 
 Text Label 10750 2750 2    60   ~ 0
 V_ISO
 Text Label 10750 2650 2    60   ~ 0
@@ -508,7 +496,7 @@ F 1 "Polyfuse" V 4850 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_1812_HandSoldering" H 4800 2400 50  0001 L CNN
 F 3 "" H 4750 2600 50  0001 C CNN
 F 4 "Littelfuse" H 0   0   50  0001 C CNN "ManufacturerName"
-F 5 "F8132CT-ND" H 0   0   50  0001 C CNN "manufacturer-pn"
+F 5 "1812L050/60MR" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    4750 2600
 	0    1    1    0   
 $EndComp
@@ -527,8 +515,6 @@ F 5 "Micro Commercial Components (MCC)" H 0   0   50  0001 C CNN "ManufacturerNa
 	1    5300 3050
 	0    1    1    0   
 $EndComp
-Text Notes 4600 2900 0    30   ~ 0
-2920L050DR 
 $Comp
 L OpenHardwareHolterMonitor-rescue:GNDPWR #PWR022
 U 1 1 5AD48E90
@@ -1231,8 +1217,6 @@ Wire Wire Line
 Wire Wire Line
 	8500 2850 8550 2850
 Connection ~ 8500 2750
-Text Notes 6300 7400 0    30   ~ 0
-Keystone  Electronics 1043
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 5B269F35
@@ -1716,8 +1700,6 @@ F 3 "" H 4600 5050 50  0001 C CNN
 	1    4600 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 2150 5600 0    30   ~ 0
-MCP Datasheet typical: approx 5C-40C\nWith series resistor of 276 Ohm and parallel resistor of 149751 Ohm\n would give range of approx: 0C-45C
 Wire Wire Line
 	1600 4300 1750 4300
 Wire Wire Line
@@ -1793,8 +1775,6 @@ Wire Wire Line
 	1900 4500 2050 4500
 Wire Wire Line
 	1750 4300 1900 4300
-Text Notes 6300 5600 0    30   ~ 0
-Keystone  Electronics 1043
 $Comp
 L power:GND #PWR020
 U 1 1 5C793DCD
@@ -2111,10 +2091,6 @@ F 3 "~" H 1000 6850 50  0001 C CNN
 	1    800  6850
 	1    0    0    -1  
 $EndComp
-Text Notes 2150 5650 0    30   ~ 0
-Consider thermal pad and SMD
-Text Notes 2150 7450 0    30   ~ 0
-Consider thermal pad and SMD
 $Comp
 L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q11
 U 1 1 5C48123F
