@@ -1,9 +1,8 @@
-START HERE: then rework PCB
+START HERE: place text, fix labels, then Generate and inspect gerbers
 
 TODO THIS VERSION:
 * place infromational text in the gaps between isolated resistors
 * fix alignment on debug labels IN1P..IN8P, etc (only roughly placed)
-* re-work PCB after finishing BOM
 
 FOR NEXT VERSION:
 * keep a detailed journal of decisions
