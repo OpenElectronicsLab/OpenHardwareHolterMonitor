@@ -773,6 +773,7 @@ F 1 "32768Hz" H 8250 2450 50  0000 C CNN
 F 2 "crystals:K161" H 8250 2300 50  0001 C CNN
 F 3 "" H 8250 2300 50  0000 C CNN
 F 4 "FK161EIHM0.032768" H 8250 2150 50  0000 C CNN "manufacturer-pn"
+F 5 "Fox" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    8250 2300
 	1    0    0    -1  
 $EndComp

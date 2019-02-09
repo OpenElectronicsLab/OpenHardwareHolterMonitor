@@ -308,7 +308,7 @@ F 1 "22uF" H 7375 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7388 2650 50  0001 C CNN
 F 3 "" H 7350 2800 50  0000 C CNN
 F 4 "GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
-F 5 "TODO:C8 tantilum? Murata Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "Murata Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    7350 2800
 	1    0    0    -1  
 $EndComp
@@ -323,7 +323,7 @@ F 1 "22uF" H 8225 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8238 2650 50  0001 C CNN
 F 3 "" H 8200 2800 50  0000 C CNN
 F 4 "GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
-F 5 "TODO:C8 tantilum? Murata Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "Murata Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    8200 2800
 	1    0    0    -1  
 $EndComp

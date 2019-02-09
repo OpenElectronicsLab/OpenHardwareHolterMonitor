@@ -200,7 +200,7 @@ F 1 "22uF" H 4625 1850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4638 1800 50  0001 C CNN
 F 3 "" H 4600 1950 50  0000 C CNN
 F 4 "GRM21BD71A226ME44L" H 0   0   50  0001 C CNN "manufacturer-pn"
-F 5 "TODO:C8 tantilum? Murata Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
+F 5 "Murata Electronics" H 0   0   50  0001 C CNN "ManufacturerName"
 	1    4600 1950
 	-1   0    0    1   
 $EndComp

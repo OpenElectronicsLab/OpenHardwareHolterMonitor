@@ -1,3 +1,5 @@
+START HERE: scan schematic for notes, then rework PCB
+
 TODO THIS VERSION:
 * place infromational text in the gaps between isolated resistors
 * fix alignment on debug labels IN1P..IN8P, etc (only roughly placed)
@@ -21,6 +23,9 @@ CONSIDER:
 * Create test signals (configurable fake EEG readings we can feed in)
 
 * simulate defribulator voltage added to test cardiac signals
+
+* test vibration influence with car, train, metro, bus, bike
+  compare with swapping-in a tantilum for C8
 
 --------------------------------------------
 Alternated resistors front-to-back in order increase the clearance between
