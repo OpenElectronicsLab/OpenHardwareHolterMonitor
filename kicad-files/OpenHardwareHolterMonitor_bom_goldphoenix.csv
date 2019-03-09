@@ -1,0 +1,49 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ManufacturerName,manufacturer-pn
+1,,Battery_Cell,BT1 BT2,Battery_Cell,Keystone1043,2,,Keystone,1043
+2,,C,C4 C6 C10 C13 C14 C17 C18 C22 C36 C38,100nF,C_0603_HandSoldering,10,,Yageo,CC0603JRX7R9BB104
+3,,C,C20,100pF,C_0603_HandSoldering,1,,Yageo,CC0603JRNPO9BN101
+4,,C,C21,10nF,C_0603_HandSoldering,1,,Samsung Electro-Mechanics,CL10B103KB8NCNC
+5,,C,C12 C40 C42,10uF,C_0805_HandSoldering,3,,Samsung Electro-Mechanics,CL21B106KPQNNNE
+6,,C,C1 C2,12pF,C_0603_HandSoldering,2,,Yageo,CC0603JRNPO9BN120
+7,,C,C3 C5 C7 C9 C11 C15 C16 C19 C23,1uF,C_0603_HandSoldering,9,,Taiyo Yuden,LMK107B7105KA-T
+8,,C,C8 C39 C41,22uF,C_0805_HandSoldering,3,,Murata Electronics,GRM21BD71A226ME44L
+9,,CP,C34 C35 C37,330uF,CP_Tantalum_Case-E_EIA-7260-38_Hand,3,,AVX,TPSE337K010T0050V
+10,,C,C24 C25 C26 C27 C28 C29 C30 C31 C32 C33,470pF,C_0603_HandSoldering,10,,Yageo,CC0603JRNPOYBN471
+11,,Micro_SD_Card,CON1,Micro_SD_Card,MicroSd_Wurth_693072010801,1,,Wurth,693072010801
+12,,D_Schottky,D1 D2 D3 D6 D10 D12 D13 D14,D_Schottky,D_SOD-323_HandSoldering,8,,STMicroelectronics,BAT60JFILM
+13,,D_Schottky_AAK,D8,D_Schottky_AAK,TO-277A,1,,Vishay,SS10PH10-M3/86A
+14,,D_Zener,D4 D5,D_Zener,D_SMB_Handsoldering,2,,Micro Commercial Components (MCC),SMBJ5339B-TP
+15,,LED-device,D7 D11,LED,LED_0603_HandSoldering,2,~,Inolux,IN-S63BTA
+16,,LED,D9,LED,LED_0603_HandSoldering,1,,Lite-On Inc.,LTST-C191KGKT
+17,,Polyfuse,F1 F2,Polyfuse,R_1812_HandSoldering,2,,Littelfuse,1812L050/60MR
+18,,EMI_Filter_LL,FL1,131uH,CMS1,1,,Eaton,CMS1-12-R
+19,,NI,J2 J3 J4 J5 J6 J7 J8 J9 J10 J11,,,10,,,
+20,,Conn_02x06_Odd_Even-Connector,J1,Conn_02x06_Odd_Even,Pin_Header_Straight_2x06_Pitch1.27mm,1,~,Harwin,M50-3000645
+21,,USB_C_Receptacle,J13,USB_C_Receptacle,USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles,1,,Amphenol,12401610E4#2A
+22,,USB_OTG,J12,USB_OTG,USB_Micro-B_Wuerth-629105150521_CircularHoles,1,,Wurth,629105150521
+23,,CONN_01X07,P1,Custom_FTDI,Pin_Header_Straight_1x07_Pitch2.54mm,1,,Wurth,61300711121
+24,,Q_NMOS_DGS,Q3 Q4,Q_NMOS_DGS,SOT-23W_Handsoldering,2,,Diodes Incorporated,2N7002-7-F
+25,,Q_NMOS_DGS-device,Q5 Q6,Q_NMOS_DGS,SOT-23W_Handsoldering,2,,Diodes Incorporated,2N7002-7-F
+26,,Q_PMOS_DGS-device,Q7 Q8 Q9 Q10 Q11,Q_PMOS_DGS,SOT-23_Handsoldering,5,,Diodes Incorporated,DMG2305UX
+27,,S8050,Q1 Q2,S8050,SOT-23_Handsoldering,2,,Diodes Incorporated,DSS4240T-7
+28,,R,R31 R32,0,R_0603_HandSoldering,2,,Yageo,RC0603FR-070RL
+29,,R,R7 R10 R13 R27 R28,100k,R_0603_HandSoldering,5,,Panasonic Electronic Components,ERA-3AEB104V
+30,,R-device,R37 R38 R41 R42 R43,100k,R_0603_HandSoldering,5,,Panasonic Electronic Components,ERA-3AEB104V
+31,,R,R33 R34,10K-NTC,R_0603_HandSoldering,2,,Panasonic Electronic Components,ERT-J1VG103JA
+32,,R,R5 R6,12K,R_0603_HandSoldering,2,,Panasonic Electronic Components,ERJ-PB3B1202V
+33,,R,R9 R12 R35 R36,1k,R_0603_HandSoldering,4,,Panasonic Electronic Components,ERJ-PB3B1001V
+34,,R,R8 R11,3.9k,R_0603_HandSoldering,2,,Panasonic Electronic Components,ERJ-PB3B3901V
+35,,R-device,R39 R40,330,R_0603_HandSoldering,2,,Panasonic Electronic Components,ERA-3AEB331V
+36,,R,R16,392k,R_0603_HandSoldering,1,,TE Connectivity Passive Product,RN73C1J392KBTD
+37,,R,R1 R2 R3 R4 R14 R15,47,R_0603_HandSoldering,6,,Panasonic Electronic Components,ERA-3AEB470V
+38,,R,R29 R30,5.1k,R_0603_HandSoldering,2,,Panasonic Electronic Components,ERJ-PB3B5101V
+39,,R,R17 R18 R19 R20 R21 R22 R23 R24 R25 R26,51k,R_Axial_Power_L20.0mm_W6.4mm_P25.40mm,10,,Stackpole Electronics,ASRM2JA51K0
+40,"Switch, single pole double throw",SW_SPDT,SW1,SW_SPDT,SW_SPDT_CK-JS102011SAQN,1,,C&K,JS102011SAQN
+41,,Thermistor_NTC,TH1 TH2,NI,CP_Radial_D4.0mm_P1.50mm,2,,,
+42,,ADS1298,U2,ADS1298,LQFP-64_10x10mm_Pitch0.5mm,1,,Texas Instruments,ADS1298IPAG
+43,,ESP-WROOM-32,U1,ESP-WROOM-32,MODULE_ESP-WROOM-32,1,,RF Solutions,ESP-32
+44,,LP5912,U6,LP5912,WSON-6_2x2mm_Pitch0.65mm,1,,Texas Instruments,LP5912-3.3DRVT
+45,,MCP73833,U3 U4,MCP73833,MSOP-10_3x3mm_Pitch0.5mm,2,,Microchip Technology,MCP73833T-AMI/UN
+46,,REM_3-xxxxS,U7,REM_3-xxxxS,REM3,1,,Recom Power,REM3-0505S/A
+47,,TPS2113A,U5,TPS2113A,TSSOP-8_4.4x3mm_Pitch0.65mm,1,,Texas Instruments,TPS2113A
+48,,Crystal,Y1,32768Hz,K161,1,,Fox,FK161EIHM0.032768

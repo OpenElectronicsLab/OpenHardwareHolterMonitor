@@ -1,4 +1,9 @@
-START HERE: place text, fix labels, then Generate and inspect gerbers
+START HERE:
+ * Case Design
+ * Software prototype on esp32
+
+ORDER PROCESS:
+* board dimenions units are in CM not MM at Gold Phoenix
 
 TODO THIS VERSION:
 * if we re-generate gerbers:
