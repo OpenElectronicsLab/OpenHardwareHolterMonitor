@@ -1,8 +1,7 @@
 START HERE: place text, fix labels, then Generate and inspect gerbers
 
 TODO THIS VERSION:
-* place infromational text in the gaps between isolated resistors
-* fix alignment on debug labels IN1P..IN8P, etc (only roughly placed)
+* add fiducial marks on back
 
 FOR NEXT VERSION:
 * keep a detailed journal of decisions
