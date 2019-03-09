@@ -1,7 +1,11 @@
 START HERE: place text, fix labels, then Generate and inspect gerbers
 
 TODO THIS VERSION:
-* generate gerbers
+* if we re-generate gerbers:
+  - move R17 t/m R26 to the left/right to get out of the way of other labels
+  - fix solder mask for ADS?
+  - north reserved pin which connects to DGND: smooth awkward copper path
+  - back copper power-input zone is off by a dot; align with other zones
 
 FOR NEXT VERSION:
 * keep a detailed journal of decisions
