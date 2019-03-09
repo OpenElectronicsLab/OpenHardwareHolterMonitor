@@ -1,7 +1,7 @@
 START HERE: place text, fix labels, then Generate and inspect gerbers
 
 TODO THIS VERSION:
-* add fiducial marks on back
+* generate gerbers
 
 FOR NEXT VERSION:
 * keep a detailed journal of decisions
