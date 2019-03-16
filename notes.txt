@@ -13,6 +13,8 @@ TODO THIS VERSION:
   - back copper power-input zone is off by a dot; align with other zones
 
 FOR NEXT VERSION:
+* Check BOM for duplicates, update schematic accordingly
+  - e.g.: "R" vs. "R-device" components which are both 100K Ohm 0603.
 * keep a detailed journal of decisions
 * add manufacturer-partnumber and manufacturer fields before other annotations
 * label all of the networks between components

@@ -1,0 +1,47 @@
+#,Manufacturer Part Number,Manufacturer,Description,Customer Reference,Availability,Part Status,Digi-Key Part Number,Packaging,Requested Quantity,Quantity,Unit Price,Extended Price,Manufacturer Lead Weeks,US Tariff Status
+1,1043,Keystone Electronics,BATTERY HOLDER 18650 PC PIN,BT1 BT2,8660 Available,Active,36-1043-ND,BULK,2,2,2.30000,$4.60,Manufacturer Standard Lead Time 6 Weeks
+2,CC0603JRX7R9BB104,Yageo,CAP CER 0.1UF 50V X7R 0603,C4 C6 C10 C13 C14 C17 C18 C22 C36 C38,668000 Available,Active,311-1779-1-ND,CT,10,10,0.09700,$0.97,Manufacturer Standard Lead Time 16 Weeks
+3,CC0603JRNPO9BN101,Yageo,CAP CER 100PF 50V C0G/NPO 0603,C20,1712000 Available,Active,311-1069-1-ND,CT,1,1,0.10000,$0.10,Manufacturer Standard Lead Time 16 Weeks,Tariff Applied
+4,CL10B103KB8NCNC,Samsung Electro-Mechanics,CAP CER 10000PF 50V X7R 0603,C21,6216000 Available,Active,1276-1921-1-ND,CT,1,1,0.10000,$0.10,Not Available,Tariff Applied
+5,CL21B106KPQNNNE,Samsung Electro-Mechanics,CAP CER 10UF 10V X7R 0805,C12 C40 C42,1822000 Available,Active,1276-1764-1-ND,CT,3,3,0.29000,$0.87,Not Available
+6,CC0603JRNPO9BN120,Yageo,CAP CER 12PF 50V C0G/NPO 0603,C1 C2,688000 Available,Active,311-1059-1-ND,CT,2,2,0.10000,$0.20,Manufacturer Standard Lead Time 16 Weeks,Tariff Applied
+7,LMK107B7105KA-T,Taiyo Yuden,CAP CER 1UF 10V X7R 0603,C3 C5 C7 C9 C11 C15 C16 C19 C23,1896000 Available,Active,587-1242-1-ND,CT,9,9,0.10000,$0.90,Not Available,Tariff Applied
+8,GRM21BD71A226ME44L,Murata Electronics North America,CAP CER 22UF 10V X7T 0805,C8 C39 C41,411000 Available,Active,490-9959-1-ND,CT,3,3,0.48000,$1.44,Not Available
+9,TPSE337K010T0050V,AVX Corporation,CAP TANT 330UF 10% 10V 2917,C34 C35 C37,400 Available,Active,478-11252-1-ND,CT,3,3,2.45000,$7.35,Manufacturer Standard Lead Time 10 Weeks
+10,C0603C471JAGAC7867,KEMET,CAP CER 470PF 250V C0G/NP0 0603,C24 C25 C26 C27 C28 C29 C30 C31 C32 C33,2701 Available,Active,399-14986-1-ND,CT,10,10,0.07600,$0.76,Manufacturer Standard Lead Time 52 Weeks
+11,693072010801,Wurth Electronics Inc.,CONN MICRO SD CARD HINGED TYPE,CON1,1200 Available,Active,732-3820-1-ND,CT,1,1,3.20000,$3.20,Manufacturer Standard Lead Time 17 Weeks
+12,BAT60JFILM,STMicroelectronics,DIODE SCHOTTKY 10V 3A SOD323,D1 D2 D3 D6 D10 D12 D13 D14,57000 Available,Active,497-3707-1-ND,CT,8,8,0.39000,$3.12,Manufacturer Standard Lead Time 12 Weeks,Tariff Applied
+13,SS10PH10-M3/86A,Vishay Semiconductor Diodes Division,DIODE SCHOTTKY 100V 10A TO277A,D8,24000 Available,Active,SS10PH10-M3/86AGICT-ND,CT,1,1,0.74000,$0.74,Manufacturer Standard Lead Time 12 Weeks,Tariff Applied
+14,SMBJ5339B-TP,Micro Commercial Co,DIODE ZENER 5.6V 5W DO214AA,D4 D5,33000 Available,Active,SMBJ5339B-TPMSCT-ND,CT,2,2,0.87000,$1.74,Not Available
+15,IN-S63BTA,Inolux,LED AMBER CLEAR 0603 SMD,D7 D11,4000 Available,Active,1830-1071-1-ND,CT,2,2,0.36000,$0.72,Manufacturer Standard Lead Time 8 Weeks
+16,LTST-C191KGKT,Lite-On Inc.,LED GREEN CLEAR SMD,D9,1020000 Available,Active,160-1446-1-ND,CT,1,1,0.29000,$0.29,Manufacturer Standard Lead Time 10 Weeks,Tariff Applied
+17,1812L050/30PR,Littelfuse Inc.,PTC RESET FUSE 30V 500MA 1812,F1 F2,12618 Available,Active,F4159CT-ND,CT,2,2,1.04000,$2.08,Manufacturer Standard Lead Time 11 Weeks,Tariff Applied
+18,CMS1-12-R,Eaton - Electronics Division,CMC 131UH 1.15A 2LN SMD,FL1,2000 Available,Active,513-1683-1-ND,CT,1,1,2.95000,$2.95,Manufacturer Standard Lead Time 16 Weeks
+19,M50-3000645,Harwin Inc.,CONN RCPT 12POS 0.05 GOLD PCB,J1,2703 Available,Active,952-1366-5-ND,TUBE,1,1,1.70000,$1.70,Manufacturer Standard Lead Time 10 Weeks
+20,12401610E4#2A,Amphenol ICC (Commercial Products),CONN RCP USB3.1 TYPEC 24P SMD RA,J13,37680 Available,Active,12401610E4#2ACT-ND,CT,1,1,2.24000,$2.24,Manufacturer Standard Lead Time 12 Weeks,Tariff Applied
+21,629105150521,Wurth Electronics Inc.,CONN RCPT USB2.0 MICRO B SMD R/A,J12,4400 Available,Active,732-5960-1-ND,CT,1,1,2.07000,$2.07,Manufacturer Standard Lead Time 11 Weeks
+22,61300711121,Wurth Electronics Inc.,CONN HEADER VERT 7POS 2.54MM,P1,6236 Available,Active,732-5320-ND,BAG,1,1,0.37000,$0.37,Manufacturer Standard Lead Time 14 Weeks
+23,2N7002-7-F,Diodes Incorporated,MOSFET N-CH 60V 115MA SOT23-3,Q3 Q4,6681000 Available,Active,2N7002-FDICT-ND,CT,2,2,0.22000,$0.44,Not Available,Tariff Applied
+24,2N7002-7-F,Diodes Incorporated,MOSFET N-CH 60V 115MA SOT23-3,Q5 Q6,6681000 Available,Active,2N7002-FDICT-ND,CT,2,2,0.22000,$0.44,Not Available,Tariff Applied
+25,DMG2305UX-13,Diodes Incorporated,MOSFET P-CH 20V 4.2A SOT23,Q7 Q8 Q9 Q10 Q11,879607 Available,Active,DMG2305UX-13DICT-ND,CT,5,5,0.45000,$2.25,Manufacturer Standard Lead Time 20 Weeks,Tariff Applied
+26,DSS4240T-7,Diodes Incorporated,TRANS NPN 40V 2A SOT-23,Q1 Q2,420000 Available,Active,DSS4240TDICT-ND,CT,2,2,0.44000,$0.88,Manufacturer Standard Lead Time 20 Weeks,Tariff Applied
+27,RC0603FR-070RL,Yageo,RES SMD 0 OHM JUMPER 1/10W 0603,R31 R32,4235000 Available,Active,311-0.0HRCT-ND,CT,2,2,0.10000,$0.20,Manufacturer Standard Lead Time 16 Weeks,Tariff Applied
+28,ERA-3AEB104V,Panasonic Electronic Components,RES SMD 100K OHM 0.1% 1/10W 0603,R7 R10 R13 R27 R28,1490000 Available,Active,P100KDBCT-ND,CT,5,5,0.35000,$1.75,Manufacturer Standard Lead Time 23 Weeks
+29,ERA-3AEB104V,Panasonic Electronic Components,RES SMD 100K OHM 0.1% 1/10W 0603,R37 R38 R41 R42 R43,1490000 Available,Active,P100KDBCT-ND,CT,5,5,0.35000,$1.75,Manufacturer Standard Lead Time 23 Weeks
+30,ERT-J1VG103JA,Panasonic Electronic Components,THERMISTOR NTC 10KOHM 3380K 0603,R33 R34,52000 Available,Active,P12014CT-ND,CT,2,2,0.18000,$0.36,Manufacturer Standard Lead Time 7 Weeks
+31,ERJ-PB3B1202V,Panasonic Electronic Components,RES SMD 12K OHM 0.1% 1/5W 0603,R5 R6,500 Available,Active,P20094CT-ND,CT,2,2,0.25000,$0.50,Manufacturer Standard Lead Time 18 Weeks
+32,ERJ-PB3B1001V,Panasonic Electronic Components,RES SMD 1K OHM 0.1% 1/5W 0603,R9 R12 R35 R36,40000 Available,Active,P19972CT-ND,CT,4,4,0.25000,$1.00,Manufacturer Standard Lead Time 18 Weeks
+33,ERJ-PB3B3901V,Panasonic Electronic Components,RES SMD 3.9K OHM 0.1% 1/5W 0603,R8 R11,5000 Available,Active,P20038CT-ND,CT,2,2,0.25000,$0.50,Manufacturer Standard Lead Time 18 Weeks
+34,ERA-3AEB331V,Panasonic Electronic Components,RES SMD 330 OHM 0.1% 1/10W 0603,R39 R40,55000 Available,Active,P330DBCT-ND,CT,2,2,0.35000,$0.70,Manufacturer Standard Lead Time 23 Weeks
+35,RN73C1J392KBTD,TE Connectivity Passive Product,RES SMD 392K OHM 0.1% 1/16W 0603,R16,3759 Available,Active,A124746CT-ND,CT,1,1,0.80000,$0.80,Manufacturer Standard Lead Time 9 Weeks
+36,ERA-3AEB470V,Panasonic Electronic Components,RES SMD 47 OHM 0.1% 1/10W 0603,R1 R2 R3 R4 R14 R15,115000 Available,Active,P47DBCT-ND,CT,6,6,0.35000,$2.10,Manufacturer Standard Lead Time 23 Weeks
+37,ERJ-PB3B5101V,Panasonic Electronic Components,RES SMD 5.1K OHM 0.1% 1/5W 0603,R29 R30,5000 Available,Active,P20052CT-ND,CT,2,2,0.25000,$0.50,Manufacturer Standard Lead Time 18 Weeks
+38,ASRM2JA51K0,Stackpole Electronics Inc,RES 51K OHM 2W 5% AXIAL,R17 R18 R19 R20 R21 R22 R23 R24 R25 R26,229 Available,Active,ASRM2JA51K0CT-ND,CT,10,10,0.57800,$5.78,Manufacturer Standard Lead Time 11 Weeks
+39,JS102011SAQN,C&K,SWITCH SLIDE SPDT 300MA 6V,SW1,36000 Available,Active,401-1999-1-ND,CT,1,1,0.59000,$0.59,Manufacturer Standard Lead Time 13 Weeks,Tariff Applied
+40,ADS1298IPAG,Texas Instruments,IC AFE 24BIT SPI 32KSPS 64TQFP,U2,5197 Available,Active,296-27734-ND,TRAY,1,1,38.99000,$38.99,Manufacturer Standard Lead Time 12 Weeks
+41,ESP-32,RF Solutions,WIFI802.11B/G/N/E/I BLEUTOOTH CL,U1,7 Available,Active,ESP-32-ND,BAG,1,1,15.68000,$15.68,Manufacturer Standard Lead Time 4 Weeks
+42,LP5912-3.3DRVT,Texas Instruments,IC REG LINEAR 3.3V 500MA 6SON,U6,6500 Available,Active,296-44153-1-ND,CT,1,1,1.38000,$1.38,Manufacturer Standard Lead Time 8 Weeks
+43,MCP73833T-AMI/UN,Microchip Technology,IC LI-ION/LI-POLY CTRLR 10MSOP,U3 U4,17500 Available,Active,MCP73833T-AMI/UNCT-ND,CT,2,2,0.88000,$1.76,Manufacturer Standard Lead Time 6 Weeks
+44,REM3-0505S/A,Recom Power,DC DC CONVERTER 5V 3W,U7,425 Available,Active,945-2224-ND,TUBE,1,1,52.54000,$52.54,Manufacturer Standard Lead Time 16 Weeks
+45,TPS2113APWR,Texas Instruments,IC OR CTRLR SRC SELECT 8TSSOP,U5,30606 Available,Active,296-16938-1-ND,CT,1,1,2.41000,$2.41,Manufacturer Standard Lead Time 8 Weeks
+46,FK161EIHM0.032768-T5,Fox Electronics,CRYSTAL 32.768KHZ 12.5PF SMD,Y1,5754 Available,Active,631-1486-1-ND,CT,1,1,1.91000,$1.91,Manufacturer Standard Lead Time 13 Weeks
