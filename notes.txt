@@ -1,4 +1,5 @@
 START HERE:
+ * d'oh! BT1 is BAT2 & BT2 is BAT1 !!!
  * Case Design
  * Software prototype on esp32
 
