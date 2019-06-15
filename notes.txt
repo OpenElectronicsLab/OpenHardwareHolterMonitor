@@ -1,5 +1,16 @@
 START HERE:
  * d'oh! BT1 is BAT2 & BT2 is BAT1 !!!
+ * d'oh! DGS and CBE are wrong on all the Qs !!!
+   - some we can desolder and/or jump around
+   - alternative pinouts are not easy to source, (but maybe we can find them)
+   - through-hole are larger, higher resistance, but might be made to work
+	TSM480P06CH X0G, or other TO-251 or TO252
+   - desoldering parts, lifting them up, wiring them in on tiny stilts,
+	insulating them with glob of glue/epoxy
+   - make mini-boards which do footprint adapting
+   - make mini-boards from paper and glue
+   - make a dozen transistor board with a row of wires as jumpers
+ * REV2 board required
  * Case Design
  * Software prototype on esp32
 
