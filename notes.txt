@@ -55,6 +55,38 @@ CONSIDER:
 * Regulater's Capacitor C42 1uF to 10uF should be fine;
   bigger is typically better, but we may get oscillation, need to test
 
+# NOTES ON SOT-23 TRANSITORS WITH INCORRECT FOOTPRINTS
+
+## KiCad SOT-23 footprint pin numbering:
+
+      1
+          3
+      2
+
+## Q1 Q2 : DSS4240T-7
+
+    current KiCad     actual part
+
+      E                 B
+          C                 C
+      B                 E
+
+## Q3 Q4 Q5 Q6: 2N7002-7-F
+
+    current KiCad     actual part
+
+      D                 G
+          S                 D
+      G                 S
+
+## Q7 Q8 Q9 Q10 Q11 : DMG2305UX-13
+
+    current KiCad     actual part
+
+      D                 G
+          S                 D
+      G                 S
+
 --------------------------------------------
 Alternated resistors front-to-back in order increase the clearance between
 resistors.
