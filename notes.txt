@@ -1,23 +1,15 @@
 START HERE:
- * d'oh! BT1 is BAT2 & BT2 is BAT1 !!!
- * d'oh! DGS and CBE are wrong on all the Qs !!!
-   - some we can desolder and/or jump around
-   - alternative pinouts are not easy to source, (but maybe we can find them)
-   - through-hole are larger, higher resistance, but might be made to work
-	TSM480P06CH X0G, or other TO-251 or TO252
-   - desoldering parts, lifting them up, wiring them in on tiny stilts,
-	insulating them with glob of glue/epoxy
-   - make mini-boards which do footprint adapting
-   - make mini-boards from paper and glue
-   - make a dozen transistor board with a row of wires as jumpers
  * REV2 board required
+   - FIXED in v0.2 : d'oh! v0.1 BT1 is BAT2 & BT2 is BAT1 !!!
+   - FIXED in v0.2 : d'oh! v0.1 DGS and CBE are wrong on all the Qs !!!
+     - we can desolder and rotate and/or jump around
  * Case Design
  * Software prototype on esp32
 
 ORDER PROCESS:
 * board dimenions units are in CM not MM at Gold Phoenix
 
-TODO THIS VERSION:
+TODO THIS VERSION (v0.2):
 * if we re-generate gerbers:
   - move R17 t/m R26 to the left/right to get out of the way of other labels
   - fix solder mask for ADS?
@@ -55,7 +47,7 @@ CONSIDER:
 * Regulater's Capacitor C42 1uF to 10uF should be fine;
   bigger is typically better, but we may get oscillation, need to test
 
-# NOTES ON SOT-23 TRANSITORS WITH INCORRECT FOOTPRINTS
+# NOTES ON v0.1 SOT-23 TRANSITORS WITH INCORRECT FOOTPRINTS
 
 ## KiCad SOT-23 footprint pin numbering:
 
@@ -65,7 +57,7 @@ CONSIDER:
 
 ## Q1 Q2 : DSS4240T-7
 
-    current KiCad     actual part
+    v0.1 KiCad     actual part
 
       E                 B
           C                 C
@@ -73,7 +65,7 @@ CONSIDER:
 
 ## Q3 Q4 Q5 Q6: 2N7002-7-F
 
-    current KiCad     actual part
+    v0.1 KiCad     actual part
 
       D                 G
           S                 D
@@ -81,7 +73,7 @@ CONSIDER:
 
 ## Q7 Q8 Q9 Q10 Q11 : DMG2305UX-13
 
-    current KiCad     actual part
+    v0.1 KiCad     actual part
 
       D                 G
           S                 D

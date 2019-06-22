@@ -131,16 +131,16 @@ Text Label 700  6350 0    60   ~ 0
 $Comp
 L OpenHardwareHolterMonitor-rescue:Battery_Cell BT1
 U 1 1 5AAD2FC2
-P 6250 7300
+P 6250 5500
 AR Path="/5AAD2FC2" Ref="BT1"  Part="1" 
 AR Path="/5A6D4EDD/5AAD2FC2" Ref="BT1"  Part="1" 
-F 0 "BT1" H 6350 7400 50  0000 L CNN
-F 1 "Battery_Cell" H 6350 7300 50  0000 L CNN
-F 2 "keystone1043:Keystone1043" V 6250 7360 50  0001 C CNN
-F 3 "" V 6250 7360 50  0000 C CNN
-F 4 "1043" H 0   0   50  0001 C CNN "manufacturer-pn"
-F 5 "Keystone" H 0   0   50  0001 C CNN "ManufacturerName"
-	1    6250 7300
+F 0 "BT1" H 6350 5600 50  0000 L CNN
+F 1 "Battery_Cell" H 6350 5500 50  0000 L CNN
+F 2 "keystone1043:Keystone1043" V 6250 5560 50  0001 C CNN
+F 3 "" V 6250 5560 50  0000 C CNN
+F 4 "1043" H 0   -1800 50  0001 C CNN "manufacturer-pn"
+F 5 "Keystone" H 0   -1800 50  0001 C CNN "ManufacturerName"
+	1    6250 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1613,16 +1613,16 @@ Text Label 700  4550 0    60   ~ 0
 $Comp
 L OpenHardwareHolterMonitor-rescue:Battery_Cell BT?
 U 1 1 5C793D6B
-P 6250 5500
+P 6250 7300
 AR Path="/5C793D6B" Ref="BT?"  Part="1" 
 AR Path="/5A6D4EDD/5C793D6B" Ref="BT2"  Part="1" 
-F 0 "BT2" H 6350 5600 50  0000 L CNN
-F 1 "Battery_Cell" H 6350 5500 50  0000 L CNN
-F 2 "keystone1043:Keystone1043" V 6250 5560 50  0001 C CNN
-F 3 "" V 6250 5560 50  0000 C CNN
-F 4 "1043" H 0   0   50  0001 C CNN "manufacturer-pn"
-F 5 "Keystone" H 0   0   50  0001 C CNN "ManufacturerName"
-	1    6250 5500
+F 0 "BT2" H 6350 7400 50  0000 L CNN
+F 1 "Battery_Cell" H 6350 7300 50  0000 L CNN
+F 2 "keystone1043:Keystone1043" V 6250 7360 50  0001 C CNN
+F 3 "" V 6250 7360 50  0000 C CNN
+F 4 "1043" H 0   1800 50  0001 C CNN "manufacturer-pn"
+F 5 "Keystone" H 0   1800 50  0001 C CNN "ManufacturerName"
+	1    6250 7300
 	1    0    0    -1  
 $EndComp
 $Comp
