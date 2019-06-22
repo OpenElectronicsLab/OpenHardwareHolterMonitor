@@ -626,7 +626,7 @@ U 1 1 5AB6876E
 P 8350 4800
 F 0 "Q3" H 8550 4850 50  0000 L CNN
 F 1 "2N7002" H 8550 4750 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23W_Handsoldering" H 8550 4900 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 8550 4900 50  0001 C CNN
 F 3 "" H 8350 4800 50  0000 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "2N7002-7-F " H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -697,7 +697,7 @@ U 1 1 5AB6D189
 P 10100 4800
 F 0 "Q4" H 10300 4850 50  0000 L CNN
 F 1 "2N7002" H 10300 4750 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23W_Handsoldering" H 10300 4900 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 10300 4900 50  0001 C CNN
 F 3 "" H 10100 4800 50  0000 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "2N7002-7-F " H 0   0   50  0001 C CNN "manufacturer-pn"
