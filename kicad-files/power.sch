@@ -1328,11 +1328,11 @@ Enable_Charging
 Text Label 11150 2150 2    60   ~ 0
 Enable_Charging
 $Comp
-L OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS-device Q6
+L Device:Q_NMOS_GSD Q6
 U 1 1 5BF1799C
 P 3750 7150
 F 0 "Q6" H 3955 7196 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 3955 7105 50  0000 L CNN
+F 1 "2N7002" H 3955 7105 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23W_Handsoldering" H 3950 7250 50  0001 C CNN
 F 3 "" H 3750 7150 50  0001 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
@@ -1390,11 +1390,11 @@ Wire Wire Line
 Wire Wire Line
 	4250 7500 4600 7500
 $Comp
-L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q8
+L Device:Q_PMOS_GSD Q8
 U 1 1 5C337DE9
 P 5050 6200
 F 0 "Q8" H 5256 6154 50  0000 L CNN
-F 1 "Q_PMOS_DGS" H 5256 6245 50  0000 L CNN
+F 1 "DMG2305UX" H 5256 6245 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5250 6300 50  0001 C CNN
 F 3 "" H 5050 6200 50  0001 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
@@ -1403,11 +1403,11 @@ F 5 "DMG2305UX" H 0   0   50  0001 C CNN "manufacturer-pn"
 	-1   0    0    1   
 $EndComp
 $Comp
-L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q10
+L Device:Q_PMOS_GSD Q10
 U 1 1 5C34B9F0
 P 5650 6200
 F 0 "Q10" H 5856 6154 50  0000 L CNN
-F 1 "Q_PMOS_DGS" H 5856 6245 50  0000 L CNN
+F 1 "DMG2305UX" H 5856 6245 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5850 6300 50  0001 C CNN
 F 3 "" H 5650 6200 50  0001 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
@@ -1813,11 +1813,11 @@ F 3 "" H 6250 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS-device Q5
+L Device:Q_NMOS_GSD Q5
 U 1 1 5C793DE1
 P 3750 5350
 F 0 "Q5" H 3955 5396 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 3955 5305 50  0000 L CNN
+F 1 "2N7002" H 3955 5305 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23W_Handsoldering" H 3950 5450 50  0001 C CNN
 F 3 "" H 3750 5350 50  0001 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
@@ -1852,11 +1852,11 @@ Wire Wire Line
 Wire Wire Line
 	4250 5700 4600 5700
 $Comp
-L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q7
+L Device:Q_PMOS_GSD Q7
 U 1 1 5C793DF6
 P 5050 4400
 F 0 "Q7" H 5256 4354 50  0000 L CNN
-F 1 "Q_PMOS_DGS" H 5256 4445 50  0000 L CNN
+F 1 "DMG2305UX" H 5256 4445 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5250 4500 50  0001 C CNN
 F 3 "" H 5050 4400 50  0001 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
@@ -1865,11 +1865,11 @@ F 5 "DMG2305UX" H 0   0   50  0001 C CNN "manufacturer-pn"
 	-1   0    0    1   
 $EndComp
 $Comp
-L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q9
+L Device:Q_PMOS_GSD Q9
 U 1 1 5C793DFD
 P 5650 4400
 F 0 "Q9" H 5856 4354 50  0000 L CNN
-F 1 "Q_PMOS_DGS" H 5856 4445 50  0000 L CNN
+F 1 "DMG2305UX" H 5856 4445 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5850 4500 50  0001 C CNN
 F 3 "" H 5650 4400 50  0001 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
@@ -2092,11 +2092,11 @@ F 3 "~" H 1000 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenHardwareHolterMonitor-rescue:Q_PMOS_DGS-device Q11
+L Device:Q_PMOS_GSD Q11
 U 1 1 5C48123F
 P 7700 4950
 F 0 "Q11" V 7906 4904 50  0000 L CNN
-F 1 "Q_PMOS_DGS" V 7550 4950 50  0000 L CNN
+F 1 "DMG2305UX" V 7550 4950 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 7900 5050 50  0001 C CNN
 F 3 "" H 7700 4950 50  0001 C CNN
 F 4 "Diodes Incorporated" H 2650 550 50  0001 C CNN "ManufacturerName"

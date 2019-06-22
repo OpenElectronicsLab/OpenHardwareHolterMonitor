@@ -161,7 +161,7 @@ F 3 "" H 3950 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenHardwareHolterMonitor-rescue:S8050 Q1
+L Device:Q_NPN_BEC Q1
 U 1 1 5A2C0790
 P 4700 5050
 F 0 "Q1" H 4900 5125 50  0000 L CNN
@@ -174,7 +174,7 @@ F 5 "DSS4240T-7" H 0   0   50  0001 C CNN "manufacturer-pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenHardwareHolterMonitor-rescue:S8050 Q2
+L Device:Q_NPN_BEC Q2
 U 1 1 5A2C0855
 P 4700 5800
 F 0 "Q2" H 4900 5875 50  0000 L CNN
@@ -621,11 +621,11 @@ Wire Wire Line
 Wire Wire Line
 	8450 3750 8450 3800
 $Comp
-L OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS Q3
+L Device:Q_NMOS_GSD Q3
 U 1 1 5AB6876E
 P 8350 4800
 F 0 "Q3" H 8550 4850 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 8550 4750 50  0000 L CNN
+F 1 "2N7002" H 8550 4750 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23W_Handsoldering" H 8550 4900 50  0001 C CNN
 F 3 "" H 8350 4800 50  0000 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
@@ -692,11 +692,11 @@ Wire Wire Line
 Wire Wire Line
 	10200 3750 10200 3800
 $Comp
-L OpenHardwareHolterMonitor-rescue:Q_NMOS_DGS Q4
+L Device:Q_NMOS_GSD Q4
 U 1 1 5AB6D189
 P 10100 4800
 F 0 "Q4" H 10300 4850 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 10300 4750 50  0000 L CNN
+F 1 "2N7002" H 10300 4750 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23W_Handsoldering" H 10300 4900 50  0001 C CNN
 F 3 "" H 10100 4800 50  0000 C CNN
 F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "ManufacturerName"
