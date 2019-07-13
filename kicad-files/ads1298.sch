@@ -287,7 +287,7 @@ AR Path="/5A4174A3" Ref="R16"  Part="1"
 AR Path="/5A40F075/5A4174A3" Ref="R16"  Part="1" 
 F 0 "R16" V 6330 5550 50  0000 C CNN
 F 1 "392k" V 6250 5550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6180 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6180 5550 50  0001 C CNN
 F 3 "" H 6250 5550 50  0000 C CNN
 F 4 "TE Connectivity Passive Product" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "RN73C1J392KBTD" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -417,7 +417,7 @@ AR Path="/5A438827" Ref="R15"  Part="1"
 AR Path="/5A40F075/5A438827" Ref="R15"  Part="1" 
 F 0 "R15" V 3130 4400 50  0000 C CNN
 F 1 "47" V 3050 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2980 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 4400 50  0001 C CNN
 F 3 "" H 3050 4400 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -432,7 +432,7 @@ AR Path="/5A438B0D" Ref="R14"  Part="1"
 AR Path="/5A40F075/5A438B0D" Ref="R14"  Part="1" 
 F 0 "R14" V 3130 4000 50  0000 C CNN
 F 1 "47" V 3050 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2980 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 4000 50  0001 C CNN
 F 3 "" H 3050 4000 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -457,7 +457,7 @@ AR Path="/5A43AECD" Ref="R13"  Part="1"
 AR Path="/5A40F075/5A43AECD" Ref="R13"  Part="1" 
 F 0 "R13" V 3130 3800 50  0000 C CNN
 F 1 "100k" V 3050 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2980 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 3800 50  0001 C CNN
 F 3 "" H 3050 3800 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"

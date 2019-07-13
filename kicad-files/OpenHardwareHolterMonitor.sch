@@ -192,7 +192,7 @@ U 1 1 5A2C0A57
 P 4250 5050
 F 0 "R5" V 4330 5050 50  0000 C CNN
 F 1 "12K" V 4250 5050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 5050 50  0001 C CNN
 F 3 "" H 4250 5050 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B1202V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -205,7 +205,7 @@ U 1 1 5A2C0ACC
 P 4250 5800
 F 0 "R6" V 4330 5800 50  0000 C CNN
 F 1 "12K" V 4250 5800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 5800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 5800 50  0001 C CNN
 F 3 "" H 4250 5800 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B1202V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -442,7 +442,7 @@ U 1 1 5A50E09F
 P 4350 2000
 F 0 "R1" V 4430 2000 50  0000 C CNN
 F 1 "47" V 4350 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4280 2000 50  0001 C CNN
 F 3 "" H 4350 2000 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -455,7 +455,7 @@ U 1 1 5A50E4C0
 P 4350 2700
 F 0 "R2" V 4430 2700 50  0000 C CNN
 F 1 "47" V 4350 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 2700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4280 2700 50  0001 C CNN
 F 3 "" H 4350 2700 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -468,7 +468,7 @@ U 1 1 5A50E54F
 P 4350 2800
 F 0 "R3" V 4430 2800 50  0000 C CNN
 F 1 "47" V 4350 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4280 2800 50  0001 C CNN
 F 3 "" H 4350 2800 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -493,7 +493,7 @@ U 1 1 5A50EA46
 P 4350 2900
 F 0 "R4" V 4430 2900 50  0000 C CNN
 F 1 "47" V 4350 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4280 2900 50  0001 C CNN
 F 3 "" H 4350 2900 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB470V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -574,7 +574,7 @@ U 1 1 5AB66BDB
 P 8450 3950
 F 0 "R8" V 8530 3950 50  0000 C CNN
 F 1 "3.9k" V 8450 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8380 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8380 3950 50  0001 C CNN
 F 3 "" H 8450 3950 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B3901V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -587,7 +587,7 @@ U 1 1 5AB66C92
 P 8450 4400
 F 0 "R9" V 8530 4400 50  0000 C CNN
 F 1 "1k" V 8450 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8380 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8380 4400 50  0001 C CNN
 F 3 "" H 8450 4400 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B1001V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -645,7 +645,7 @@ U 1 1 5AB6D16E
 P 10200 3950
 F 0 "R11" V 10280 3950 50  0000 C CNN
 F 1 "3.9k" V 10200 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10130 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10130 3950 50  0001 C CNN
 F 3 "" H 10200 3950 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B3901V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -658,7 +658,7 @@ U 1 1 5AB6D174
 P 10200 4400
 F 0 "R12" V 10280 4400 50  0000 C CNN
 F 1 "1k" V 10200 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10130 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10130 4400 50  0001 C CNN
 F 3 "" H 10200 4400 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B1001V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -712,7 +712,7 @@ U 1 1 5AB6D672
 P 9650 5000
 F 0 "R10" V 9730 5000 50  0000 C CNN
 F 1 "100k" V 9650 5000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9580 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9580 5000 50  0001 C CNN
 F 3 "" H 9650 5000 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -728,7 +728,7 @@ U 1 1 5AB6DED9
 P 7900 5000
 F 0 "R7" V 7980 5000 50  0000 C CNN
 F 1 "100k" V 7900 5000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7830 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7830 5000 50  0001 C CNN
 F 3 "" H 7900 5000 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1134,6 +1134,105 @@ F 1 "Mounting_Hole" H 2100 7405 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO7380" H 2000 7450 50  0001 C CNN
 F 3 "" H 2000 7450 50  0001 C CNN
 	1    2000 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical FID_F_C_1
+U 1 1 5D2AFEF5
+P 3050 7250
+F 0 "FID_F_C_1" H 3150 7296 50  0000 L CNN
+F 1 "Fiducial" H 3150 7205 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 3050 7250 50  0001 C CNN
+F 3 "" H 3050 7250 50  0001 C CNN
+	1    3050 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical FID_F_SW_1
+U 1 1 5D2AFEFC
+P 3050 7550
+F 0 "FID_F_SW_1" H 3150 7596 50  0000 L CNN
+F 1 "Fiducial" H 3150 7505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 3050 7550 50  0001 C CNN
+F 3 "" H 3050 7550 50  0001 C CNN
+	1    3050 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical FID_F_NE_1
+U 1 1 5D2AFF03
+P 3850 7250
+F 0 "FID_F_NE_1" H 3950 7296 50  0000 L CNN
+F 1 "Fiducial" H 3950 7205 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 3850 7250 50  0001 C CNN
+F 3 "" H 3850 7250 50  0001 C CNN
+	1    3850 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical FID_F_SE_1
+U 1 1 5D2AFF0A
+P 3850 7550
+F 0 "FID_F_SE_1" H 3950 7596 50  0000 L CNN
+F 1 "Fiducial" H 3950 7505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 3850 7550 50  0001 C CNN
+F 3 "" H 3850 7550 50  0001 C CNN
+	1    3850 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical FID_B_NW_1
+U 1 1 5D2C0C22
+P 4650 7250
+F 0 "FID_B_NW_1" H 4750 7296 50  0000 L CNN
+F 1 "Fiducial" H 4750 7205 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 4650 7250 50  0001 C CNN
+F 3 "" H 4650 7250 50  0001 C CNN
+	1    4650 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical FID_B_SW_1
+U 1 1 5D2C0C29
+P 4650 7550
+F 0 "FID_B_SW_1" H 4750 7596 50  0000 L CNN
+F 1 "Fiducial" H 4750 7505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 4650 7550 50  0001 C CNN
+F 3 "" H 4650 7550 50  0001 C CNN
+	1    4650 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical FID_B_NE_1
+U 1 1 5D2C0C30
+P 5450 7250
+F 0 "FID_B_NE_1" H 5550 7296 50  0000 L CNN
+F 1 "Fiducial" H 5550 7205 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 5450 7250 50  0001 C CNN
+F 3 "" H 5450 7250 50  0001 C CNN
+	1    5450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical FID_B_SE_1
+U 1 1 5D2C0C37
+P 5450 7550
+F 0 "FID_B_SE_1" H 5550 7596 50  0000 L CNN
+F 1 "Fiducial" H 5550 7505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 5450 7550 50  0001 C CNN
+F 3 "" H 5450 7550 50  0001 C CNN
+	1    5450 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:Mounting_Hole-Mechanical LOGO_F_OH_1
+U 1 1 5D2C999A
+P 3050 6750
+F 0 "LOGO_F_OH_1" H 3150 6796 50  0000 L CNN
+F 1 "Logo" H 3150 6705 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 3050 6750 50  0001 C CNN
+F 3 "" H 3050 6750 50  0001 C CNN
+	1    3050 6750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

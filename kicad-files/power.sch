@@ -119,7 +119,7 @@ AR Path="/5AAD2FAD" Ref="R27"  Part="1"
 AR Path="/5A6D4EDD/5AAD2FAD" Ref="R27"  Part="1" 
 F 0 "R27" V 1830 6350 50  0000 C CNN
 F 1 "100k" V 1750 6350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1680 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1680 6350 50  0001 C CNN
 F 3 "" H 1750 6350 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -168,7 +168,7 @@ AR Path="/5AAD2FEA" Ref="R29"  Part="1"
 AR Path="/5A6D4EDD/5AAD2FEA" Ref="R29"  Part="1" 
 F 0 "R29" V 3930 6750 50  0000 C CNN
 F 1 "5.1k" V 3850 6750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3780 6750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 6750 50  0001 C CNN
 F 3 "" H 3850 6750 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B5101V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -183,7 +183,7 @@ AR Path="/5AAD2FF3" Ref="R31"  Part="1"
 AR Path="/5A6D4EDD/5AAD2FF3" Ref="R31"  Part="1" 
 F 0 "R31" V 4080 6300 50  0000 C CNN
 F 1 "0" V 4000 6300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3930 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 6300 50  0001 C CNN
 F 3 "" H 4000 6300 50  0000 C CNN
 F 4 "RC0603FR-070RL" H 0   0   50  0001 C CNN "manufacturer-pn"
 F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
@@ -198,7 +198,7 @@ AR Path="/5AAD2FFD" Ref="R33"  Part="1"
 AR Path="/5A6D4EDD/5AAD2FFD" Ref="R33"  Part="1" 
 F 0 "R33" V 4330 6800 50  0000 C CNN
 F 1 "10K-NTC" V 4250 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 6800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 6800 50  0001 C CNN
 F 3 "" H 4250 6800 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERT-J1VG103JA" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -412,7 +412,7 @@ AR Path="/5AB7020A" Ref="R36"  Part="1"
 AR Path="/5A6D4EDD/5AB7020A" Ref="R36"  Part="1" 
 F 0 "R36" V 10530 4800 50  0000 C CNN
 F 1 "1K" V 10450 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10380 4800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10380 4800 50  0001 C CNN
 F 3 "" H 10450 4800 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B1001V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -469,8 +469,6 @@ $EndComp
 NoConn ~ 1500 1500
 NoConn ~ 1500 1600
 NoConn ~ 1500 1700
-NoConn ~ 3700 3300
-NoConn ~ 3600 3300
 NoConn ~ 3400 3300
 NoConn ~ 3300 3300
 NoConn ~ 3200 3300
@@ -601,7 +599,7 @@ AR Path="/5B0A89E4" Ref="R35"  Part="1"
 AR Path="/5A6D4EDD/5B0A89E4" Ref="R35"  Part="1" 
 F 0 "R35" V 5230 1700 50  0000 C CNN
 F 1 "1k" V 5150 1700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5080 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5080 1700 50  0001 C CNN
 F 3 "" H 5150 1700 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B1001V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1363,7 +1361,7 @@ U 1 1 5C0A2C6C
 P 10000 3950
 F 0 "R43" V 10207 3950 50  0000 C CNN
 F 1 "100k" V 10116 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9930 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9930 3950 50  0001 C CNN
 F 3 "" H 10000 3950 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1421,7 +1419,7 @@ U 1 1 5C380629
 P 4950 6850
 F 0 "R38" H 5020 6896 50  0000 L CNN
 F 1 "100k" H 5020 6805 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4880 6850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 6850 50  0001 C CNN
 F 3 "" H 4950 6850 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1434,7 +1432,7 @@ U 1 1 5C380745
 P 6450 6200
 F 0 "R42" H 6520 6246 50  0000 L CNN
 F 1 "100k" H 6520 6155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6380 6200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 6200 50  0001 C CNN
 F 3 "" H 6450 6200 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1505,7 +1503,7 @@ U 1 1 5C4A5705
 P 5850 7050
 F 0 "R40" V 5643 7050 50  0000 C CNN
 F 1 "330" V 5734 7050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5780 7050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5780 7050 50  0001 C CNN
 F 3 "" H 5850 7050 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB331V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1601,7 +1599,7 @@ AR Path="/5C793D63" Ref="R?"  Part="1"
 AR Path="/5A6D4EDD/5C793D63" Ref="R28"  Part="1" 
 F 0 "R28" V 1830 4550 50  0000 C CNN
 F 1 "100k" V 1750 4550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1680 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1680 4550 50  0001 C CNN
 F 3 "" H 1750 4550 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1650,7 +1648,7 @@ AR Path="/5C793D88" Ref="R?"  Part="1"
 AR Path="/5A6D4EDD/5C793D88" Ref="R30"  Part="1" 
 F 0 "R30" V 3930 4950 50  0000 C CNN
 F 1 "5.1k" V 3850 4950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3780 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 4950 50  0001 C CNN
 F 3 "" H 3850 4950 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERJ-PB3B5101V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1665,7 +1663,7 @@ AR Path="/5C793D8F" Ref="R?"  Part="1"
 AR Path="/5A6D4EDD/5C793D8F" Ref="R32"  Part="1" 
 F 0 "R32" V 4080 4500 50  0000 C CNN
 F 1 "0" V 4000 4500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3930 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 4500 50  0001 C CNN
 F 3 "" H 4000 4500 50  0000 C CNN
 F 4 "RC0603FR-070RL" H 0   0   50  0001 C CNN "manufacturer-pn"
 F 5 "Yageo" H 0   0   50  0001 C CNN "ManufacturerName"
@@ -1680,7 +1678,7 @@ AR Path="/5C793D96" Ref="R?"  Part="1"
 AR Path="/5A6D4EDD/5C793D96" Ref="R34"  Part="1" 
 F 0 "R34" V 4330 5000 50  0000 C CNN
 F 1 "10K-NTC" V 4250 5000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 5000 50  0001 C CNN
 F 3 "" H 4250 5000 50  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERT-J1VG103JA" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1883,7 +1881,7 @@ U 1 1 5C793E04
 P 4950 5050
 F 0 "R37" H 5020 5096 50  0000 L CNN
 F 1 "100k" H 5020 5005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4880 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 5050 50  0001 C CNN
 F 3 "" H 4950 5050 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1896,7 +1894,7 @@ U 1 1 5C793E0B
 P 6450 4400
 F 0 "R41" H 6520 4446 50  0000 L CNN
 F 1 "100k" H 6520 4355 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6380 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 4400 50  0001 C CNN
 F 3 "" H 6450 4400 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB104V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -1967,7 +1965,7 @@ U 1 1 5C793E33
 P 5850 5250
 F 0 "R39" V 5643 5250 50  0000 C CNN
 F 1 "330" V 5734 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5780 5250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5780 5250 50  0001 C CNN
 F 3 "" H 5850 5250 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "ManufacturerName"
 F 5 "ERA-3AEB331V" H 0   0   50  0001 C CNN "manufacturer-pn"
@@ -2138,4 +2136,48 @@ Wire Wire Line
 	7200 5350 7150 5350
 Wire Wire Line
 	7150 5350 7150 5500
+Wire Wire Line
+	3700 3300 3700 3350
+Wire Wire Line
+	1150 3650 1150 2800
+Connection ~ 1150 2800
+Wire Wire Line
+	3600 3300 3600 3350
+Wire Wire Line
+	3600 3350 3300 3350
+$Comp
+L OpenHardwareHolterMonitor-rescue:R R?
+U 1 1 5D3FEDC5
+P 3300 3500
+AR Path="/5D3FEDC5" Ref="R?"  Part="1" 
+AR Path="/5A6D4EDD/5D3FEDC5" Ref="R44"  Part="1" 
+F 0 "R44" V 3380 3500 50  0000 C CNN
+F 1 "5.1k" V 3300 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 3500 50  0001 C CNN
+F 3 "" H 3300 3500 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H -550 -1450 50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B5101V" H -550 -1450 50  0001 C CNN "manufacturer-pn"
+	1    3300 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 3650
+Wire Wire Line
+	3300 3650 3700 3650
+Wire Wire Line
+	1150 3650 3300 3650
+$Comp
+L OpenHardwareHolterMonitor-rescue:R R?
+U 1 1 5D45E192
+P 3700 3500
+AR Path="/5D45E192" Ref="R?"  Part="1" 
+AR Path="/5A6D4EDD/5D45E192" Ref="R45"  Part="1" 
+F 0 "R45" V 3780 3500 50  0000 C CNN
+F 1 "5.1k" V 3700 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 3500 50  0001 C CNN
+F 3 "" H 3700 3500 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H -150 -1450 50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B5101V" H -150 -1450 50  0001 C CNN "manufacturer-pn"
+	1    3700 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
