@@ -14,7 +14,6 @@ TODO THIS VERSION (v0.2):
   - fix footprint for FL1 (CMS1-12)
   - fix solder mask for ADS?
   - north reserved pin which connects to DGND: smooth awkward copper path
-  - back copper power-input zone is off by a dot; align with other zones
 
 FOR NEXT VERSION:
 * check footprints for corresponding 3D models
