@@ -10,9 +10,9 @@ ORDER PROCESS:
 * board dimenions units are in CM not MM at Gold Phoenix
 
 TODO THIS VERSION (v0.2):
-* if we re-generate gerbers:
-  - fix footprint for FL1 (CMS1-12)
-  - fix solder mask for ADS?
+
+SOMEDAY MAYBE:
+  - add solder mask between pins on ADS? (conflicting recommendations)
   - north reserved pin which connects to DGND: smooth awkward copper path
 
 FOR NEXT VERSION:
