@@ -11,6 +11,7 @@ ORDER PROCESS:
 
 TODO THIS VERSION (v0.2):
 * if we re-generate gerbers:
+  - fix footprint for FL1 (CMS1-12)
   - move R17 t/m R26 to the left/right to get out of the way of other labels
   - fix solder mask for ADS?
   - north reserved pin which connects to DGND: smooth awkward copper path
