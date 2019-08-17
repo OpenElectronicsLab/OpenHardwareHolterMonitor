@@ -1,15 +1,21 @@
 START HERE:
+
+TODO THIS VERSION (v0.2):
+
+ * double-check that our very tight pick-and-place requirements are realistic
+   e.g.: R45
+   https://ocmmanufacturing.com/resources/resource/dfm-tip-spacing-components-on-a-pcb/
+ * Case Design
+ * Software prototype on esp32
+
  * REV2 board required
    - FIXED in v0.2 : d'oh! v0.1 BT1 is BAT2 & BT2 is BAT1 !!!
    - FIXED in v0.2 : d'oh! v0.1 DGS and CBE are wrong on all the Qs !!!
-     - we can desolder and rotate and/or jump around
- * Case Design
- * Software prototype on esp32
+     - (we desoldered and rotated and/or jumped around on our v0.1 prototypes)
 
 ORDER PROCESS:
 * board dimenions units are in CM not MM at Gold Phoenix
 
-TODO THIS VERSION (v0.2):
 
 SOMEDAY MAYBE:
   - add solder mask between pins on ADS? (conflicting recommendations)
