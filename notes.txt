@@ -22,6 +22,8 @@ SOMEDAY MAYBE:
   - north reserved pin which connects to DGND: smooth awkward copper path
 
 FOR NEXT VERSION:
+* more space around mounting holes for screw support placement
+* waterproof USB connectors for dust-proofing
 * check footprints for corresponding 3D models
 * check footprints to see if they are current or from an older version
 * Check BOM for duplicates, update schematic accordingly
