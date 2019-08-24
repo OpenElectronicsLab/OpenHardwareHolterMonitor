@@ -1,4 +1,7 @@
 START HERE:
+ * Case Design - needs micro-usb, switch added to the keepout model,
+	and add back in the 5.5mm high general keepout
+        and then design the actual case
 
 TODO THIS VERSION (v0.2):
 
