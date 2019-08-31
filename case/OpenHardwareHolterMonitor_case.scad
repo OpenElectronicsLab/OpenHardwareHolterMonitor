@@ -167,6 +167,14 @@ case_clearance = 0.2;
 case_size_x = pcb_size_x + 2*wall_thickness + 2*case_clearance;
 case_size_y = pcb_size_y + 2*wall_thickness + 2*case_clearance;
 case_size_z = keepout_thickness_per_side + 22 + 2*wall_thickness + 2*case_clearance;
+echo(case_size_z);
+
+case_screw_hole_diameter = 2.3;
+case_screw_countersink_diameter = 5;
+case_screw_countersink_depth = 1;
+case_nut_countersink_diameter  = 4 *(2 / sqrt(3)) + 0.2;
+case_nut_countersink_depth  = 5;
+
 
 module case_block() {
     difference() {
@@ -174,6 +182,23 @@ module case_block() {
             -(keepout_thickness_per_side + wall_thickness + case_clearance)])
             cube([case_size_x, case_size_y, case_size_z]);
         board_keepout();
+        for (i = [0:len(hole_x_positions)-1]) {
+            translate([hole_x_positions[i],hole_y_positions[i],0]) union() {
+                translate([0,0,
+                    -(keepout_thickness_per_side  + wall_thickness + case_clearance + side_overcut)])
+                    cylinder(d=case_screw_hole_diameter,
+                        h=case_size_z + 2*(wall_thickness + case_clearance + side_overcut));
+                translate([0,0,
+                    -(keepout_thickness_per_side  + wall_thickness + case_clearance + side_overcut)])
+                    cylinder(d=case_screw_countersink_diameter,
+                        h=case_screw_countersink_depth + side_overcut);
+               translate([0,0,
+                    -(keepout_thickness_per_side  + wall_thickness + case_clearance)
+                        + case_size_z - case_nut_countersink_depth])
+                    cylinder(d=case_nut_countersink_diameter,
+                        h=case_nut_countersink_depth + side_overcut, $fn=6);
+                }
+        }
     }
 }
 
@@ -212,8 +237,11 @@ module case_bottom() {
     }
 }
 
+
+
+
 //color([1,0,0]) board_keepout();
-color([0.5, 0.5, 0.5]) case_top();
+//color([0.5, 0.5, 0.5]) case_top();
 translate([0,0,0.2]) color([0.2, 0.2, 0.2]) case_bottom();
 
 //color([1,1,0,0.5])
