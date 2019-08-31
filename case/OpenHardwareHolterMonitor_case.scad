@@ -85,11 +85,11 @@ dc_to_dc_height = 11;
 
 translate ([dc_to_dc_position_x, dc_to_dc_position_y, dc_to_dc_position_z])  cube([dc_to_dc_size_x, dc_to_dc_size_y, dc_to_dc_height]);
 
-//translate([0,0,pcb_size_z])
-//    component_keepout_model();
+translate([0,0,pcb_size_z])
+    component_keepout_model();
 
-//translate([0,0,-keepout_thickness_per_side])
-//    component_keepout_model();
+translate([0,0,-keepout_thickness_per_side])
+    component_keepout_model();
 
 display_pins_pitch = 0.1 * millimeters_per_inch;
 display_pins_size_x = 1 * display_pins_pitch;
@@ -113,3 +113,25 @@ usb_c_position_y = pcb_size_y - usb_c_size_y/2;
 usb_c_position_z = -(usb_c_standoff + usb_c_metal_size_z + usb_c_connector_clearance_z);
 
 translate ([usb_c_position_x, usb_c_position_y, usb_c_position_z ])  cube([usb_c_size_x, usb_c_size_y, usb_c_size_z]);
+
+usb_micro_size_x = 10;
+usb_micro_size_y = 20; // placeholder
+usb_micro_metal_size_z = 1.8;
+usb_micro_connector_clearance_z = 2.7;
+usb_micro_standoff = 0.21;
+usb_micro_size_z = usb_micro_metal_size_z +(2 * usb_micro_connector_clearance_z);
+usb_micro_position_x = 29.5 - (usb_micro_size_x/2);
+usb_micro_position_y = pcb_size_y - usb_micro_size_y/2;
+usb_micro_position_z = -(usb_micro_standoff + usb_micro_metal_size_z + usb_micro_connector_clearance_z);
+
+translate ([usb_micro_position_x, usb_micro_position_y, usb_micro_position_z ])  cube([usb_micro_size_x, usb_micro_size_y, usb_micro_size_z]);
+
+switch_size_x = 4;
+switch_size_y = 20;
+switch_tab_size_z = 2;
+switch_size_z = 6 - pcb_size_z;
+switch_position_x = 47.35 - (switch_size_x/2);
+switch_position_y = pcb_size_y - switch_size_y/2;
+switch_position_z = -switch_size_z;
+
+translate ([switch_position_x, switch_position_y, switch_position_z ])  cube([switch_size_x, switch_size_y, switch_size_z]);
