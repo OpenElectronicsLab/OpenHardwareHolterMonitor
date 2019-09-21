@@ -181,19 +181,27 @@ case_nut_countersink_depth  = 5;
 
 
 module case_block() {
+    case_curvature = 5;
     difference() {
-        translate([-(wall_thickness + case_clearance), -(wall_thickness + case_clearance),
-            -(keepout_thickness_per_side + wall_thickness + case_clearance)])
-            cube([case_size_x, case_size_y, case_size_z]);
-        translate([battery_position_x + battery_size_x,  -(wall_thickness + case_clearance + side_overcut),
-            case_size_z - (keepout_thickness_per_side + wall_thickness + case_clearance)])
-            rotate([0,15,0])
-            cube([case_size_x, case_size_y + 2*side_overcut , case_size_z]);
-        translate([battery_position_x,  -(wall_thickness + case_clearance + side_overcut),
-            case_size_z - (keepout_thickness_per_side + wall_thickness + case_clearance)])
-            rotate([0,180-20,0])
-            translate([0, 0, -case_size_z])
-            cube([case_size_x, case_size_y + 2*side_overcut , case_size_z]);
+        minkowski() {
+            difference() {
+                translate([-(wall_thickness + case_clearance) + case_curvature,
+                    -(wall_thickness + case_clearance) + case_curvature,
+                    -(keepout_thickness_per_side + wall_thickness + case_clearance) + case_curvature])
+                    cube([case_size_x - 2*case_curvature, case_size_y - 2*case_curvature,
+                        case_size_z - 2*case_curvature]);
+                translate([battery_position_x + battery_size_x,  -(wall_thickness + case_clearance + side_overcut),
+                    case_size_z - (keepout_thickness_per_side + wall_thickness + case_clearance + case_curvature)])
+                    rotate([0,15,0])
+                    cube([case_size_x, case_size_y + 2*side_overcut , case_size_z]);
+                translate([battery_position_x,  -(wall_thickness + case_clearance + side_overcut),
+                    case_size_z - (keepout_thickness_per_side + wall_thickness + case_clearance + case_curvature)])
+                    rotate([0,180-20,0])
+                    translate([0, 0, -case_size_z])
+                    cube([case_size_x, case_size_y + 2*side_overcut , case_size_z]);
+            }
+            sphere(r=case_curvature );
+        }
         board_keepout();
         for (i = [0:len(hole_x_positions)-1]) {
             translate([hole_x_positions[i],hole_y_positions[i],0]) union() {
