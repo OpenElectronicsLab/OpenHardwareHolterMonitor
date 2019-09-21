@@ -48,16 +48,41 @@ module pcb_model() {
     }
 }
 
-module component_keepout_model() {
+
+module component_keepout_model_top() {
     keepout_dimensions = [pcb_size_x, pcb_size_y, keepout_thickness_per_side];
     hole_d = 4;
     hole_h = keepout_thickness_per_side + 2*(side_overcut);
 
+     translate([0,0,pcb_size_z])
     difference() {
         cube(keepout_dimensions);
+        // screw holes
         for (i = [0:len(hole_x_positions)-1]) {
             translate([hole_x_positions[i],hole_y_positions[i],-side_overcut])
             cylinder(d=hole_d, h=hole_h);
+        }
+    }
+}
+
+module component_keepout_model_bottom() {
+    keepout_dimensions = [pcb_size_x, pcb_size_y, keepout_thickness_per_side];
+    hole_d = 4;
+    hole_h = keepout_thickness_per_side + 2*(side_overcut);
+
+    head_hole_d = 9;
+    head_hole_h = hole_h - (side_overcut +3);
+
+    translate([0,0,-keepout_thickness_per_side])
+    difference() {
+        cube(keepout_dimensions);
+        // screw holes
+        for (i = [0:len(hole_x_positions)-1]) {
+            translate([hole_x_positions[i],hole_y_positions[i],-side_overcut])
+            cylinder(d=hole_d, h=hole_h);
+
+            translate([hole_x_positions[i],hole_y_positions[i],-side_overcut])
+            cylinder(d=head_hole_d, h=head_hole_h);
         }
     }
 }
@@ -155,10 +180,8 @@ module board_keepout() {
         batteries();
         touch_proof_receptacles();
         dc_to_dc_converter();
-        translate([0,0,pcb_size_z])
-            component_keepout_model();
-        translate([0,0,-keepout_thickness_per_side])
-            component_keepout_model();
+        component_keepout_model_top();
+        component_keepout_model_bottom();
         display_pins();
         usb_c_connector();
         usb_micro_connector();
@@ -171,12 +194,12 @@ case_clearance = 0.75;
 case_size_x = pcb_size_x + 2*wall_thickness + 2*case_clearance;
 case_size_y = pcb_size_y + 2*wall_thickness + 2*case_clearance;
 case_size_z = keepout_thickness_per_side + 22 + 2*wall_thickness + 2*case_clearance;
-echo(case_size_z);
+//echo(case_size_z);
 
 case_screw_length = 20;
 case_screw_hole_diameter = 2.3;
 case_screw_countersink_diameter = 5;
-case_screw_countersink_depth = 1;
+case_screw_countersink_depth = 2;
 case_nut_countersink_diameter  = 4 *(2 / sqrt(3)) + 0.5;
 case_nut_countersink_depth  = case_size_z - case_screw_countersink_depth - case_screw_length + 1;
 
@@ -197,7 +220,7 @@ module case_block() {
                     cube([case_size_x, case_size_y + 2*side_overcut , case_size_z]);
                 translate([battery_position_x,  -(wall_thickness + case_clearance + side_overcut),
                     case_size_z - (keepout_thickness_per_side + wall_thickness + case_clearance + case_curvature)])
-                    rotate([0,180-20,0])
+                    rotate([0,180-17,0])
                     translate([0, 0, -case_size_z])
                     cube([case_size_x, case_size_y + 2*side_overcut , case_size_z]);
             }
