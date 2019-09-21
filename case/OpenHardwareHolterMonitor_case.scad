@@ -13,14 +13,14 @@ pcb_size_z = 0.062 * millimeters_per_inch;
 hole_x_positions =  [6.5,14,119,119];
 hole_y_positions =  [23.5,65.5,8,72];
 
-keepout_thickness_per_side = 5.5;
+keepout_thickness_per_side = 6.5;
 touchproof_receptacle_size_z = 6.4;
 
 module touch_proof_receptacle() {
     union() {
         hole_center_to_box_front = 11.4;
         hole_center_to_box_back = 2.15;  // guess (no dimension given on drawing)
-        clearance = 0.2;
+        clearance = 0.5;
         hole_center_to_cylinder_front = 11.4 + 6;
         box_width = 7.9;
         translate([hole_center_to_box_back,  -box_width/2, 0])
@@ -241,7 +241,7 @@ module case_bottom() {
 
 
 //color([1,0,0]) board_keepout();
-//color([0.5, 0.5, 0.5]) case_top();
+color([0.5, 0.5, 0.5]) case_top();
 translate([0,0,0.2]) color([0.2, 0.2, 0.2]) case_bottom();
 
 //color([1,1,0,0.5])
