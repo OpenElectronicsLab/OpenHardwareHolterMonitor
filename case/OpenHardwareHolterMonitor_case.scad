@@ -62,11 +62,15 @@ module component_keepout_model() {
     }
 }
 
+
+battery_size_z = 22 - pcb_size_z;
+battery_size_x = 45;
+battery_size_y = 78;
+battery_position_x = 42;
+battery_position_y = 1;
+
 module batteries() {
-    battery_size_z = 22 - pcb_size_z;
-    battery_size_x = 45;
-    battery_size_y = 78;
-    translate ([42, 1, pcb_size_z])
+    translate ([battery_position_x, battery_position_y, pcb_size_z])
         cube([battery_size_x, battery_size_y,battery_size_z]);
 }
 
@@ -181,6 +185,15 @@ module case_block() {
         translate([-(wall_thickness + case_clearance), -(wall_thickness + case_clearance),
             -(keepout_thickness_per_side + wall_thickness + case_clearance)])
             cube([case_size_x, case_size_y, case_size_z]);
+        translate([battery_position_x + battery_size_x,  -(wall_thickness + case_clearance + side_overcut),
+            case_size_z - (keepout_thickness_per_side + wall_thickness + case_clearance)])
+            rotate([0,15,0])
+            cube([case_size_x, case_size_y + 2*side_overcut , case_size_z]);
+        translate([battery_position_x,  -(wall_thickness + case_clearance + side_overcut),
+            case_size_z - (keepout_thickness_per_side + wall_thickness + case_clearance)])
+            rotate([0,180-20,0])
+            translate([0, 0, -case_size_z])
+            cube([case_size_x, case_size_y + 2*side_overcut , case_size_z]);
         board_keepout();
         for (i = [0:len(hole_x_positions)-1]) {
             translate([hole_x_positions[i],hole_y_positions[i],0]) union() {
