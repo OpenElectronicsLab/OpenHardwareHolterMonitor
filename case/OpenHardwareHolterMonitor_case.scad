@@ -173,11 +173,12 @@ case_size_y = pcb_size_y + 2*wall_thickness + 2*case_clearance;
 case_size_z = keepout_thickness_per_side + 22 + 2*wall_thickness + 2*case_clearance;
 echo(case_size_z);
 
+case_screw_length = 20;
 case_screw_hole_diameter = 2.3;
 case_screw_countersink_diameter = 5;
 case_screw_countersink_depth = 1;
-case_nut_countersink_diameter  = 4 *(2 / sqrt(3)) + 0.2;
-case_nut_countersink_depth  = 5;
+case_nut_countersink_diameter  = 4 *(2 / sqrt(3)) + 0.5;
+case_nut_countersink_depth  = case_size_z - case_screw_countersink_depth - case_screw_length + 1;
 
 
 module case_block() {
@@ -205,14 +206,17 @@ module case_block() {
         board_keepout();
         for (i = [0:len(hole_x_positions)-1]) {
             translate([hole_x_positions[i],hole_y_positions[i],0]) union() {
+                // screw holes
                 translate([0,0,
                     -(keepout_thickness_per_side  + wall_thickness + case_clearance + side_overcut)])
                     cylinder(d=case_screw_hole_diameter,
                         h=case_size_z + 2*(wall_thickness + case_clearance + side_overcut));
+                // screw head countersink
                 translate([0,0,
-                    -(keepout_thickness_per_side  + wall_thickness + case_clearance + side_overcut)])
+                    -(keepout_thickness_per_side + wall_thickness + case_clearance + side_overcut)])
                     cylinder(d=case_screw_countersink_diameter,
                         h=case_screw_countersink_depth + side_overcut);
+                // nut countersink
                translate([0,0,
                     -(keepout_thickness_per_side  + wall_thickness + case_clearance)
                         + case_size_z - case_nut_countersink_depth])
