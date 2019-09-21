@@ -117,7 +117,8 @@ module dc_to_dc_converter() {
     dc_to_dc_size_y = 33;
     dc_to_dc_height = 11;
 
-    translate ([dc_to_dc_position_x, dc_to_dc_position_y, dc_to_dc_position_z])  cube([dc_to_dc_size_x, dc_to_dc_size_y, dc_to_dc_height]);
+    translate ([dc_to_dc_position_x, dc_to_dc_position_y, dc_to_dc_position_z])
+        cube([dc_to_dc_size_x, dc_to_dc_size_y, dc_to_dc_height]);
 }
 
 module display_pins() {
@@ -129,7 +130,8 @@ module display_pins() {
     display_pins_position_y = 2 - (display_pins_pitch/2);
     display_pins_position_z = pcb_size_z;
 
-    translate ([display_pins_position_x, display_pins_position_y, display_pins_position_z])  cube([display_pins_size_x, display_pins_size_y, display_pins_size_z]);
+    translate ([display_pins_position_x, display_pins_position_y, display_pins_position_z])
+        cube([display_pins_size_x, display_pins_size_y, display_pins_size_z]);
 }
 
 module usb_c_connector() {
@@ -143,7 +145,8 @@ module usb_c_connector() {
     usb_c_position_y = pcb_size_y - usb_c_size_y/2;
     usb_c_position_z = -(usb_c_standoff + usb_c_metal_size_z + usb_c_connector_clearance_z);
 
-    translate ([usb_c_position_x, usb_c_position_y, usb_c_position_z ])  cube([usb_c_size_x, usb_c_size_y, usb_c_size_z]);
+    translate([usb_c_position_x, usb_c_position_y, usb_c_position_z ])
+        cube([usb_c_size_x, usb_c_size_y, usb_c_size_z]);
 }
 
 module usb_micro_connector() {
@@ -157,7 +160,8 @@ module usb_micro_connector() {
     usb_micro_position_y = pcb_size_y - usb_micro_size_y/2;
     usb_micro_position_z = -(usb_micro_standoff + usb_micro_metal_size_z + usb_micro_connector_clearance_z);
 
-    translate ([usb_micro_position_x, usb_micro_position_y, usb_micro_position_z ])  cube([usb_micro_size_x, usb_micro_size_y, usb_micro_size_z]);
+    translate([usb_micro_position_x, usb_micro_position_y, usb_micro_position_z ])
+        cube([usb_micro_size_x, usb_micro_size_y, usb_micro_size_z]);
 }
 
 module power_switch() {
@@ -169,7 +173,8 @@ module power_switch() {
     switch_position_y = pcb_size_y - switch_size_y/2;
     switch_position_z = -switch_size_z;
 
-    translate ([switch_position_x, switch_position_y, switch_position_z ])  cube([switch_size_x, switch_size_y, switch_size_z]);
+    translate([switch_position_x, switch_position_y, switch_position_z ])
+        cube([switch_size_x, switch_size_y, switch_size_z]);
 }
 
 module board_keepout() {
