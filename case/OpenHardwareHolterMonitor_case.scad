@@ -13,23 +13,23 @@ pcb_size_z = 0.062 * millimeters_per_inch;
 hole_x_positions =  [6.5,14,119,119];
 hole_y_positions =  [23.5,65.5,8,72];
 
-keepout_thickness_per_side = 6.5;
+keepout_thickness_per_side = 7.0;
 touchproof_receptacle_size_z = 6.4;
 
 module touch_proof_receptacle() {
     union() {
         hole_center_to_box_front = 11.4;
         hole_center_to_box_back = 2.15;  // guess (no dimension given on drawing)
-        clearance = 0.5;
+        touch_proof_clearance = 0.5;
         hole_center_to_cylinder_front = 11.4 + 6;
         box_width = 7.9;
         translate([hole_center_to_box_back,  -box_width/2, 0])
             cube([hole_center_to_box_front - hole_center_to_box_back, box_width,
-                touchproof_receptacle_size_z]);
+                touchproof_receptacle_size_z + touch_proof_clearance]);
         translate([hole_center_to_box_back, 0, touchproof_receptacle_size_z/2])
             rotate([0,90,0])
             cylinder(h=hole_center_to_cylinder_front - hole_center_to_box_back,
-                d=touchproof_receptacle_size_z + 2*clearance);
+                d=touchproof_receptacle_size_z + 2*touch_proof_clearance);
     }
 }
 
@@ -163,7 +163,7 @@ module board_keepout() {
 }
 
 wall_thickness = 2;
-case_clearance = 0.2;
+case_clearance = 0.75;
 case_size_x = pcb_size_x + 2*wall_thickness + 2*case_clearance;
 case_size_y = pcb_size_y + 2*wall_thickness + 2*case_clearance;
 case_size_z = keepout_thickness_per_side + 22 + 2*wall_thickness + 2*case_clearance;
