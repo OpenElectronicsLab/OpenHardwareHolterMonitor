@@ -7,6 +7,9 @@ START HERE:
 	- recess touch-proof connectors so they are flush with case or inside
 	- compensate for some print warping?
 	- gasket for where case sides join?
+ * Board design: do we want a programmable LED?
+	- allows power LED to be Not Installed / controlled via CPU
+	- allows debug blink-codes
 
 TODO THIS VERSION (v0.2):
 
