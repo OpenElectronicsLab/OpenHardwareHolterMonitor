@@ -1,7 +1,12 @@
 START HERE:
- * Case Design - needs micro-usb, switch added to the keepout model,
-	and add back in the 5.5mm high general keepout
-        and then design the actual case
+ * Case Design
+	- LEDs not considered, light pipes?
+	- posts need buttressing
+	- hex holes allow nuts to spin, make a tad smaller
+	- screw holes are very tight, widen a tad
+	- recess touch-proof connectors so they are flush with case or inside
+	- compensate for some print warping?
+	- gasket for where case sides join?
 
 TODO THIS VERSION (v0.2):
 
@@ -14,10 +19,10 @@ TODO THIS VERSION (v0.2):
  * REV2 board required
    - FIXED in v0.2 : d'oh! v0.1 BT1 is BAT2 & BT2 is BAT1 !!!
    - FIXED in v0.2 : d'oh! v0.1 DGS and CBE are wrong on all the Qs !!!
-     - (we desoldered and rotated and/or jumped around on our v0.1 prototypes)
+     - (we de-soldered and rotated and/or jumped around on our v0.1 prototypes)
 
 ORDER PROCESS:
-* board dimenions units are in CM not MM at Gold Phoenix
+* board dimensions units are in CM not MM at Gold Phoenix
 
 
 SOMEDAY MAYBE:
