@@ -1,4 +1,24 @@
 START HERE:
+ * Programming the board:
+	- we are missing pull-up resistors for ENable (~RESET~) and IO0 (boot)
+	- we have not successfully programmed the Wroom using FTDI, unless
+		we also by hand toggle the EN & IO0 via jumpers or buttons
+	- WROOM32 in Utrecht seems to have a bad reset button
+	- Sequence to program the the Wroom:
+		0) Connect FT232 USB->Serial to Wroom
+			* RX0 to TXD0
+			* TX0 to RXD0
+			* 3v3 to Power
+			* GND to GND
+		1) connect IO0 to ground (or hold down boot button)
+		2) connect EN to ground briefly (or press and release EN)
+		3) hit upload from Arduino IDE as ESP32 Dev Module
+	- To make the board go, plan is:
+		* solder 10k pull-up resistors between FTDI_V and Q1, Q2
+		* solder headers for jumper wires into EN and IO0
+		* manually, or via an arduino, toggle the EN, IO0
+		* push firmware via USB->Serial
+
  * Case Design
 	- LEDs not considered, light pipes?
 	- posts need buttressing
