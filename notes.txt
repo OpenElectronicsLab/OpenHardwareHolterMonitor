@@ -30,6 +30,7 @@ START HERE:
  * Board design: do we want a programmable LED?
 	- allows power LED to be Not Installed / controlled via CPU
 	- allows debug blink-codes
+ * label SW1 with OFF and ON
 
 TODO THIS VERSION (v0.2):
 
