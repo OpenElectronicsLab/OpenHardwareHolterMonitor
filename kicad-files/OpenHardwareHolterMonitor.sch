@@ -243,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 4800 5150 4800
 Wire Wire Line
-	4800 6000 4800 6100
+	4800 6000 4800 6050
 Wire Wire Line
 	4800 6100 5150 6100
 Text Label 5150 6100 2    60   ~ 0
@@ -1233,6 +1233,70 @@ F 1 "Logo" H 3150 6705 50  0000 L CNN
 F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 3050 6750 50  0001 C CNN
 F 3 "" H 3050 6750 50  0001 C CNN
 	1    3050 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:R R46
+U 1 1 5DB46BCA
+P 4250 4850
+F 0 "R46" V 4330 4850 50  0000 C CNN
+F 1 "12K" V 4250 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 4850 50  0001 C CNN
+F 3 "" H 4250 4850 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   -200 50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B1202V" H 0   -200 50  0001 C CNN "manufacturer-pn"
+	1    4250 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenHardwareHolterMonitor-rescue:R R47
+U 1 1 5DB46CCA
+P 4250 6050
+F 0 "R47" V 4330 6050 50  0000 C CNN
+F 1 "12K" V 4250 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 6050 50  0001 C CNN
+F 3 "" H 4250 6050 50  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   1000 50  0001 C CNN "ManufacturerName"
+F 5 "ERJ-PB3B1202V" H 0   1000 50  0001 C CNN "manufacturer-pn"
+	1    4250 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 4850 4800 4850
+Connection ~ 4800 4850
+Wire Wire Line
+	4400 6050 4800 6050
+Connection ~ 4800 6050
+Wire Wire Line
+	4800 6050 4800 6100
+Wire Wire Line
+	4100 4850 3600 4850
+Wire Wire Line
+	4100 6050 3600 6050
+Wire Wire Line
+	3600 4850 3600 4750
+$Comp
+L OpenHardwareHolterMonitor-rescue:+3V3 #PWR0106
+U 1 1 5DB697F7
+P 3600 4750
+F 0 "#PWR0106" H 3600 4600 50  0001 C CNN
+F 1 "+3V3" H 3600 4890 50  0000 C CNN
+F 2 "" H 3600 4750 50  0000 C CNN
+F 3 "" H 3600 4750 50  0000 C CNN
+	1    3600 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 6050 3600 5950
+$Comp
+L OpenHardwareHolterMonitor-rescue:+3V3 #PWR0108
+U 1 1 5DB72822
+P 3600 5950
+F 0 "#PWR0108" H 3600 5800 50  0001 C CNN
+F 1 "+3V3" H 3600 6090 50  0000 C CNN
+F 2 "" H 3600 5950 50  0000 C CNN
+F 3 "" H 3600 5950 50  0000 C CNN
+	1    3600 5950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
