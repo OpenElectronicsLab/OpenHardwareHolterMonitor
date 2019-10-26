@@ -1,4 +1,6 @@
 START HERE:
+ * Boston Board has shorts in solder bridges on WROOM, fix this first.
+
  * Programming the board:
 	- we are missing pull-up resistors for ENable (~RESET~) and IO0 (boot)
 	- we have not successfully programmed the Wroom using FTDI, unless
