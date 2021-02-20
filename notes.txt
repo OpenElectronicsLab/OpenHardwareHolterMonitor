@@ -1,3 +1,19 @@
+Before we go to print again:
+* eyeball review the zones and layers
+  * also of the gerbers
+* testability
+  * what needs to be pulled out as test pads
+  * non-tented vias rather than pads?
+  * or run all the test to the edge of a board and have a connector?
+* JTAG - learn about it?
+* KiCAD
+   * CI/CD design rule checks? - is it commanline scriptable
+   * build KiCAD from source!
+   * module community?
+   * footprint default (e.g.: 0603 hand-solder), preference file?
+   * smarter BoM creation?
+      * crawl mouser/digikey for smart defaults for "jelly beans" ?
+
 START HERE:
  * Boston Board has shorts in solder bridges on WROOM, fix this first.
 
